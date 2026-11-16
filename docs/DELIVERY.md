@@ -25,7 +25,7 @@ The generated payload is preserved exactly. Repository governance, validation, C
 - [Validate delivery on the pushed tooling commit](https://github.com/samuelj1519/devnorm-kit/actions/runs/43896929258): PASS (`push`, exact commit `2726608007206949f43b2ed5bce62b25ee9bc48c`).
 - Independent non-author review: standards PASS, specification PASS. The reviewer independently ran package and mo tests, demonstrated failure on the original adapter, and checked patch application, no-op repetition, drift rejection, mode preservation, and migration from an old single-skill installation record. The two scoped EOF attributes also received an independent failure probe; trailing spaces and unrelated EOF violations still fail.
 - The patch uses zero-context diffs to avoid whitespace warnings caused by blank patch context lines. Before/after full-file hashes and resulting code remain unchanged from the reviewed candidate.
-- Optional GitHub description/topic update: not applied; the authenticated token returned `HTTP 403: Resource not accessible by personal access token`. Repository publication and Actions validation succeeded.
+- GitHub description/topic update: PASS after the user updated token permissions. The initial attempt returned `HTTP 403: Resource not accessible by personal access token`; the retry saved the description and all five topics (`agent-skills`, `claude-code`, `codex`, `cursor`, `development-workflow`), confirmed by an API read-back.
 - Persistent accepted source: `~/.local/share/devnorm/releases/1.5.0`.
 - Actual mo operation: `SKILLS-20261116-233038-f2479d5e`, `batch=passed assets=1 changed=1`.
 - `mo skills check devnorm`: PASS. Independent file/mode comparison also found exactly nine complete Agent skill copies and nine complete Cursor copies.
