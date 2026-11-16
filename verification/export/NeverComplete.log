@@ -1,0 +1,164 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Running breadth-first search Model-Checking with fp 95 and seed 466546184115273371 with 1 worker on 16 cores with 14564MB heap and 64MB offheap memory [pid: 71860] (Mac OS X 27.2.1 aarch64, Eclipse Adoptium 25.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /private/var/folders/41/jg31h24j12nbqh334m6yzkh40000gn/T/devnorm-export-model-110x907o/NeverComplete/RepositoryExport.tla
+Parsing file /private/var/folders/41/jg31h24j12nbqh334m6yzkh40000gn/T/Naturals.tla
+Parsing file /private/var/folders/41/jg31h24j12nbqh334m6yzkh40000gn/T/FiniteSets.tla
+Parsing file /private/var/folders/41/jg31h24j12nbqh334m6yzkh40000gn/T/TLC.tla
+Parsing file /private/var/folders/41/jg31h24j12nbqh334m6yzkh40000gn/T/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module RepositoryExport
+Starting... (2026-11-17 00:04:36)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated at 2026-11-17 00:04:36.
+Error: Invariant NeverComplete is violated.
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+/\ phase = "preflight"
+/\ journal = FALSE
+/\ seenDocument = 0
+/\ disk = (runtime :> "old" @@ metadata :> "old" @@ seed :> "absent")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = FALSE
+/\ installed = {}
+/\ backup = {}
+/\ document = 0
+
+State 2: <Stage line 15, col 10 to line 17, col 64 of module RepositoryExport>
+/\ phase = "staged"
+/\ journal = FALSE
+/\ seenDocument = 0
+/\ disk = (runtime :> "old" @@ metadata :> "old" @@ seed :> "absent")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = FALSE
+/\ installed = {}
+/\ backup = {}
+/\ document = 0
+
+State 3: <Journal line 18, col 12 to line 21, col 62 of module RepositoryExport>
+/\ phase = "journal"
+/\ journal = TRUE
+/\ seenDocument = 0
+/\ disk = (runtime :> "old" @@ metadata :> "old" @@ seed :> "absent")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = FALSE
+/\ installed = {}
+/\ backup = {}
+/\ document = 0
+
+State 4: <MoveOld line 22, col 15 to line 26, col 51 of module RepositoryExport>
+/\ phase = "replacing"
+/\ journal = TRUE
+/\ seenDocument = 0
+/\ disk = (runtime :> "absent" @@ metadata :> "old" @@ seed :> "absent")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = FALSE
+/\ installed = {}
+/\ backup = {runtime}
+/\ document = 0
+
+State 5: <Place line 27, col 13 to line 31, col 57 of module RepositoryExport>
+/\ phase = "replacing"
+/\ journal = TRUE
+/\ seenDocument = 0
+/\ disk = (runtime :> "new" @@ metadata :> "old" @@ seed :> "absent")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = FALSE
+/\ installed = {runtime}
+/\ backup = {runtime}
+/\ document = 0
+
+State 6: <MoveOld line 22, col 15 to line 26, col 51 of module RepositoryExport>
+/\ phase = "replacing"
+/\ journal = TRUE
+/\ seenDocument = 0
+/\ disk = (runtime :> "new" @@ metadata :> "absent" @@ seed :> "absent")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = FALSE
+/\ installed = {runtime}
+/\ backup = {runtime, metadata}
+/\ document = 0
+
+State 7: <Place line 27, col 13 to line 31, col 57 of module RepositoryExport>
+/\ phase = "replacing"
+/\ journal = TRUE
+/\ seenDocument = 0
+/\ disk = (runtime :> "new" @@ metadata :> "new" @@ seed :> "absent")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = FALSE
+/\ installed = {runtime, metadata}
+/\ backup = {runtime, metadata}
+/\ document = 0
+
+State 8: <MoveOld line 22, col 15 to line 26, col 51 of module RepositoryExport>
+/\ phase = "replacing"
+/\ journal = TRUE
+/\ seenDocument = 0
+/\ disk = (runtime :> "new" @@ metadata :> "new" @@ seed :> "absent")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = FALSE
+/\ installed = {runtime, metadata}
+/\ backup = {runtime, metadata, seed}
+/\ document = 0
+
+State 9: <Place line 27, col 13 to line 31, col 57 of module RepositoryExport>
+/\ phase = "replacing"
+/\ journal = TRUE
+/\ seenDocument = 0
+/\ disk = (runtime :> "new" @@ metadata :> "new" @@ seed :> "new")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = FALSE
+/\ installed = {runtime, metadata, seed}
+/\ backup = {runtime, metadata, seed}
+/\ document = 0
+
+State 10: <Verify line 32, col 11 to line 35, col 65 of module RepositoryExport>
+/\ phase = "verified"
+/\ journal = TRUE
+/\ seenDocument = 0
+/\ disk = (runtime :> "new" @@ metadata :> "new" @@ seed :> "new")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = FALSE
+/\ installed = {runtime, metadata, seed}
+/\ backup = {runtime, metadata, seed}
+/\ document = 0
+
+State 11: <Commit line 36, col 11 to line 39, col 99 of module RepositoryExport>
+/\ phase = "complete"
+/\ journal = FALSE
+/\ seenDocument = 0
+/\ disk = (runtime :> "new" @@ metadata :> "new" @@ seed :> "new")
+/\ external = {}
+/\ lease = TRUE
+/\ source = TRUE
+/\ committed = TRUE
+/\ installed = {runtime, metadata, seed}
+/\ backup = {runtime, metadata, seed}
+/\ document = 0
+
+9602 states generated, 3340 distinct states found, 988 states left on queue.
+The depth of the complete state graph search is 11.
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 10 and the 95th percentile is 5).
+Finished in 00s at (2026-11-17 00:04:36)

@@ -7,3 +7,6 @@ __pycache__/
 !.env.example
 coverage/
 *.log
+
+# Preserve the bounded model and conversion evidence linked from the docs.
+!verification/export/*.log
