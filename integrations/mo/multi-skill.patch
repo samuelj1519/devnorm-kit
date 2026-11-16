@@ -1,0 +1,78 @@
+--- a/release_plugin_assets.py
++++ b/release_plugin_assets.py
+@@ -37,0 +38,15 @@
++def copy_skills(spec):
++    names=spec.get('copy_skills',[spec.get('name','devnorm')])
++    if not isinstance(names,list) or not names or len(names)!=len(set(names)) or any(not isinstance(n,str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',n) for n in names):
++        raise ValueError('invalid or duplicate release copy_skills')
++    if spec.get('name','devnorm') not in names:raise ValueError('copy_skills must include primary skill')
++    return names
++
++def member(client,spec):
++    return client.split('/',1)[1] if '/' in client else spec.get('name','devnorm')
++
++def expected_files(available,client,spec):
++    if client.startswith('claude:'):return available.get('plugin')
++    skill=member(client,spec)
++    return available.get('skills',{}).get(skill,available.get('skill') if skill==spec.get('name','devnorm') else None)
++
+@@ -44,0 +60,2 @@
++    for skill in copy_skills(spec):
++        paths.extend([(api.STORE/skill,'consumer path'),(api.HOME/'.cursor/skills'/skill,'consumer path')])
+@@ -49,0 +67 @@
++        paths.extend((cfg/'skills'/skill,'consumer path') for skill in copy_skills(spec))
+@@ -119 +137,3 @@
+-    return {'revision':expected,'version':version,'source':str(root),'plugin':signature(plugin),'skill':signature(skill),'recordHash':artifact['recordHash']}
++    skills={n:signature(plugin/'skills'/n) for n in copy_skills(spec)}
++    if any(v is None or 'SKILL.md' not in v for v in skills.values()):raise ValueError('declared release skill missing')
++    return {'revision':expected,'version':version,'source':str(root),'plugin':signature(plugin),'skill':signature(skill),'skills':skills,'recordHash':artifact['recordHash']}
+@@ -135 +155,2 @@
+-    return [("codex",api.STORE/name),("cursor",api.HOME/'.cursor/skills'/name)]+[("claude:"+p,api.HOME/PROFILES[p]) for p in profiles]
++    copies=[(client if skill==name else client+'/'+skill,base/skill) for skill in copy_skills(spec) for client,base in [('codex',api.STORE),('cursor',api.HOME/'.cursor/skills')]]
++    return copies+[("claude:"+p,api.HOME/PROFILES[p]) for p in profiles]
+@@ -161 +182 @@
+-        if client.startswith('claude:') and ((cfg/'skills'/spec.get('name',name)).exists() or (cfg/'skills'/spec.get('name',name)).is_symlink()):
++        if client.startswith('claude:') and any((cfg/'skills'/skill).exists() or (cfg/'skills'/skill).is_symlink() for skill in copy_skills(spec)):
+@@ -164 +185 @@
+-        expected=pinned['plugin'] if c['client'].startswith('claude:') else pinned['skill']
++        expected=expected_files(pinned,c['client'],spec)
+@@ -166 +187 @@
+-        elif c['files']!=expected and (old is None or c['files']!=old.get('plugin' if c['client'].startswith('claude:') else 'skill')):raise ValueError('unmanaged installation change: '+c['client'])
++        elif c['files']!=expected and (old is None or c['files']!=expected_files(old,c['client'],spec)):raise ValueError('unmanaged installation change: '+c['client'])
+@@ -173 +194 @@
+-    changed=[c['client'] for c in observed(spec,api) if c['files']!=(available['plugin'] if c['client'].startswith('claude:') else available['skill'])]
++    changed=[c['client'] for c in observed(spec,api) if c['files']!=expected_files(available,c['client'],spec)]
+@@ -286,2 +307,3 @@
+-                if signature(p)!=available['skill']:
+-                    source=staged/'plugin/skills'/plugin
++                expected=expected_files(available,client,spec)
++                if signature(p)!=expected:
++                    source=staged/'plugin/skills'/member(client,spec)
+@@ -291,2 +313,3 @@
+-                if signature(p)!=available['skill']:raise RuntimeError('copied consumer differs from release')
+-                verified_outputs[p]=(available['skill'],False)
++                expected=expected_files(available,client,spec)
++                if signature(p)!=expected:raise RuntimeError('copied consumer differs from release')
++                verified_outputs[p]=(expected,False)
+@@ -301 +324 @@
+-            expected=available['plugin'] if row['client'].startswith('claude:') else available['skill']
++            expected=expected_files(available,row['client'],spec)
+--- a/skillctl
++++ b/skillctl
+@@ -590,2 +590,3 @@
+-    return {spec.get("name", name) for name, spec in managed_specs().items()
+-            if spec.get("kind") == "local-release-plugin" and prof in spec.get("claude_profiles", [])}
++    return {skill for name, spec in managed_specs().items()
++            if spec.get("kind") == "local-release-plugin" and prof in spec.get("claude_profiles", [])
++            for skill in spec.get("copy_skills", [spec.get("name", name)])}
+--- a/agent_sources.py
++++ b/agent_sources.py
+@@ -193,0 +194,2 @@
++    for value in assets.values():
++        if value.get('kind')=='local-release-plugin':accounted.update(value.get('copy_skills',[]))
+@@ -289,2 +291,3 @@
+-            for client,target in [('codex',home/'.agents/skills'/value.get('name',key)),('cursor',home/'.cursor/skills'/value.get('name',key))]:
+-                clients.append({'client':client,'scope':'user','config':str(home/('.codex' if client=='codex' else '.cursor')),'path':str(target),'present':(target/'SKILL.md').is_file(),'version':state.get(key,{}).get('version'),'manager':'mo-local-release','enabled':'unknown','loaded':'unknown'})
++            for skill in value.get('copy_skills',[value.get('name',key)]):
++              for client,target in [('codex',home/'.agents/skills'/skill),('cursor',home/'.cursor/skills'/skill)]:
++                clients.append({'client':client if skill==value.get('name',key) else client+'/'+skill,'scope':'user','config':str(home/('.codex' if client=='codex' else '.cursor')),'path':str(target),'present':(target/'SKILL.md').is_file(),'version':state.get(key,{}).get('version'),'manager':'mo-local-release','enabled':'unknown','loaded':'unknown'})

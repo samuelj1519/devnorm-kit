@@ -1,0 +1,21 @@
+name: Bug report
+description: Report a reproducible package or installation problem.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Release or commit
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction and expected behavior
+      description: Include the client, command, scope, and actual result. Remove credentials and private project contents.
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Validation output
+      description: Include relevant make check or mo skills check output.

@@ -1,0 +1,14 @@
+{
+  "release_plugin_assets.py": {
+    "before": "2bd083c8034a99fc81ad1f27f5c4a5d0eb5aef900ee5e1ce03b8903fcd608ee7",
+    "after": "207f1be6da767b262430988c55c39a64d0032425493019d191e98101bb798755"
+  },
+  "skillctl": {
+    "before": "0e5cbaf500aba21f655c08743fa2b6d6bdd55a7cc249e229eacf0dc00f887f24",
+    "after": "ae582437777fc4ebf0ff439e125ce1774a335623d8328c1dd55dd024d3bcd154"
+  },
+  "agent_sources.py": {
+    "before": "045690bd74ab79a58fe39f592a7745e587be4b4354a3feb2dc8a4c6dfb72bb51",
+    "after": "56270e7f5514b37d13f8dce6151ce291618b85038d329fddc6b38e3877a2968e"
+  }
+}
