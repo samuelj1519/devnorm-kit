@@ -21,4 +21,16 @@ The generated payload is preserved exactly. Repository governance, validation, C
 
 ## Publication and local acceptance
 
-Publication and actual installation results are recorded after those operations complete. Runtime model behavior, Cursor IDE discovery, and adoption by target projects remain `not_run`; file or inventory checks do not establish them.
+- Published to [samuelj1519/devnorm-kit](https://github.com/samuelj1519/devnorm-kit): initial generated import `0a17541`; repository/tooling commit `2726608`.
+- [Validate delivery on the pushed tooling commit](https://github.com/samuelj1519/devnorm-kit/actions/runs/43896929258): PASS (`push`, exact commit `2726608007206949f43b2ed5bce62b25ee9bc48c`).
+- Independent non-author review: standards PASS, specification PASS. The reviewer independently ran package and mo tests, demonstrated failure on the original adapter, and checked patch application, no-op repetition, drift rejection, mode preservation, and migration from an old single-skill installation record. The two scoped EOF attributes also received an independent failure probe; trailing spaces and unrelated EOF violations still fail.
+- The patch uses zero-context diffs to avoid whitespace warnings caused by blank patch context lines. Before/after full-file hashes and resulting code remain unchanged from the reviewed candidate.
+- Optional GitHub description/topic update: not applied; the authenticated token returned `HTTP 403: Resource not accessible by personal access token`. Repository publication and Actions validation succeeded.
+- Persistent accepted source: `~/.local/share/devnorm/releases/1.5.0`.
+- Actual mo operation: `SKILLS-20261116-233038-f2479d5e`, `batch=passed assets=1 changed=1`.
+- `mo skills check devnorm`: PASS. Independent file/mode comparison also found exactly nine complete Agent skill copies and nine complete Cursor copies.
+- Claude native registration/cache: version `1.5.0`, nine skills each in `default`, `mi`, `kimi`, `glm`, and `zen`; no standalone copies of these entries in those profiles. mo used the native CLI and verified its returned plugin identity and payload.
+- Source registration changed only the DevNorm entry. Existing local settings changes remain uncommitted and preserved.
+- Registration and original backend backup: `~/.agents/backups/devnorm-registration-20261116-ehmhsb3p/`; installation backups use the mo operation ID above.
+
+Runtime model behavior, fresh-session discovery, Cursor IDE acceptance, and adoption by target projects remain `not_run`; file or inventory checks do not establish them. Reload the relevant clients before using the new entries. Normal maintenance uses `mo skills upgrade devnorm` and `mo skills check devnorm`.
