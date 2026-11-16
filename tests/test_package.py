@@ -56,6 +56,47 @@ class PackageTests(unittest.TestCase):
         package.verify(self.root)
         self.assertEqual(p.read_text(), 'repository documentation')
 
+    def test_repository_documents_can_change_without_changing_the_release(self):
+        before = package.load(self.root, 'release-artifact.json')
+        for name in package.REPOSITORY_DOCUMENTS:
+            (self.root / name).write_text('Repository-maintained instructions\n')
+        package.verify(self.root)
+        result = package.restore_release(self.root, self.base / 'from-edited-docs')
+        self.assertEqual(package.load(Path(result['source']), 'artifact.json'), before)
+
+    def test_archived_document_changes_and_extra_files_fail(self):
+        archive = self.root / 'docs/generated'
+        extra = archive / 'unknown.txt'
+        extra.write_text('unaccepted')
+        with self.assertRaisesRegex(ValueError, 'unregistered runtime'):
+            package.verify(self.root)
+        extra.unlink()
+        (archive / 'README.md').write_text('changed accepted original')
+        with self.assertRaisesRegex(ValueError, 'bytes or mode'):
+            package.verify(self.root)
+
+    def test_legacy_document_layout_still_reconstructs_the_same_release(self):
+        artifact = package.load(self.root, 'artifact.json')
+        payload = package.entries(artifact['files'])
+        for name in package.REPOSITORY_DOCUMENTS:
+            old = 'docs/generated/' + name
+            row = payload.pop(old)
+            shutil.move(self.root / old, self.root / name)
+            payload[name] = {**row, 'path': name}
+        artifact['files'] = [row for _, row in sorted(payload.items())]
+        (self.root / 'artifact.json').write_bytes(package.canonical(artifact))
+        registered = {**payload, 'artifact.json': package.file_entry(self.root, 'artifact.json')}
+        (self.root / 'SHA256SUMS').write_text(''.join(
+            f"{row['hash']}  {name}\n" for name, row in sorted(registered.items())))
+        registered['SHA256SUMS'] = package.file_entry(self.root, 'SHA256SUMS')
+        (self.root / '.devnorm-files.json').write_bytes(package.canonical({
+            'schemaVersion': 1, 'artifactHash': artifact['artifactHash'],
+            'files': [row for _, row in sorted(registered.items())]}))
+        package.verify(self.root)
+        result = package.restore_release(self.root, self.base / 'legacy')
+        self.assertEqual(package.load(Path(result['source']), 'artifact.json'),
+                         package.load(self.root, 'release-artifact.json'))
+
     def test_symlink_resource_fails(self):
         p = self.root / 'skills/devnorm/SKILL.md'
         p.unlink()

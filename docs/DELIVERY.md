@@ -34,3 +34,11 @@ The generated payload is preserved exactly. Repository governance, validation, C
 - Registration and original backend backup: `~/.agents/backups/devnorm-registration-20261116-ehmhsb3p/`; installation backups use the mo operation ID above.
 
 Runtime model behavior, fresh-session discovery, Cursor IDE acceptance, and adoption by target projects remain `not_run`; file or inventory checks do not establish them. Reload the relevant clients before using the new entries. Normal maintenance uses `mo skills upgrade devnorm` and `mo skills check devnorm`.
+
+## Repository documentation follow-up, 2026-11-17
+
+The root README and INSTALL now have repository ownership. Their accepted originals moved unchanged to `docs/generated/`; skills, native manifests, licenses, notices, source records, and runtime checks remain protected. The source exporter preserves ordinary repository files instead of requiring the whole directory to equal its generated registry.
+
+Source validation: `bun run verify` PASS (174 tests plus dependencies, types, formatting, and standard checks). This repository: `make check` PASS (11 tests). The model and actual filesystem failure probes, including the three independent cleanup findings and their repairs, are recorded in [export verification](../verification/export/README.md). The final generated files match an actual source-export conversion of the existing accepted artifact, independently verified byte-for-byte and by mode.
+
+The installed runtime remains `1.5.0`, with its original release identity and accepted source record. Full runtime regeneration with the edited source program was correctly blocked by `toolchain-changed`; no new acceptance, installation, or uninstall occurred. The source code is a separately reviewed local change pending its next source release cycle. The homepage's pinned installation/removal examples were also exercised with the cached `skills@1.8.1` in an isolated temporary project/home; all nine entries installed and removal preserved an unrelated fictional skill.

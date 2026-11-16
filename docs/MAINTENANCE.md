@@ -7,12 +7,14 @@
 | `skills/` | Generated, self-contained skill entries and resources |
 | `plugin.json`, `.claude-plugin/`, `.cursor-plugin/` | Generated native plugin discovery metadata |
 | `artifact.json`, `release-artifact.json`, `SHA256SUMS`, `.devnorm-files.json` | Generated delivery, accepted release, and ownership identities |
-| `README.md`, `INSTALL.md`, `LICENSE` | Generated user documentation and original-content license |
+| `README.md`, `INSTALL.md` | Repository-maintained user documentation, outside generated checksums |
+| `docs/generated/` | Exact accepted README/INSTALL archive used for release reconstruction |
+| `LICENSE` | Generated original-content license |
 | `scripts/`, `tests/`, `Makefile` | Repository validation and exact accepted-release reconstruction |
 | `.github/` | Pull request checks, issue intake, and dependency update configuration |
 | `integrations/mo/` | Maintainer-specific mo compatibility patch and its exact baseline identities |
 
-Generated payloads remain unchanged when repository maintenance files change. Git records both layers. Each skill retains independent resources; sharing them with symlinks would break independent copies.
+Generated payloads remain unchanged when repository maintenance files change. Root README/INSTALL edits are permitted; `make check` still validates their archived accepted originals and every runtime resource. Agent-readable reference indexes, notices, licenses, and provenance remain generated and verified. See [export ownership](HASH-SCOPE.md) for the design and failure/rollback boundaries. Git records both layers. Each skill retains independent resources; sharing them with symlinks would break independent copies.
 
 ## Maintainer installation with mo
 

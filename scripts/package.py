@@ -10,6 +10,7 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
+REPOSITORY_DOCUMENTS = ('README.md', 'INSTALL.md')
 
 
 def require(condition, message):
@@ -61,6 +62,27 @@ def file_entry(root, name):
             'mode': '0755' if p.stat().st_mode & 0o111 else '0644'}
 
 
+def document_paths(payload):
+    paths = {}
+    for name in REPOSITORY_DOCUMENTS:
+        archive = 'docs/generated/' + name
+        require(not (archive in payload and name in payload), f'generated document has multiple owners: {name}')
+        paths[name] = archive if archive in payload else name
+    return paths
+
+
+def release_source(name, documents):
+    if name == 'plugin/README.md':
+        return documents['README.md']
+    if name.startswith('plugin/'):
+        return name[len('plugin/'):]
+    if name.startswith('agent-skills/'):
+        return 'skills/' + name[len('agent-skills/'):]
+    if name == 'INSTALL.md':
+        return documents['INSTALL.md']
+    raise ValueError(f'unsupported accepted release file: {name}')
+
+
 def verify(root):
     root = root.resolve()
     artifact = load(root, 'artifact.json')
@@ -73,6 +95,7 @@ def verify(root):
     require(identity(release) == artifact['artifactHash'] == registry['artifactHash'],
             'accepted release identity mismatch')
     payload = entries(artifact['files'])
+    documents = document_paths(payload)
     registered = entries(registry['files'])
     require(set(registered) == set(payload) | {'artifact.json', 'SHA256SUMS'},
             'registry coverage mismatch')
@@ -84,7 +107,7 @@ def verify(root):
                    if name != 'SHA256SUMS')
     require((root / 'SHA256SUMS').read_text() == sums, 'checksum coverage mismatch')
     # Extra repository maintenance files are permitted; extra runtime files are not.
-    for folder in ('skills', '.claude-plugin', '.cursor-plugin'):
+    for folder in ('skills', '.claude-plugin', '.cursor-plugin', 'docs/generated'):
         for p in (root / folder).rglob('*'):
             name = p.relative_to(root).as_posix()
             require(not p.is_symlink(), f'symlink: {name}')
@@ -128,20 +151,13 @@ def verify(root):
                 require(target.is_relative_to(folder) and target.exists(), f'broken entry link: {name}: {link}')
     release_files = entries(release['files'])
     for name, row in release_files.items():
-        if name.startswith('plugin/'):
-            mapped = name[len('plugin/'):]
-        elif name.startswith('agent-skills/'):
-            mapped = 'skills/' + name[len('agent-skills/'):]
-        elif name == '.claude-plugin/marketplace.json':
+        if name == '.claude-plugin/marketplace.json':
             original = json.loads(json.dumps(marketplace))
             original['plugins'][0]['source'] = './plugin'
             require(sha(canonical(original)) == row['hash'] and row['mode'] == '0644',
                     'original marketplace cannot be reconstructed')
             continue
-        elif name == 'INSTALL.md':
-            mapped = name
-        else:
-            raise ValueError(f'unsupported accepted release file: {name}')
+        mapped = release_source(name, documents)
         require(file_entry(root, mapped)['hash'] == row['hash']
                 and file_entry(root, mapped)['mode'] == row['mode'],
                 f'accepted release mapping mismatch: {name}')
@@ -150,6 +166,7 @@ def verify(root):
 
 def restore_release(root, destination):
     artifact, release, skills = verify(root)
+    documents = document_paths(entries(artifact['files']))
     destination = destination.absolute()
     require(not destination.exists() and not destination.is_symlink(), 'destination already exists')
     require(not destination.is_relative_to(root.resolve()), 'release destination must be outside checkout')
@@ -166,8 +183,7 @@ def restore_release(root, destination):
                 data['plugins'][0]['source'] = './plugin'
                 target.write_bytes(canonical(data))
             else:
-                mapped = (name[len('plugin/'):] if name.startswith('plugin/') else
-                          'skills/' + name[len('agent-skills/'):] if name.startswith('agent-skills/') else name)
+                mapped = release_source(name, documents)
                 shutil.copyfile(root / mapped, target)
             target.chmod(int(row['mode'], 8))
             require(file_entry(stage, name) == row, f'restored identity mismatch: {name}')
