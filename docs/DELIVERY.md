@@ -12,7 +12,7 @@ The generated payload is preserved exactly. Repository governance, validation, C
 
 ## Local checks
 
-- `make check`: PASS; complete generated file identities, all nine entrypoints, release reconstruction, and eight failure/round-trip tests.
+- `make check`: PASS; complete generated file identities, all nine entrypoints, release reconstruction, and eight failure/round-trip tests at the time of this record (the suite has 11 tests as of 2026-11-17; see the follow-up below).
 - Original mo release-adapter suite against the patched backend: PASS, 33 tests.
 - `MO_BACKEND=<patched-backend> python3 -B integrations/mo/test_adapter.py`: PASS, 74 tests including the inherited legacy cases and multi-skill cases.
 - Existing source-management suite against the patched backend: PASS, 39 tests. Its first flat temporary layout failed three fixture path lookups; rerunning with the actual `settings/scripts/macos-rebuild` layout passed.
