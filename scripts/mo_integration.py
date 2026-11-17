@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Check or apply the hash-bound, local mo multi-skill compatibility patch."""
 import argparse
+from datetime import datetime, timezone
 import hashlib
 import json
 from pathlib import Path
+import secrets
 import shutil
 import subprocess
 import tempfile
@@ -35,10 +37,47 @@ def prepare(backend, destination):
     return True
 
 
+def _ensure_private_dir(path):
+    if path.exists():
+        if not path.is_dir():
+            raise FileExistsError(path)
+        return
+    if path.parent != path:
+        _ensure_private_dir(path.parent)
+    path.mkdir(mode=0o700)
+    path.chmod(0o700)
+
+
+def _backup_stamp():
+    return datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+
+
+def backup_directory(root):
+    """Create a private directory for the three original backend files.
+
+    The system temporary directory is removed on a schedule, so the originals
+    stay under a persistent parent until local acceptance finishes. The
+    maintainer deletes that directory. This script does not delete it.
+    """
+    root = Path(root).expanduser().resolve()
+    _ensure_private_dir(root)
+    for _ in range(8):
+        stamp = _backup_stamp()
+        path = root / f'devnorm-mo-patch-{stamp}-{secrets.token_hex(4)}'
+        try:
+            path.mkdir(mode=0o700)
+        except FileExistsError:
+            continue
+        path.chmod(0o700)
+        return path
+    raise FileExistsError('could not allocate a new backup directory under ' + str(root))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('backend', type=Path)
     parser.add_argument('--apply', action='store_true', help='replace only the three reviewed backend files')
+    parser.add_argument('--backup-root', type=Path, help='parent directory for the original-file backup')
     args = parser.parse_args()
     backend = args.backend.resolve()
     with tempfile.TemporaryDirectory(prefix='devnorm-mo-patch-') as tmp:
@@ -49,8 +88,8 @@ def main():
             for name, row in identities.items():
                 if digest(backend / name) != row['before']:
                     raise ValueError('backend changed after preparation: ' + name)
-            # Preserve originals beside the patch evidence; live installation is done by mo.
-            backup = Path(tempfile.mkdtemp(prefix='devnorm-mo-backup-'))
+            root = args.backup_root if args.backup_root is not None else Path.home() / '.agents' / 'backups'
+            backup = backup_directory(root)
             replaced = []
             try:
                 for name in identities:
