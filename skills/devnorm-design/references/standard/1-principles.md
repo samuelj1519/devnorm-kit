@@ -68,13 +68,15 @@ Record actual commands, exit codes, and raw logs. UI work needs corresponding re
 
 Authors must not make checks pass by changing assertions, skipping tests, disabling rules, or raising limits. Explain every test change for separate review. Explain new exemptions and obtain approval where required. Missing evidence or an unrun required check prevents completion.
 
+**In process · Long-term**: The diff gate machine-enforces test protection with `bun run check:test-guard`; manual review still applies.
+
 ### 1.3.3 Root causes and related defects
 
-Reproduce the defect, find the first incorrect operation, and check related paths. Explain why an added null check, retry, or default fixes the cause. Keep protection for legitimate failure states.
+Before judging causes, performance, or cost, first measure on real objects, record the numbers and the measurement method, and only then conclude or change anything; reproduce the defect, find the first incorrect operation, and check related paths. Explain why an added null check, retry, or default fixes the cause. Keep protection for legitimate failure states.
 
 Include recurring defects in periodic review and automate their detection where possible.
 
-After two substantive repairs based on the same premise fail, state that premise and test it with a minimal experiment before continuing. This does not reset the rework budget. See [task-specific methods](3-workflow/3.5-implementation.md#351-task-specific-methods).
+After two substantive repairs based on the same premise fail, state that premise and test it with a minimal experiment per [measure before judging](#133-root-causes-and-related-defects) before continuing. This does not reset the rework budget. See [task-specific methods](3-workflow/3.5-implementation.md#351-task-specific-methods).
 
 ## 1.4 Documentation and standard maintenance
 
@@ -154,6 +156,8 @@ Standard-workflow reviewers record yes, no, or N/A for each item, with location 
 At each milestone, run full checks for the current version. Review dependencies, mutation testing, duplication and complexity changes, stale documents, exemptions, recurring defects, and four task metrics: rework count, review findings, post-merge regressions, and duplicate-code growth. Define 3–5 architecture health checks and their measurement rules in advance.
 
 Keep unrun checks pending and unknown data unknown. Repair and recheck ordinary low-risk findings directly. Use a task brief and the main workflow for other findings.
+
+**Key checkpoint · Long-term**: Projects agree and record a mutation survival rate threshold (the share of mutants that no test kills) for key modules when adopting the standard. Exceeding the threshold requires a task brief that adds tests; do not clear the failure by relaxing the threshold, and any relaxation still needs requirements-owner approval. Mutation tools are project dependencies and go through dependency approval at adoption.
 
 ## 1.9 Sources and applicability
 

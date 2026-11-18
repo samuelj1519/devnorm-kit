@@ -22,7 +22,7 @@ The standard workflow follows sections 3.2 through 3.8. Agree on waiting and rew
 
 ## 3.4 Execution environment
 
-[Read this section](3-workflow/3.4-execution-environment.md).
+[Read this section](3-workflow/3.4-execution-environment.md). For permission provisioning when dispatching other assistants, see [section 3.4.1](3-workflow/3.4-execution-environment.md#341-agent-permission-provisioning).
 
 ## 3.5 Implementation and self-check
 
@@ -38,7 +38,7 @@ The standard workflow follows sections 3.2 through 3.8. Agree on waiting and rew
 
 ## 3.6 Independent review
 
-[Read this section](3-workflow/3.6-independent-review.md).
+[Read this section](3-workflow/3.6-independent-review.md). For independent re-verification of a candidate HEAD, see [section 3.6.1](3-workflow/3.6-independent-review.md#361-independent-re-verification-candidate-head).
 
 ## 3.7 Verification and acceptance
 
