@@ -21,6 +21,6 @@ Simple low-risk tasks may proceed directly with necessary checks, without a task
 | Requirements owner | Sets goals and approves key choices and exceptions, with an explicitly delegated approver where needed. |
 | Coordinator | Assigns work, checks evidence, resolves blockers, and advances delivery. The current executor may act as coordinator. |
 | Implementer | Works and verifies within scope. Only one writer owns a file or branch at a time. |
-| Independent reviewer | A fresh session that did not implement the work checks results and records findings. |
+| Independent reviewer | One non-author primary reviewer starts in a fresh session, then continues; checks results and retains attributed conclusions and original evidence. |
 
 Use the [templates](../../assets/templates). Model scope and results are in the [verification guide](../provenance.md) and [report](../provenance.md).

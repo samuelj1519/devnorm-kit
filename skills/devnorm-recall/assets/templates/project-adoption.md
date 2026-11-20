@@ -8,10 +8,12 @@ Replace placeholders with approved project versions and paths.
 
 ```markdown
 This project adopts DevNorm version <version>.
-Standard: <standard repository>/standard/README.md
-Exact standard commit: <approved complete 40-character SHA>
+Actual standard location: <installed package standard entry or an accessible project path>
+Adoption identity: <approved release artifactHash; exact complete commit when adopting source>
 Adoption approval: <source, date, exact scope>
 Project differences: <path and version>
+Execution contract: <table below or existing project rules: resources, checks, trusted origins, isolation, evidence>
+If required resources, command mappings, or authorization are missing, stop dependent actions and report the gaps.
 
 At task start, read this entry, the task, and relevant plan/progress records.
 On adoption or version change, check the standard entry and project differences.
@@ -33,14 +35,16 @@ Project rules add or strengthen requirements. Exceptions need exact requirements
 | Prohibitions and authorization | <real data, credentials, network, install, Git operations, exact approvals; no expansion> |
 | Roles and skills | <implementation/review/coordination, disabled executors, actual models, quota checks> |
 | UI applicability | <map [5.1 through 5.11](../../references/standard/5-ui-acceptance.md) to project requirements and evidence. Use defaults for gaps. List old/new, risks, replacement protection, and approval before reducing requirements> |
-| Verification commands | <static, affected, full, public behavior, native apps, real services, actual capabilities> |
+| Standard and method resources | <accessible main entry and every standalone skill, adopted identities, dependencies, and licenses; no sibling skill or maintainer-local path dependency> |
+| Verification commands | <actual quick, affected, and full commands and scope; test-diff protection, static/public/native/real-service behavior; trusted toolchain and comparison-baseline origins; gaps are not run, never an empty successful check> |
 | State-model review | <section 3.2.1 applicability, statechart/TLC entry, plan/model records, chart-review owner, implementation counterexamples> |
-| Risk mapping | <small/large criteria and section 3.3 arrangement; unapproved reductions retain original checks> |
+| Risk mapping | <direct/ordinary/high-risk criteria; ordinary work uses a six-field brief and one nonauthor primary reviewer; applicable prior design/model review and real acceptance for high risk; retain safeguards without approval to reduce them> |
 | Writers | <single owners of shared interfaces, generated content, locks, aggregate state> |
 | Git/checkouts | <under the [collaboration standard](../../references/standard/6-version-control.md): remotes/main branch, branches/writers, commit format/language, merge method, quick/full checks and trusted execution, actual approval accounts, tag/evidence retention, cleanup and history exceptions; state platform gaps and replacement safeguards> |
 | Input mutual exclusion | <acquire/hold/release owners, target, launch batch/time, stop on failure; equivalent replacement needs evidence and exact approval> |
-| Isolation | <fictional samples, separate source/test/build directories, real app identity, CUA limits or N/A> |
-| Evidence/status | <task/report/log paths, first failures, unrun definitions, private-data boundary> |
+| Isolation | <clean input copy/worktree, fictional samples, test-data/runtime-output directories, trusted execution entry, real app identity, CUA limits; missing environment means not run, not inapplicable> |
+| Evidence/status | <existing authoritative task record, accessible original logs and access controls, failure/unrun terms, retention-policy reference; protect active/open/referenced evidence and exclude private material from packages> |
+| Temporary resources | <owners and previous values for creating/verifying/releasing processes, locks, worktrees, temporary permissions and configuration; query unknown outcomes, preserve restoration failures, and leave others' or investigated material intact> |
 | Alignment | <approved standard version, next reviewer, conflicts/exceptions> |
 
 ## Architecture and periodic review

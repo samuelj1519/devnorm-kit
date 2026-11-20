@@ -8,7 +8,7 @@ Use for state transitions, concurrency, retries, transactions, recovery, or othe
 
 ## Environment and limits
 
-Set existing `JAVA` and `TLA2TOOLS` paths, then run the [controlled entry](scripts/statechart) with `--check-environment`. Keep those variables for the packaged fixed tool. Missing/invalid tools stop execution before upstream automatic downloads. Existing Node or Bun runs TypeScript. Follow the [rendering guide](references/render.md) with authorized installed tools. Without Pele, retain Mermaid text rather than install dependencies.
+Set existing `JAVA` and `TLA2TOOLS` paths, then run the [controlled entry](scripts/statechart) with `--check-environment`. Keep those variables for the packaged fixed tool. Missing/invalid tools stop execution before upstream automatic downloads. The wrapper requires existing POSIX sh; existing Node with native TypeScript support or Bun runs TypeScript. Follow the [rendering guide](references/render.md) with authorized installed tools. Without Pele, retain Mermaid text rather than install dependencies.
 
 ## Procedure
 
@@ -16,7 +16,7 @@ Set existing `JAVA` and `TLA2TOOLS` paths, then run the [controlled entry](scrip
 2. Define reader-facing states with `state(vars)` and actions with `step(action, from, to)`. Arrays represent parent states and objects represent parallel regions. Names describe domain behavior and mapping functions use only their arguments.
 3. Run the controlled entry. The fixed [main script](../../upstream/cursor-plugins/statechart/scripts/statechart), [dynamic worker](../../upstream/cursor-plugins/statechart/scripts/worker.ts), and dependencies form the packaged runtime. Replace example paths with actual ones:
 
-```sh
+```sh example
 JAVA=/existing/java TLA2TOOLS=/existing/tla2tools.jar sh /copied/devnorm/references/methods/statechart/scripts/statechart SPEC.tla --config SPEC.cfg --view view.mjs --out /isolated/new-result
 ```
 

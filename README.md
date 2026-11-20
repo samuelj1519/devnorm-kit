@@ -8,6 +8,10 @@ Development standards and task-specific methods for Codex, Claude Code, Cursor, 
 
 [Install](#install) · [Use](#use) · [Skills](#skills) · [Update or uninstall](#update-or-uninstall) · [Compatibility](#compatibility) · [Contribute](#verify-and-contribute)
 
+## Local validation status
+
+The generated payload in this working tree is private version `1.7.1`; the installation commands and version badge below still identify published `v1.5.0`. The private export is not a new public tag, persistent installation, or automatic adoption by other projects. See [the current local validation record](docs/DELIVERY.md#local-formal-delivery-171-2026-11-20). Installed and loaded versions must be checked separately.
+
 ## Install
 
 Use one installation manager per skill in each client. If this machine already manages DevNorm with `mo`, use [the mo commands](#maintainer-managed-installation) instead of adding another copy.

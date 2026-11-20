@@ -6,7 +6,7 @@ Maintain the current plan under the [workflow](../../references/standard/3-devel
 
 <Complete goal, scope, choices, state owners, interfaces/data, failures, unknown results, and recovery. Do not leave the plan as patches to an old draft.>
 
-- Standard: <approved DevNorm version and commit>; project rules: <path and version>
+- Standard: <approved DevNorm version and package artifactHash or source commit>; project rules: <path and version>
 - Status: <approved / pending / draft>; approval source and scope: <exact reference or unknown>
 - Downstream versions: <compatible prototype, detailed design, task, test, and model versions>
 

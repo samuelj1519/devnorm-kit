@@ -38,7 +38,7 @@ The standard workflow follows sections 3.2 through 3.8. Agree on waiting and rew
 
 ## 3.6 Independent review
 
-[Read this section](3-workflow/3.6-independent-review.md). For independent re-verification of a candidate HEAD, see [section 3.6.1](3-workflow/3.6-independent-review.md#361-independent-re-verification-candidate-head).
+[Read this section](3-workflow/3.6-independent-review.md). For exact candidates and trusted re-verification, see [section 3.6.1](3-workflow/3.6-independent-review.md#361-exact-candidate-and-trusted-re-verification).
 
 ## 3.7 Verification and acceptance
 

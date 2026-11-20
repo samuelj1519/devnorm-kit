@@ -1,17 +1,18 @@
 # Task brief template (1.0 draft)
 
-Use under the [development workflow](../../references/standard/3-development-workflow.md). High-risk tasks use this brief; ordinary tasks prefer the [short brief](task-short.md). Direct work needs no brief. Replace placeholders and save in the project's task directory, satisfying its checker fields.
+Use under the [development workflow](../../references/standard/3-development-workflow.md). High-risk tasks use this brief; ordinary tasks prefer the [short brief](task-short.md). Direct work needs no brief. Expand fields by applicable risk within the existing authoritative task record, without duplicating the six-field brief or development/acceptance/review records. Replace placeholders and save in the project's task directory, satisfying its checker fields.
 
 ## <Task ID>: <observable outcome>
 
 - Status: <pending / active / independent review / recheck / approval / completed scope>
-- Standard: DevNorm <approved version> at <full commit>; project rules: <path/version>
+- Standard: DevNorm <approved version> at <package artifactHash or full source commit>; project rules: <path/version>
 - Task type: <design / prototype / implementation / review / recheck / integration>
 - Risk: <ordinary / high-risk>; reason and classifier: <changed contracts/critical guarantees, known impact, recovery and check evidence; unknown or critical guarantee changes require high-risk>
 - Checks: <full / affected checks then pre-merge full / identical-input reuse then isolated combination and milestone full checks before actual merge>; authority: <section 3.3, stricter project rules, separate exception approvals>
 - Milestone: <name/boundary or N/A>
-- Implementer: <one role/session>; reviewer: <fresh non-author session or pending assignment>
+- Implementer: <one role/session>; primary reviewer: <non-author ID; fresh first review, then continuation; or pending assignment>
 - Working location: <absolute path, branch, writer, reason>
+- Semantic review unit: <complete behavior, related invariants, tests, and docs; separate from subtasks/commits; final combination verified separately>
 - Fixed task base: <full 40-character SHA>; review candidate: <full SHA or file manifest/hashes if uncommitted>
 - Plan module: <exact path/version>; consistency check: <match/conflict>
 - Prototype/design: <existing artifact version and approval; no extra prototype without UI or where a prototype exists; explain N/A>
@@ -21,7 +22,7 @@ Use under the [development workflow](../../references/standard/3-development-wor
 - Git execution: <inherited project policy; remote/source commit/target ref, ownership of existing staged and working-tree changes, tested/intended commit versions, necessary policy differences; follow the [collaboration standard](../../references/standard/6-version-control.md)>
 - Architecture/current decisions: <paths, hashes, approval scope>
 - Plan state review: <section 3.2.1 applicability, plan/model versions, TLC and chart review; complete applicable checks before implementation dispatch>
-- Rework/wait limits: <agree before execution; no copied model-example budgets>
+- Rework/wait limits: <agree rounds, runtime, and resources beforehand; failures/timeouts/recovery/replacements accumulate; no copied model-example budgets>
 - Architecture/security: <milestone 3–5 health checks, commands, owner; identify missing configuration>
 - Test changes: <none or location/reason/original protection; preserve protection and review separately>
 
@@ -65,7 +66,7 @@ Choose scope before work under [section 3.3](../../references/standard/3-workflo
 
 ## Independent review and acceptance
 
-- <Fresh non-author session, applicable rules, complete changes, personally run critical behavior, report/evidence write allowlist>
+- <One non-author primary reviewer, fresh first review then continuation; applicable rules, complete semantic unit, personally run critical behavior; attributed conclusions/evidence allowlist in original record; replace after implementation edits>
 - <PASS criteria, required-unrun stop point, applicable P0/P1/behavior blockers; exact approval for any review waiver>
 - <Recheck owner, exact combined tree, local integration scope, recheck after source/environment change or conflict>
 - <Separate delivered artifact, native app, real backend, and model checks; keep missing execution not_run>
@@ -107,10 +108,10 @@ Complete this section only after delegation is justified.
 
 1. Return conditions: <same defect after the agreed substantive-repair count; unapproved files/interfaces/permissions; ambiguous requirements or preconditions. Agree counts beforehand. Separate reruns, environment failures, and expected negative probes.>
 2. Stop and record: <stop writing; record exact version, directory, original error/log, attempted repairs, affected files, decisions needed. Query the original operation for unknown outcomes.>
-3. Resolution and follow-up: <coordinator distinguishes plan, code, environment, and permissions, assigns repairs, and obtains out-of-scope approval. Review total cost, usage, and quality two weeks after adoption. Keep unknowns unknown.>
+3. Resolution and follow-up: <coordinator distinguishes plan, code, environment, and permissions, assigns repairs, and obtains out-of-scope approval. Review total cost, usage, and quality at the observation point agreed before adoption. Keep unknowns unknown.>
 
 After a plan changes implementation, acceptance, or permissions, record the new version and recheck affected areas. Repeated returns require a different split or one executor. Budgets accumulate continuously. Planning reads implementation without editing it, but may write plans. A session that edited implementation cannot independently review the same task.
 
 ## Pre-implementation review when risk applies
 
-Record this increment's exact plan/architecture inputs, reviewer, conclusion, unresolved blockers, and actual review record before changing runtime code. Check data owners, async changes, final commit validation, and initial/failure/retry behavior. Do not fill this section retroactively from implementation review. Direct low-risk tasks need no additional brief.
+Only when section 3.2 requires prior review for this increment, record its exact plan/architecture inputs, reviewer, conclusion, unresolved blockers, and actual review record before changing runtime code. Check data owners, async changes, final commit validation, and initial/failure/retry behavior. Do not fill this section retroactively from implementation review. Direct low-risk tasks need no additional brief.
