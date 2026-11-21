@@ -78,3 +78,13 @@ Authorization scope is `public-release` limited to pushing this repository's `re
 ## Publication v1.8.0, 2026-11-21
 
 Following the user's same-day authorization, the 1.8.0 payload was published: `main` fast-forwarded to the payload commit plus this documentation update, annotated tag `v1.8.0` created at the publication commit, and the root README/INSTALL installation commands and version badge repointed from `v1.5.0` to `v1.8.0`. The publication commit passed `make check` before tagging. Installation and fresh-session verification results follow below.
+
+## Installation evidence 1.8.0, 2026-11-21
+
+The `main` advance was blocked by the repository rule "changes must be made through a pull request", and the active fine-grained token lacks pull-request write access, so `main` remains at its previous head pending that merge; the annotated tag `v1.8.0` and the `release/v1.8.0` branch (including this documentation) are pushed and carry the same content.
+
+Local installation was performed through the documented maintainer path: `scripts/package.py restore-release` reconstructed the accepted release to `~/.local/share/devnorm/releases/1.8.0` and to the revision-named cache directory (revision `9d70d500…`), the `devnorm-local` marketplace source was repointed, and `claude plugin update devnorm@devnorm-local` upgraded the plugin from `1.5.0` to `1.8.0` in the `default`, `mi`, `kimi`, `glm`, and `zen` profiles (`plugin list --json` shows version `1.8.0` in each). The installed skill tree contains `references/standard/5-interaction-and-interface/` with all nine sections.
+
+A fresh `claude -p` session in the `glm` profile listed the `devnorm:` plugin commands and successfully read `references/standard/5-interaction-and-interface/5.8-ui-acceptance.md`, confirming items 5.8.1 through 5.8.11. The session's proxy rejected further tool actions after those reads (environment-specific auto-mode check); the two requested answers were returned before the exit.
+
+Not exercised in this round: the public `npx skills add samuelj1519/devnorm-kit@v1.8.0` channel (command attempts were declined locally), Codex/Cursor copies previously managed by `mo`, and `mo skills upgrade` itself — `mo 0.2.1` currently reports ambiguous source selection and unbound plugin recipes for this asset, a macops-side registration state outside this repository. The `managed-agent-assets.json` registrations were updated to the 1.8.0 release path and revision for when that flow is rebound.
