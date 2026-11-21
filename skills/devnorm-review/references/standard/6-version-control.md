@@ -10,7 +10,7 @@ Protect existing work, follow authorization, check the exact version, and retain
 | --- | --- |
 | Branches and isolation | Keep the main branch deliverable and use short-lived task branches. Give independent changes separate branches and writers; add release branches when maintaining multiple versions. |
 | Commit format and language | Prefer existing conventions; otherwise consider Conventional Commits. The project chooses language, types, scopes, and subject length. |
-| Merge method | Squash can suit an ordinary single-task PR. Use rebase or merge when preserving individual commits or branch relationships matters; consider traceability and subsequent branch use. |
+| Merge method | Squash can suit an ordinary single-task PR. Do not squash when individual commits, branch relationships, or the ancestry needed for a fast-forward must be preserved. If a squash has already been done and a fast-forward is therefore impossible, apply only the unique commits onto the current target branch. Confirm traceability and subsequent branch use in advance. |
 | Checks and approvals | Identify quick/full commands, trusted execution, required results, and actual approval accounts. Configure protection using capabilities available to the repository. |
 | Releases and retention | Define version tags, artifacts, retention of unique evidence, cleanup scope, and owners. Adopt signing and merge queues when needed. |
 

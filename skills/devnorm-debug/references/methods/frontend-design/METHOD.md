@@ -4,7 +4,7 @@ For specific presentation concerns, reuse [interface methods](../interface-revie
 
 ## Scope and inputs
 
-Build a prototype only for a new UI question without a usable existing reference. Handle small existing-UI fixes at their applicable scope. No UI means no prototype. Establish user tasks, content, platform, design system, and acceptance.
+Build a prototype only for a new UI question without a usable existing reference. Handle small existing-UI fixes at their applicable scope. No UI means no prototype. Establish user tasks, content, platform, design system, and acceptance; product requirements follow [sections 5.1 through 5.7 of the interaction and interface standard](../../standard/5-interaction-and-interface.md).
 
 ## Procedure
 

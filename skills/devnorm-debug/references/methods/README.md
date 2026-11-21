@@ -35,4 +35,3 @@ Run the following only when the user prompt explicitly requests the function. Re
 | Configure project check hooks or document human authorization steps | [Project tooling](project-tooling/METHOD.md) |
 | Triage this specified repository's issue/PR batch | [Feedback triage](feedback-triage/METHOD.md) |
 | Manually check/manage sources or analyze new capabilities | [Source maintenance](source-maintenance/METHOD.md) |
-

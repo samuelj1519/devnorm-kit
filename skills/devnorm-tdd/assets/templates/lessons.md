@@ -1,6 +1,6 @@
 # Lessons and improvements
 
-Add to the task or phase record under [standard maintenance](../../references/standard/4-periodic-review.md#44-improving-and-maintaining-the-standard).
+Add applicable lessons to the original task or phase record under [standard maintenance](../../references/standard/4-periodic-review.md#44-improving-and-maintaining-the-standard). Link existing facts without creating a report just to fill this template.
 
 - Task/phase, project, candidate, date/time zone: <values>
 - Symptom and trigger: <original failure and actual result>

@@ -8,7 +8,7 @@ Review the exact existing UI version, platform, viewport, input methods, user ta
 
 ## Procedure
 
-1. Perform the main task in the actual host, recording page, state, viewport, and actions. Map the [UI checklist](../../standard/5-ui-acceptance.md) to evidence.
+1. Perform the main task in the actual host, recording page, state, viewport, and actions. Map the [UI checklist](../../standard/5-interaction-and-interface/5.8-ui-acceptance.md) to evidence; product requirements are in [sections 5.1 through 5.7 of the interaction and interface standard](../../standard/5-interaction-and-interface.md).
 2. Select one primary angle per issue: task/hierarchy in [experience review](references/critique.md), semantics/keyboard/contrast/theme/performance in [Web audit](references/audit.md), states and boundaries in [robustness](references/harden.md), labels in [UI copy](references/clarify.md), and presentation in [visual/interaction checks](references/craft-floor.md). Read only applicable references.
 3. Check information order, discovery, feedback, recovery, and consistency. Review typography, line length, grouping, color roles, and small-size clarity. Remove decoration that does not aid understanding or operation.
 4. Check keyboard, focus, assistive technology, reduced motion, narrow width, dark mode, and errors. Verify platform-specific behavior in the actual native app. This package has no complete iOS/Android audit resources.

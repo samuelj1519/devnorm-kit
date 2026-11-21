@@ -58,15 +58,15 @@
         "source": "delivery/entry/SKILL.md",
         "translated": "delivery/locales/en/entry/SKILL.md",
         "output": "SKILL.md",
-        "sourceHash": "370969dd19f96a717223d38852361377713960d1bce36d4d5f6db25b5bff7fae",
-        "translatedHash": "ef8bc5696a58fe740454d9a2c0ff47b907cdd66f2d0cd826856ce0ac97afb373"
+        "sourceHash": "e2271c6925b4ad39c6eea61244fd5530e5ca948f8affb9318ec82cd896af12bd",
+        "translatedHash": "3863848cb010f5cadbfe23cb387e0afe73d9264d4c3b3c7fd2ae742d864b9481"
       },
       {
         "source": "delivery/methods/actual-verification/METHOD.md",
         "translated": "delivery/locales/en/methods/actual-verification/METHOD.md",
         "output": "references/methods/actual-verification/METHOD.md",
-        "sourceHash": "ad49e79ee8d4e179b231e9c8a30f573bd5f10222d5d5ff80c1e040731fa7cf15",
-        "translatedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c"
+        "sourceHash": "9474bbe2a5cb0cd8fbe414c369a2ed0ec5717986405d8d89b4ef3ba5fcbd08d0",
+        "translatedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2"
       },
       {
         "source": "delivery/methods/actual-verification/references/maintenance.md",
@@ -93,8 +93,8 @@
         "source": "delivery/methods/code-review/METHOD.md",
         "translated": "delivery/locales/en/methods/code-review/METHOD.md",
         "output": "references/methods/code-review/METHOD.md",
-        "sourceHash": "fb883e72484371d638b3ad9bde4e1f7a48dfb5f8043cf9c9ace86c6206c5025b",
-        "translatedHash": "d966d2815d2cdbe62369b5bb080d505df92ea1c39141ba7f952971d965a136e8"
+        "sourceHash": "481bbb342c207b9d61a7459c57d396cdd0fde34dfe331ee3e3cc1b4f6936c53b",
+        "translatedHash": "f8c6469787d460d6a76214c70bffc774d4c83941708063bae33f2decb16a7a74"
       },
       {
         "source": "delivery/methods/code-review/references/impact.md",
@@ -142,15 +142,15 @@
         "source": "delivery/methods/frontend-design/METHOD.md",
         "translated": "delivery/locales/en/methods/frontend-design/METHOD.md",
         "output": "references/methods/frontend-design/METHOD.md",
-        "sourceHash": "d5b4216d3061f91a3c9de67fbd7985532b2d78831d726605c6c0a0a39f4cc98c",
-        "translatedHash": "1d873409bb768b82d1b08818ec3471f0d532a7c2a00dba768d88266c3c8d511f"
+        "sourceHash": "fec77f30d05c269fd6121be61d23dcc509529a140164ea8ab2534ced6a27f40a",
+        "translatedHash": "716ad899a7cd29dea0e67bd4e02fdbc13d6c630820a8ad72b19b7aca2ddfe1af"
       },
       {
         "source": "delivery/methods/interface-review/METHOD.md",
         "translated": "delivery/locales/en/methods/interface-review/METHOD.md",
         "output": "references/methods/interface-review/METHOD.md",
-        "sourceHash": "f5152d39cb3434bcabd8e8a39d1739d0108fb001413cdcb851a539c174d4072b",
-        "translatedHash": "f13fbdd2d7fe87102ab4c6bf48ab7144fb4d65568ba8711ce7f505d377a2d934"
+        "sourceHash": "1fc2cca70e11760936a9a373b6b7ea5d7a4fe54afae5b9792a79b1275f006e6d",
+        "translatedHash": "f8c9114d80023b43f1f8fd94cd86d00aed9d7546576fdfe86bd12dd301ff2aef"
       },
       {
         "source": "delivery/methods/interface-review/references/audit.md",
@@ -296,8 +296,8 @@
         "source": "delivery/methods/statechart/METHOD.md",
         "translated": "delivery/locales/en/methods/statechart/METHOD.md",
         "output": "references/methods/statechart/METHOD.md",
-        "sourceHash": "121d72083beb99504c2a220d0e0ffb13109a2c5ee36ecc57b88c715e9e7f026e",
-        "translatedHash": "89ce3b806044e14f69498eb5e3370b7a8d124da3a1d714ae86242e22599f1127"
+        "sourceHash": "16e7dc9d98640079432d15cd2f76ac825a042d0d68c218c124effbc4104119d0",
+        "translatedHash": "1c0503810c0ac8e325e1399146df200e786e8f86baa44647bbf0cb7b2354da66"
       },
       {
         "source": "delivery/methods/statechart/references/maintenance.md",
@@ -338,15 +338,15 @@
         "source": "delivery/skills.json",
         "translated": "delivery/locales/en/skills.json",
         "output": "references/skill-entries.json",
-        "sourceHash": "b3fc46b69b3f660e2fb25b8282241ade46147d00b4d2355128a342df81ab0243",
-        "translatedHash": "098c3d7aaca8800553f225f292f7a119ee3d52fe682800c33cc624b6bbd21bf7"
+        "sourceHash": "315e5696b1b032df7ba47cea559c76d9f609d0bc9db1c3c305032857844df25a",
+        "translatedHash": "5a93c20370c49c7a181b24072da9db496fd920b159273fdb33b0fae771b65045"
       },
       {
         "source": "standard/1-\u5f00\u53d1\u539f\u5219.md",
         "translated": "delivery/locales/en/standard/1-principles.md",
         "output": "references/standard/1-principles.md",
-        "sourceHash": "8e84d66006937ce33b19ccf8c369c5238995435be01e1ee174bfb7c3577b2642",
-        "translatedHash": "38484153b6c7c8d7bc617a3f7c48e9185f762986837cffb5b9f9cfb51e78ade6"
+        "sourceHash": "a31b2a7f03192b6660f0e0819920fb6553984a433e5fababfb15c88309c54947",
+        "translatedHash": "f4e36ab70b4ae0458471e05e99d6470fd33b4ffffc9ff5b81e2fefcdc8b62a4f"
       },
       {
         "source": "standard/2-\u9879\u76ee\u51c6\u5907.md",
@@ -359,8 +359,8 @@
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b.md",
         "translated": "delivery/locales/en/standard/3-development-workflow.md",
         "output": "references/standard/3-development-workflow.md",
-        "sourceHash": "7d72ed306c5f5126b66e8a07bb8c6815c26425ee34fae22d864d0caeb4ef9a8a",
-        "translatedHash": "c923c44da27bb21d70e2be0b189003c860f45b251e84d119e3c8814cafda810b"
+        "sourceHash": "bc29c936360e8347e5a570785c7cf1617e915a547e1c3970306a876d16a8509b",
+        "translatedHash": "7148f7e0e85789f2ed3713bc43b956a44904dee59a4cad3466fa37fecd525733"
       },
       {
         "source": "standard/3-\u6d41\u7a0b\u56fe.md",
@@ -373,50 +373,113 @@
         "source": "standard/4-\u5b9a\u671f\u68c0\u67e5.md",
         "translated": "delivery/locales/en/standard/4-periodic-review.md",
         "output": "references/standard/4-periodic-review.md",
-        "sourceHash": "0504d475cede77395839c5d5b67c2b29afbacfa0b36e62c9367e5b14306cbfe9",
-        "translatedHash": "7418a1a386b502bad1504bd4f35051c2e7e2510b7f23f27e525ea5ddd81244a1"
+        "sourceHash": "947527edb266c0555c7c0b2804da03d868695f3e6484e5beed9fb5e3b3f0057b",
+        "translatedHash": "40977666e94d601fe58aeb7eb3c439c62cd30dff37cc8521b6408214dd945816"
       },
       {
-        "source": "standard/5-\u754c\u9762\u9a8c\u6536.md",
-        "translated": "delivery/locales/en/standard/5-ui-acceptance.md",
-        "output": "references/standard/5-ui-acceptance.md",
-        "sourceHash": "7edeb058364bdc70781728ffae0f3663c1e7713048cecd8306b4c38af47b4733",
-        "translatedHash": "b7e8b73dbd71d871f2f032a87853467d636d44c086acec3a93efd5aef5fcd142"
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface.md",
+        "output": "references/standard/5-interaction-and-interface.md",
+        "sourceHash": "cda83427f998d37d5b4c3a26c1eebefd5e444e09cb620fecfce54ac901ac9e45",
+        "translatedHash": "2dfea1c0ba521948e8450901c69a19a45a05ae96937d0147e95e6ede8c2dcf0e"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.1-\u7528\u6237\u4efb\u52a1\u4e0e\u6d41\u7a0b.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.1-user-tasks.md",
+        "output": "references/standard/5-interaction-and-interface/5.1-user-tasks.md",
+        "sourceHash": "a9bcd467067bde39fe39ca414e68aea01470ba99b66b7a618225d5363ee145cb",
+        "translatedHash": "b3095ad359e0ca38dacb0c3783a972929da0c5c5cd9c5e4ff65d8120e007b587"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.2-\u5165\u53e3\u4e0e\u5bfc\u822a.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.2-entry-and-navigation.md",
+        "output": "references/standard/5-interaction-and-interface/5.2-entry-and-navigation.md",
+        "sourceHash": "6074d3e2782258c1c77d0fb47351063ad47123ecfa56de59f573af058c693732",
+        "translatedHash": "2932bb46dac51433ca83bad36580db83fcce6671dd9da7feb460b5066f3fcb38"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.3-\u89c6\u89c9\u5c42\u7ea7\u4e0e\u6392\u7248.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.3-visual-hierarchy.md",
+        "output": "references/standard/5-interaction-and-interface/5.3-visual-hierarchy.md",
+        "sourceHash": "bd72b8686c0bc42d7d6f6e57a850a61c7b9f83c5738312eea0e605704d9a9851",
+        "translatedHash": "580b3296a1c7b2929222b0654e0833b3142d3bbcd9b053627c8d4ae248d7cce1"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.4-\u8f93\u5165\u4e0e\u786e\u8ba4.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.4-input-and-confirmation.md",
+        "output": "references/standard/5-interaction-and-interface/5.4-input-and-confirmation.md",
+        "sourceHash": "e74969213af072257e5437ea21a0727fa0c1fb0436d58087c334b933e9f9b145",
+        "translatedHash": "a835c03a38ffcd54a59047613631a4a3d7eb2f04bd33cfddc635c6e6d7b158b5"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.5-\u72b6\u6001\u4e0e\u6062\u590d.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.5-state-and-recovery.md",
+        "output": "references/standard/5-interaction-and-interface/5.5-state-and-recovery.md",
+        "sourceHash": "49eb271712ea2fe4c48d2feef2ee0d7773c9327b1c82d713f62131ae60bc1824",
+        "translatedHash": "96169f4b91e0d6017cefea1ab2834e46ffcd62b1969ea476d1ba26b03dcb97e9"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.6-\u65e0\u969c\u788d\u4e0e\u8bbe\u5907\u9002\u914d.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.6-accessibility.md",
+        "output": "references/standard/5-interaction-and-interface/5.6-accessibility.md",
+        "sourceHash": "e7124f2c731d27784d6eab699afdb0917d9d6a64d2cc20cc6140226fb5fa4545",
+        "translatedHash": "1bbbe2fe7b2207b636aad83778091888f3977dfb46b0a45ee7b1ec0602bacc84"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.7-\u667a\u80fd\u8f85\u52a9\u4e0e\u81ea\u52a8\u5316.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.7-assisted-intelligence.md",
+        "output": "references/standard/5-interaction-and-interface/5.7-assisted-intelligence.md",
+        "sourceHash": "3850c8e24b1f89fa3a72aa5b9a38d864cf195d824bc2304e1c3071c1140b7af0",
+        "translatedHash": "9e9332489f44bd2d27c88b51b707e1b76b1350b4e5e529e225de0c6d92dd5c0e"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.8-\u754c\u9762\u9a8c\u6536.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.8-ui-acceptance.md",
+        "output": "references/standard/5-interaction-and-interface/5.8-ui-acceptance.md",
+        "sourceHash": "3c432bf769607add5f510a0895d462f33127b146a5636a9a5aaf5157f19dd9de",
+        "translatedHash": "ec8a01324e5ecbfb2e802ec7ba02d78e3d3458a8264d07a62ec1c9e3549cc319"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.9-\u6848\u4f8b\u4e0e\u53c2\u8003\u8d44\u6599.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.9-cases-and-references.md",
+        "output": "references/standard/5-interaction-and-interface/5.9-cases-and-references.md",
+        "sourceHash": "4f5fc26df700f5424868b543346c0ae5defcafee332d2c7c610405e405ede2b8",
+        "translatedHash": "172ea5f9f464ecc8696b4c3854efec4d5afeac935032682e4e9a9be25f244dc2"
       },
       {
         "source": "standard/6-Git\u4e0eGitHub\u534f\u4f5c.md",
         "translated": "delivery/locales/en/standard/6-version-control.md",
         "output": "references/standard/6-version-control.md",
-        "sourceHash": "24be97d7070868e377fda1950b77c54b8480633a65dc470634ffe9315aa977db",
-        "translatedHash": "d9cb3e0de24db91cec3d1f68389ccf1c68defae4d247661a7de72b176cd05b0e"
+        "sourceHash": "8cd7092e7643dfdd41d66ede39c44244d3c13d679d193396a5a197406b1f96c9",
+        "translatedHash": "57a9c0bb4e9e28231032674ce98b2aaf8248080e61bba742d10bc68efc8a25b7"
       },
       {
         "source": "standard/README.md",
         "translated": "delivery/locales/en/standard/README.md",
         "output": "references/standard/README.md",
-        "sourceHash": "550948ee0027d0bfa1ce645eaa607278c92a0291e424f4bb79733dfe4270df66",
-        "translatedHash": "b2ebd85dbf7ef8ab06e93813626bd056ebb1a8d3d52e30d97a10a985f1f7afec"
+        "sourceHash": "6922772b2340824cc14598b81be6dda076334879980b77f603af6d5d9f1b9c28",
+        "translatedHash": "e23dc91513844faec3fac3b7b2036330e60930c20226e9f1dc67af28af95e51f"
       },
       {
         "source": "templates/\u4efb\u52a1\u5355.md",
         "translated": "delivery/locales/en/templates/task.md",
         "output": "assets/templates/task.md",
-        "sourceHash": "8f560c4cf222c6653b30d01bf7829c5ef36913a6de081ecc5316c8d4a79663d0",
-        "translatedHash": "af1b8c54b6f361b24282a8b00628f8b0aa69d3b0476e6b3abcfc80e40463cd83"
+        "sourceHash": "fa7581c4a63be242e211b66e9941aef1508e089959a2c22984c61b1044635e6f",
+        "translatedHash": "10bf94aa164617381262f6a47cbb31383d6b2501cd9c7d3229efac9e4939b9d5"
       },
       {
         "source": "templates/\u5ba1\u6838\u62a5\u544a.md",
         "translated": "delivery/locales/en/templates/review.md",
         "output": "assets/templates/review.md",
-        "sourceHash": "68f1d8d5fb624d09573c880ba1044921a368e0be0f10c2025f98b8469fb095b0",
-        "translatedHash": "77c07bdf2bf8f14a688c29d358a37468b6f17fc2eef83b4d4ef73755c3d6efbb"
+        "sourceHash": "278c4b891a8984ab21623cefa973d9c6c1528a11dd31f646de11ce8747385222",
+        "translatedHash": "8df440cf8dcec3e476c4c3d6475e5f0a4f0752363f819352d20a87ea73418db2"
       },
       {
         "source": "templates/\u65b9\u6848\u6a21\u5757.md",
         "translated": "delivery/locales/en/templates/plan-module.md",
         "output": "assets/templates/plan-module.md",
-        "sourceHash": "acd2f0657bbde3801a04f5ae3a3dc26db6fe3a1fe4f7b2172a002410c98ae79a",
-        "translatedHash": "2e75a8844a92b5915758392ac05a2f94c1e135a8cd08a1d0b8eab2bd3cb5a4eb"
+        "sourceHash": "a4e154e30536cd7914f5015a17e3766bbbb24d3ed0b97253412326a77851bd47",
+        "translatedHash": "1694cd5174df5de49f4fd4f3bfb6243e866e83724ec8a96516975a0517aefce3"
       },
       {
         "source": "templates/\u67b6\u6784\u51b3\u5b9a\u8bb0\u5f55.md",
@@ -436,15 +499,15 @@
         "source": "templates/\u8e29\u5751\u4e0e\u6539\u8fdb.md",
         "translated": "delivery/locales/en/templates/lessons.md",
         "output": "assets/templates/lessons.md",
-        "sourceHash": "eb5a535e15244f9e67a53ae3982f049668ac9d7428451ea3cea0032e74392361",
-        "translatedHash": "ac5b66f154c06be5d1492577c8675f1a99eca66b5bdd6b14f74bb6f5d69ca034"
+        "sourceHash": "4e5b4bcf112a930357a4f6a90d3cae9a6f2eca1c107a1aeb27c7ed0fcecefd4e",
+        "translatedHash": "b6a846fbee436465ece19de410890dd474fe725cc99570cf6e1f207bc54340c1"
       },
       {
         "source": "templates/\u9879\u76ee\u63a5\u5165.md",
         "translated": "delivery/locales/en/templates/project-adoption.md",
         "output": "assets/templates/project-adoption.md",
-        "sourceHash": "5b6cb2d71a61f2219f7865ecfc4681a52722513202ce2e33d4474e42e845d40a",
-        "translatedHash": "963461f2508a9c71708077d08ba61d40f65ffca1136e0a4afc35ec8c476a1793"
+        "sourceHash": "9d1978c535ed0a7bc8028634e4f9bc3e5dc67cb7edcb9eb36c0c4e0a5679f11a",
+        "translatedHash": "e376a3153a9441c30436a69f44321324bcfd29453ce734859eff81a679ef8e8e"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.1-\u4efb\u52a1\u5206\u7ea7.md",
@@ -457,50 +520,50 @@
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.2-\u9700\u6c42\u4e0e\u65b9\u6848.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.2-requirements-and-design.md",
         "output": "references/standard/3-workflow/3.2-requirements-and-design.md",
-        "sourceHash": "839f8b4ddb14eedd51e9e20e75c483edce608037ab76a09bc67bc74f3958aefd",
-        "translatedHash": "6fb2385827abe5a146f6836b7d8a2673ab8bab7399dacbbd5b12a581a6613809"
+        "sourceHash": "96787063571ff32a78d09c422ac7646176050f296e688748feaef89585129ad1",
+        "translatedHash": "c5bd82eed9bd4efaeed869385aca7d916f5b4263e9455719ebbbbf83693d8e4b"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.3-\u4efb\u52a1\u5b89\u6392.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.3-task-planning.md",
         "output": "references/standard/3-workflow/3.3-task-planning.md",
-        "sourceHash": "5aacd2b48e1d10deed5e4f0bed061cb15bbbad9247fbe4a92e61fd2b70e1cfbe",
-        "translatedHash": "4ada8fd274fb9a29af770880842827103c68d1b110c8838e4a4f2245ff9c209d"
+        "sourceHash": "810e92398f778518bc0522e4aaf302618da879d947abbdccce89ff9108b265da",
+        "translatedHash": "40710ce59831c112ba0d856f9cb0c906a1a81a98f4850317a61fcd88d86d72bb"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.4-\u6267\u884c\u73af\u5883.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.4-execution-environment.md",
         "output": "references/standard/3-workflow/3.4-execution-environment.md",
-        "sourceHash": "d596bffbb55adc2cfd11d486b100ede8f1a3a536c72816a11fa53b9338ab4330",
-        "translatedHash": "3aee5c84636aa83353cf0eae9332e71365014bd89a3e83e497bac2fb4c3c9fec"
+        "sourceHash": "07b466a28e923669bf8de5cb61093f5a9a53a991db80dbed604b5a20a2664dc3",
+        "translatedHash": "48aeec28d45ce2386ac2ba0676d83549234aa69eca81fd236fc6f7df6e5a700c"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.5-\u5b9e\u73b0\u4e0e\u81ea\u68c0.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.5-implementation.md",
         "output": "references/standard/3-workflow/3.5-implementation.md",
-        "sourceHash": "4cc0b0cf696f2e5430a68c195450dfdb3bbd61ea88abe63961513c06f159c59b",
-        "translatedHash": "b5fed87f204752d7f4275155d066f55281b7a8c89fc31b0461a57108d383c34d"
+        "sourceHash": "c9c4bc9896e210232a0e7711e8d84dfa41e69af196ebe95cf76e835f29e6edfe",
+        "translatedHash": "6c8856a49b4034af48926d85b0e9abce5b9c9202e47741cca97ed637606924b8"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.6-\u72ec\u7acb\u590d\u6838.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.6-independent-review.md",
         "output": "references/standard/3-workflow/3.6-independent-review.md",
-        "sourceHash": "68ba312b9ada37b6d2bf54e5563f3ffa0bab2694979f98ca39699bc4edae4000",
-        "translatedHash": "a79464245c815661c4f98c4f99197969295ad7b2de1043b45a4f681d1e7b6af3"
+        "sourceHash": "c96550d2d7c68acc0ef968fedf7ac6ab1194d16130e60945a505f5ca7fcfb57c",
+        "translatedHash": "26258f2e67de8655463c1d11c9644181f13b0f294f514f9d3c6b8daf1f4dd26f"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.7-\u9a8c\u8bc1\u4e0e\u9a8c\u6536.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.7-verification-and-acceptance.md",
         "output": "references/standard/3-workflow/3.7-verification-and-acceptance.md",
-        "sourceHash": "1291940764531fbe9264e7be28e9dea3b5eaf795706118f62fbdb00feeefa412",
-        "translatedHash": "57d2a02264496d4203991564714c7fc4f64ba30f3a90fd1e569fc57dd02725f3"
+        "sourceHash": "9538aa2572ab0bc34f967dafb87e484bfc34a8959e5f05b6e5828ec858a33860",
+        "translatedHash": "957134946fc25e42cfd12d4f6572fa54b12952c1034d07d334319ea0b93807a3"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.8-\u96c6\u6210\u4e0e\u6536\u5c3e.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.8-integration-and-completion.md",
         "output": "references/standard/3-workflow/3.8-integration-and-completion.md",
-        "sourceHash": "48945ada7c42e5374d19cf586b8cd5c71faf22150dec579ca342602c9f614563",
-        "translatedHash": "20dba2664ea8e7c58e593fea1998bc55d8c4de2e2734949dff73da519d4ab0d7"
+        "sourceHash": "a1379163d5a25467cd0ef9eb59689216f6cce699a10e2025f57e82bc24febb24",
+        "translatedHash": "1951f03995057ad94ae5f5fdcc75bec62c3ae3db7980d775081e611836f479e1"
       },
       {
         "source": "standard/6-Git\u4e0eGitHub\u534f\u4f5c/6.2-\u5f00\u5de5\u4e0e\u5206\u652f.md",
@@ -513,22 +576,22 @@
         "source": "standard/6-Git\u4e0eGitHub\u534f\u4f5c/6.3-\u6682\u5b58\u4e0e\u63d0\u4ea4.md",
         "translated": "delivery/locales/en/standard/6-version-control/6.3-staging-and-commits.md",
         "output": "references/standard/6-version-control/6.3-staging-and-commits.md",
-        "sourceHash": "237afa42fb77df3836853816d07dd81cf94cec34aabfd587c05a92fd6c8263f3",
-        "translatedHash": "be33b2592adb8fd39095ae5a653fa3ffe24020fbd87a53063e9e3e3a98c58527"
+        "sourceHash": "e8d5b35c6eb29a5f941cd44c4f5a225971f8f01372c63433d4833795edb032a9",
+        "translatedHash": "9a48e623b4f926f6cce1e52a49c0b33dcae4a7256d526cea3ea34dd0f209eab1"
       },
       {
         "source": "standard/6-Git\u4e0eGitHub\u534f\u4f5c/6.4-\u63a8\u9001\u4e0ePR.md",
         "translated": "delivery/locales/en/standard/6-version-control/6.4-pushes-and-pull-requests.md",
         "output": "references/standard/6-version-control/6.4-pushes-and-pull-requests.md",
-        "sourceHash": "6405d40cbb656c01c7195a366f852c6c980a98658216d2f1f349128847cc6c6d",
-        "translatedHash": "ed0f3ce5610a707a54b3cfd7ca3b0ee87bc85b74b03e32046691840b04c9ccd3"
+        "sourceHash": "d98711349b63381d26a73b6e9f19c67b4932d431e63e4f03dc1927183c8ab27b",
+        "translatedHash": "cbb3d42d2a46b991dfa05b42e6b0d604d116bbcf7685e945a2c64e6b6d0aa359"
       },
       {
         "source": "standard/6-Git\u4e0eGitHub\u534f\u4f5c/6.5-\u590d\u6838\u4e0e\u5408\u5165.md",
         "translated": "delivery/locales/en/standard/6-version-control/6.5-review-and-merge.md",
         "output": "references/standard/6-version-control/6.5-review-and-merge.md",
-        "sourceHash": "d617731824190b0e9abf504a808d97167dcb1a7b103382aacb88eff23112f2f7",
-        "translatedHash": "e6bbee64c28bf26ce9806434d4954eac2937b345d946fd546a790c74ee95519d"
+        "sourceHash": "74ef2ee4c223e10da165e4aeb16b388d69a35ab0d00f419e1ff8719c9c6a75b2",
+        "translatedHash": "f2faaada54d076e415d1c11621b9ceaf6cc4f647f7e33ef39705316de36a38d2"
       },
       {
         "source": "standard/6-Git\u4e0eGitHub\u534f\u4f5c/6.6-\u64a4\u9500\u4e0e\u5386\u53f2\u6574\u7406.md",
@@ -548,19 +611,19 @@
         "source": "templates/\u7b80\u4efb\u52a1\u5355.md",
         "translated": "delivery/locales/en/templates/task-short.md",
         "output": "assets/templates/task-short.md",
-        "sourceHash": "f99887f1053e6c079a2d6fb49e3fe9809667cdb73a91e9013e5561f5096da802",
-        "translatedHash": "456a63cf2d5b3dbe9bb939951aefbcbf0472b86d800d4811c94a7ef96bc1e082"
+        "sourceHash": "13e4bc803fc2acd79d43f8ff7c7d63f933e432af60e8dbb3ada6b99f98bee5b7",
+        "translatedHash": "690298fdfee100a998ba2c9d415d761aa5a0528dec1b2cc7a6818df2ac4e0baf"
       },
       {
         "source": "delivery/methods/README.md",
         "translated": "delivery/locales/en/methods/README.md",
         "output": "references/methods/README.md",
-        "sourceHash": "fd8661dac7bfac02cb247a712559519739c5358b66f387ae97d926e455336aca",
-        "translatedHash": "5694b230ebfd25929b74a4688426d8b78f947adda19f0394a2cf7c2d8e616185"
+        "sourceHash": "851e8f8fdef9e1ace848f93dfc34d496fb9576ba016c14030625bd357bcce8f6",
+        "translatedHash": "10a496625c895097aafab68d6fbae3aaa98569e28a5faac125d1e2f4595f23ea"
       }
     ]
   },
-  "candidateHash": "a22bf22eb0c8d21a31a449d6a48c3675819f20b1bd2fa16decd664186da8b127",
+  "candidateHash": "0ad897952e24a7007c99e2e7ad3a93c860e937ed02be3201e9e3749bfb22a9bb",
   "purpose": "private",
   "sources": [
     {
@@ -665,7 +728,7 @@
       "method": "references/methods/statechart/METHOD.md",
       "license": "MIT",
       "runtimeRequirements": [
-        "Node.js with native TypeScript support",
+        "Existing POSIX sh; existing Node.js with native TypeScript support or Bun",
         "Java (JAVA)",
         "TLC jar (TLA2TOOLS); no automatic download"
       ],
@@ -1777,7 +1840,7 @@
       "original": "skills/frontend-design/SKILL.md",
       "output": "references/methods/frontend-design/METHOD.md",
       "originalHash": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
-      "adaptedHash": "1d873409bb768b82d1b08818ec3471f0d532a7c2a00dba768d88266c3c8d511f",
+      "adaptedHash": "716ad899a7cd29dea0e67bd4e02fdbc13d6c630820a8ad72b19b7aca2ddfe1af",
       "license": "Apache-2.0",
       "override": null
     },
@@ -1877,7 +1940,7 @@
       "original": "pstack/skills/statechart/SKILL.md",
       "output": "references/methods/statechart/METHOD.md",
       "originalHash": "010b7b4532406739b1c3a426d1a45f02bb618a42561fc96b3976e064a7f8384d",
-      "adaptedHash": "89ce3b806044e14f69498eb5e3370b7a8d124da3a1d714ae86242e22599f1127",
+      "adaptedHash": "1c0503810c0ac8e325e1399146df200e786e8f86baa44647bbf0cb7b2354da66",
       "license": "MIT",
       "override": null
     },
@@ -2217,7 +2280,7 @@
       "original": "cursor-team-kit/skills/control-cli/SKILL.md",
       "output": "references/methods/actual-verification/METHOD.md",
       "originalHash": "13ac93e595bbda2000849bdb815d5f2ca03f7c2ca63788c8335f9212b9b422a2",
-      "adaptedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "adaptedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "license": "MIT",
       "override": null
     },
@@ -2237,7 +2300,7 @@
       "original": "cursor-team-kit/skills/control-ui/SKILL.md",
       "output": "references/methods/actual-verification/METHOD.md",
       "originalHash": "410cae25bdb1e5d2323b126abc5047b0213be7fdb0195710213fa8de8a751871",
-      "adaptedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "adaptedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "license": "MIT",
       "override": null
     },
@@ -2257,7 +2320,7 @@
       "original": "cursor-team-kit/skills/verify-this/SKILL.md",
       "output": "references/methods/actual-verification/METHOD.md",
       "originalHash": "c1c7b27c1133085bd3409c601ea12b6e6f61b4b23debcd52bc248fc01907e7de",
-      "adaptedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "adaptedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "license": "MIT",
       "override": null
     },
@@ -2277,7 +2340,7 @@
       "original": "pstack/skills/blast-radius/SKILL.md",
       "output": "references/methods/code-review/METHOD.md",
       "originalHash": "2e10745b97f5862323dcda3b29ca60d56b5c3c98e37020085d26b48efbe0a436",
-      "adaptedHash": "d966d2815d2cdbe62369b5bb080d505df92ea1c39141ba7f952971d965a136e8",
+      "adaptedHash": "f8c6469787d460d6a76214c70bffc774d4c83941708063bae33f2decb16a7a74",
       "license": "MIT",
       "override": null
     },
@@ -2297,7 +2360,7 @@
       "original": "pstack/skills/create-verification-skill/SKILL.md",
       "output": "references/methods/actual-verification/METHOD.md",
       "originalHash": "d353973547bf8ad8977eca645f4cd4feaed0d32f4b43d1448f906b0a76c4d694",
-      "adaptedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "adaptedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "license": "MIT",
       "override": null
     },
@@ -2317,7 +2380,7 @@
       "original": "pstack/skills/maintain-verification-skill/SKILL.md",
       "output": "references/methods/actual-verification/METHOD.md",
       "originalHash": "515c0eaa054b3f6be1b1fb06f2c2f173c80fddb58bbcac57576f89c479bc68e8",
-      "adaptedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "adaptedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "license": "MIT",
       "override": null
     },
@@ -2337,7 +2400,7 @@
       "original": "pstack/skills/maintain-formal-verification-skill/SKILL.md",
       "output": "references/methods/statechart/METHOD.md",
       "originalHash": "0c96f54293542d3818b68754562b338073958781a9684454611dca37592e2d2c",
-      "adaptedHash": "89ce3b806044e14f69498eb5e3370b7a8d124da3a1d714ae86242e22599f1127",
+      "adaptedHash": "1c0503810c0ac8e325e1399146df200e786e8f86baa44647bbf0cb7b2354da66",
       "license": "MIT",
       "override": null
     },
@@ -2757,7 +2820,7 @@
       "original": "skills/engineering/code-review/SKILL.md",
       "output": "references/methods/code-review/METHOD.md",
       "originalHash": "9c921a8d88138a41401d8897ca1bb852088ab1b7b605cdd04edc13e3e8aab6dd",
-      "adaptedHash": "d966d2815d2cdbe62369b5bb080d505df92ea1c39141ba7f952971d965a136e8",
+      "adaptedHash": "f8c6469787d460d6a76214c70bffc774d4c83941708063bae33f2decb16a7a74",
       "license": "MIT",
       "override": null
     },
@@ -2959,13 +3022,18 @@
       "mode": "0644"
     },
     {
+      "path": "project/.devnorm-test-baseline.json",
+      "hash": "b8d4cdbcf9149d6f967235efd52c59c92fa297f230cf3ef65752e3910eeba7ae",
+      "mode": "0644"
+    },
+    {
       "path": "project/.devnorm-toolchain.json",
-      "hash": "276086648adc588463652197d5eb039c5620d03f1cfb3df9f6ff2b2b8191f178",
+      "hash": "7d9cad300d031efff4b4f9238351c061a934eec34f89ce5e07b1eb4795c65b7e",
       "mode": "0644"
     },
     {
       "path": "project/AGENTS.md",
-      "hash": "d1340d8bf79cefa4e53daa718ad820ba93e719175a9e567ef887c04720623e88",
+      "hash": "bcc0199491aee24cbc05d62991e693d95e4b5af6e552e85f81a3934b99c3a5e6",
       "mode": "0644"
     },
     {
@@ -2980,7 +3048,7 @@
     },
     {
       "path": "project/README.md",
-      "hash": "dc66220ca27cfaf907728d69738839701b1ba8c4d5f1a1313181b7b24154806a",
+      "hash": "e1e58aa5855fccaef166719c8e0bfafcddfd603eaac3b06d7b0315608ace9409",
       "mode": "0644"
     },
     {
@@ -3024,18 +3092,23 @@
       "mode": "0644"
     },
     {
+      "path": "project/delivery/agent-permissions-maintenance.md",
+      "hash": "d7c583b2ceb09497c73e4a6afa18a5f4d60406cb660faaa79d17083e3c3082e1",
+      "mode": "0644"
+    },
+    {
       "path": "project/delivery/capabilities.json",
       "hash": "cdc8bb8c1c922f87430d9f4ac80886d7ccf36945527b9e777c32d8ebb661d70a",
       "mode": "0644"
     },
     {
       "path": "project/delivery/checks.json",
-      "hash": "118ebfaff602cccc4c1bf74c49ef33190a64b47a76167ae6c261582db19ebf54",
+      "hash": "fb8491fb5dd5106956d2bb6f87298d3e179c208fe6a1436c7329243d87cccbf8",
       "mode": "0644"
     },
     {
       "path": "project/delivery/entry/SKILL.md",
-      "hash": "370969dd19f96a717223d38852361377713960d1bce36d4d5f6db25b5bff7fae",
+      "hash": "e2271c6925b4ad39c6eea61244fd5530e5ca948f8affb9318ec82cd896af12bd",
       "mode": "0644"
     },
     {
@@ -3130,22 +3203,22 @@
     },
     {
       "path": "project/delivery/locales/en/entry/SKILL.md",
-      "hash": "ef8bc5696a58fe740454d9a2c0ff47b907cdd66f2d0cd826856ce0ac97afb373",
+      "hash": "3863848cb010f5cadbfe23cb387e0afe73d9264d4c3b3c7fd2ae742d864b9481",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/manifest.json",
-      "hash": "200b8178a198f7b4b9bde0066d6e2694d679f6ccdc94f2e0277796343686cfc3",
+      "hash": "65a8c6767f3ef65288ffc112bbba98dc70d4469c83b0a25e3ad5247b49cb09c6",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/methods/README.md",
-      "hash": "5694b230ebfd25929b74a4688426d8b78f947adda19f0394a2cf7c2d8e616185",
+      "hash": "10a496625c895097aafab68d6fbae3aaa98569e28a5faac125d1e2f4595f23ea",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/methods/actual-verification/METHOD.md",
-      "hash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "hash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "mode": "0644"
     },
     {
@@ -3165,7 +3238,7 @@
     },
     {
       "path": "project/delivery/locales/en/methods/code-review/METHOD.md",
-      "hash": "d966d2815d2cdbe62369b5bb080d505df92ea1c39141ba7f952971d965a136e8",
+      "hash": "f8c6469787d460d6a76214c70bffc774d4c83941708063bae33f2decb16a7a74",
       "mode": "0644"
     },
     {
@@ -3200,12 +3273,12 @@
     },
     {
       "path": "project/delivery/locales/en/methods/frontend-design/METHOD.md",
-      "hash": "1d873409bb768b82d1b08818ec3471f0d532a7c2a00dba768d88266c3c8d511f",
+      "hash": "716ad899a7cd29dea0e67bd4e02fdbc13d6c630820a8ad72b19b7aca2ddfe1af",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/methods/interface-review/METHOD.md",
-      "hash": "f13fbdd2d7fe87102ab4c6bf48ab7144fb4d65568ba8711ce7f505d377a2d934",
+      "hash": "f8c9114d80023b43f1f8fd94cd86d00aed9d7546576fdfe86bd12dd301ff2aef",
       "mode": "0644"
     },
     {
@@ -3310,7 +3383,7 @@
     },
     {
       "path": "project/delivery/locales/en/methods/statechart/METHOD.md",
-      "hash": "89ce3b806044e14f69498eb5e3370b7a8d124da3a1d714ae86242e22599f1127",
+      "hash": "1c0503810c0ac8e325e1399146df200e786e8f86baa44647bbf0cb7b2354da66",
       "mode": "0644"
     },
     {
@@ -3340,12 +3413,12 @@
     },
     {
       "path": "project/delivery/locales/en/skills.json",
-      "hash": "098c3d7aaca8800553f225f292f7a119ee3d52fe682800c33cc624b6bbd21bf7",
+      "hash": "5a93c20370c49c7a181b24072da9db496fd920b159273fdb33b0fae771b65045",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/1-principles.md",
-      "hash": "38484153b6c7c8d7bc617a3f7c48e9185f762986837cffb5b9f9cfb51e78ade6",
+      "hash": "f4e36ab70b4ae0458471e05e99d6470fd33b4ffffc9ff5b81e2fefcdc8b62a4f",
       "mode": "0644"
     },
     {
@@ -3355,7 +3428,7 @@
     },
     {
       "path": "project/delivery/locales/en/standard/3-development-workflow.md",
-      "hash": "c923c44da27bb21d70e2be0b189003c860f45b251e84d119e3c8814cafda810b",
+      "hash": "7148f7e0e85789f2ed3713bc43b956a44904dee59a4cad3466fa37fecd525733",
       "mode": "0644"
     },
     {
@@ -3370,52 +3443,97 @@
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.2-requirements-and-design.md",
-      "hash": "6fb2385827abe5a146f6836b7d8a2673ab8bab7399dacbbd5b12a581a6613809",
+      "hash": "c5bd82eed9bd4efaeed869385aca7d916f5b4263e9455719ebbbbf83693d8e4b",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.3-task-planning.md",
-      "hash": "4ada8fd274fb9a29af770880842827103c68d1b110c8838e4a4f2245ff9c209d",
+      "hash": "40710ce59831c112ba0d856f9cb0c906a1a81a98f4850317a61fcd88d86d72bb",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.4-execution-environment.md",
-      "hash": "3aee5c84636aa83353cf0eae9332e71365014bd89a3e83e497bac2fb4c3c9fec",
+      "hash": "48aeec28d45ce2386ac2ba0676d83549234aa69eca81fd236fc6f7df6e5a700c",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.5-implementation.md",
-      "hash": "b5fed87f204752d7f4275155d066f55281b7a8c89fc31b0461a57108d383c34d",
+      "hash": "6c8856a49b4034af48926d85b0e9abce5b9c9202e47741cca97ed637606924b8",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.6-independent-review.md",
-      "hash": "a79464245c815661c4f98c4f99197969295ad7b2de1043b45a4f681d1e7b6af3",
+      "hash": "26258f2e67de8655463c1d11c9644181f13b0f294f514f9d3c6b8daf1f4dd26f",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.7-verification-and-acceptance.md",
-      "hash": "57d2a02264496d4203991564714c7fc4f64ba30f3a90fd1e569fc57dd02725f3",
+      "hash": "957134946fc25e42cfd12d4f6572fa54b12952c1034d07d334319ea0b93807a3",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.8-integration-and-completion.md",
-      "hash": "20dba2664ea8e7c58e593fea1998bc55d8c4de2e2734949dff73da519d4ab0d7",
+      "hash": "1951f03995057ad94ae5f5fdcc75bec62c3ae3db7980d775081e611836f479e1",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/4-periodic-review.md",
-      "hash": "7418a1a386b502bad1504bd4f35051c2e7e2510b7f23f27e525ea5ddd81244a1",
+      "hash": "40977666e94d601fe58aeb7eb3c439c62cd30dff37cc8521b6408214dd945816",
       "mode": "0644"
     },
     {
-      "path": "project/delivery/locales/en/standard/5-ui-acceptance.md",
-      "hash": "b7e8b73dbd71d871f2f032a87853467d636d44c086acec3a93efd5aef5fcd142",
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface.md",
+      "hash": "2dfea1c0ba521948e8450901c69a19a45a05ae96937d0147e95e6ede8c2dcf0e",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.1-user-tasks.md",
+      "hash": "b3095ad359e0ca38dacb0c3783a972929da0c5c5cd9c5e4ff65d8120e007b587",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.2-entry-and-navigation.md",
+      "hash": "2932bb46dac51433ca83bad36580db83fcce6671dd9da7feb460b5066f3fcb38",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.3-visual-hierarchy.md",
+      "hash": "580b3296a1c7b2929222b0654e0833b3142d3bbcd9b053627c8d4ae248d7cce1",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.4-input-and-confirmation.md",
+      "hash": "a835c03a38ffcd54a59047613631a4a3d7eb2f04bd33cfddc635c6e6d7b158b5",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.5-state-and-recovery.md",
+      "hash": "96169f4b91e0d6017cefea1ab2834e46ffcd62b1969ea476d1ba26b03dcb97e9",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.6-accessibility.md",
+      "hash": "1bbbe2fe7b2207b636aad83778091888f3977dfb46b0a45ee7b1ec0602bacc84",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.7-assisted-intelligence.md",
+      "hash": "9e9332489f44bd2d27c88b51b707e1b76b1350b4e5e529e225de0c6d92dd5c0e",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.8-ui-acceptance.md",
+      "hash": "ec8a01324e5ecbfb2e802ec7ba02d78e3d3458a8264d07a62ec1c9e3549cc319",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.9-cases-and-references.md",
+      "hash": "172ea5f9f464ecc8696b4c3854efec4d5afeac935032682e4e9a9be25f244dc2",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/6-version-control.md",
-      "hash": "d9cb3e0de24db91cec3d1f68389ccf1c68defae4d247661a7de72b176cd05b0e",
+      "hash": "57a9c0bb4e9e28231032674ce98b2aaf8248080e61bba742d10bc68efc8a25b7",
       "mode": "0644"
     },
     {
@@ -3425,17 +3543,17 @@
     },
     {
       "path": "project/delivery/locales/en/standard/6-version-control/6.3-staging-and-commits.md",
-      "hash": "be33b2592adb8fd39095ae5a653fa3ffe24020fbd87a53063e9e3e3a98c58527",
+      "hash": "9a48e623b4f926f6cce1e52a49c0b33dcae4a7256d526cea3ea34dd0f209eab1",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/6-version-control/6.4-pushes-and-pull-requests.md",
-      "hash": "ed0f3ce5610a707a54b3cfd7ca3b0ee87bc85b74b03e32046691840b04c9ccd3",
+      "hash": "cbb3d42d2a46b991dfa05b42e6b0d604d116bbcf7685e945a2c64e6b6d0aa359",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/6-version-control/6.5-review-and-merge.md",
-      "hash": "e6bbee64c28bf26ce9806434d4954eac2937b345d946fd546a790c74ee95519d",
+      "hash": "f2faaada54d076e415d1c11621b9ceaf6cc4f647f7e33ef39705316de36a38d2",
       "mode": "0644"
     },
     {
@@ -3450,7 +3568,7 @@
     },
     {
       "path": "project/delivery/locales/en/standard/README.md",
-      "hash": "b2ebd85dbf7ef8ab06e93813626bd056ebb1a8d3d52e30d97a10a985f1f7afec",
+      "hash": "e23dc91513844faec3fac3b7b2036330e60930c20226e9f1dc67af28af95e51f",
       "mode": "0644"
     },
     {
@@ -3465,47 +3583,47 @@
     },
     {
       "path": "project/delivery/locales/en/templates/lessons.md",
-      "hash": "ac5b66f154c06be5d1492577c8675f1a99eca66b5bdd6b14f74bb6f5d69ca034",
+      "hash": "b6a846fbee436465ece19de410890dd474fe725cc99570cf6e1f207bc54340c1",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/templates/plan-module.md",
-      "hash": "2e75a8844a92b5915758392ac05a2f94c1e135a8cd08a1d0b8eab2bd3cb5a4eb",
+      "hash": "1694cd5174df5de49f4fd4f3bfb6243e866e83724ec8a96516975a0517aefce3",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/templates/project-adoption.md",
-      "hash": "963461f2508a9c71708077d08ba61d40f65ffca1136e0a4afc35ec8c476a1793",
+      "hash": "e376a3153a9441c30436a69f44321324bcfd29453ce734859eff81a679ef8e8e",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/templates/review.md",
-      "hash": "77c07bdf2bf8f14a688c29d358a37468b6f17fc2eef83b4d4ef73755c3d6efbb",
+      "hash": "8df440cf8dcec3e476c4c3d6475e5f0a4f0752363f819352d20a87ea73418db2",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/templates/task-short.md",
-      "hash": "456a63cf2d5b3dbe9bb939951aefbcbf0472b86d800d4811c94a7ef96bc1e082",
+      "hash": "690298fdfee100a998ba2c9d415d761aa5a0528dec1b2cc7a6818df2ac4e0baf",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/templates/task.md",
-      "hash": "af1b8c54b6f361b24282a8b00628f8b0aa69d3b0476e6b3abcfc80e40463cd83",
+      "hash": "10bf94aa164617381262f6a47cbb31383d6b2501cd9c7d3229efac9e4939b9d5",
       "mode": "0644"
     },
     {
       "path": "project/delivery/maintenance.md",
-      "hash": "82fc8e87ee71094cc03359ae02d4a3a865ed8eaa03647ae475ad9837ad4c21d8",
+      "hash": "0d81d74fdc55341cb6886a4f11d028d045dff55330979b02993cd47cedd9f0ae",
       "mode": "0644"
     },
     {
       "path": "project/delivery/methods/README.md",
-      "hash": "fd8661dac7bfac02cb247a712559519739c5358b66f387ae97d926e455336aca",
+      "hash": "851e8f8fdef9e1ace848f93dfc34d496fb9576ba016c14030625bd357bcce8f6",
       "mode": "0644"
     },
     {
       "path": "project/delivery/methods/actual-verification/METHOD.md",
-      "hash": "ad49e79ee8d4e179b231e9c8a30f573bd5f10222d5d5ff80c1e040731fa7cf15",
+      "hash": "9474bbe2a5cb0cd8fbe414c369a2ed0ec5717986405d8d89b4ef3ba5fcbd08d0",
       "mode": "0644"
     },
     {
@@ -3535,7 +3653,7 @@
     },
     {
       "path": "project/delivery/methods/code-review/METHOD.md",
-      "hash": "fb883e72484371d638b3ad9bde4e1f7a48dfb5f8043cf9c9ace86c6206c5025b",
+      "hash": "481bbb342c207b9d61a7459c57d396cdd0fde34dfe331ee3e3cc1b4f6936c53b",
       "mode": "0644"
     },
     {
@@ -3570,12 +3688,12 @@
     },
     {
       "path": "project/delivery/methods/frontend-design/METHOD.md",
-      "hash": "d5b4216d3061f91a3c9de67fbd7985532b2d78831d726605c6c0a0a39f4cc98c",
+      "hash": "fec77f30d05c269fd6121be61d23dcc509529a140164ea8ab2534ced6a27f40a",
       "mode": "0644"
     },
     {
       "path": "project/delivery/methods/interface-review/METHOD.md",
-      "hash": "f5152d39cb3434bcabd8e8a39d1739d0108fb001413cdcb851a539c174d4072b",
+      "hash": "1fc2cca70e11760936a9a373b6b7ea5d7a4fe54afae5b9792a79b1275f006e6d",
       "mode": "0644"
     },
     {
@@ -3680,7 +3798,7 @@
     },
     {
       "path": "project/delivery/methods/statechart/METHOD.md",
-      "hash": "121d72083beb99504c2a220d0e0ffb13109a2c5ee36ecc57b88c715e9e7f026e",
+      "hash": "16e7dc9d98640079432d15cd2f76ac825a042d0d68c218c124effbc4104119d0",
       "mode": "0644"
     },
     {
@@ -3725,12 +3843,12 @@
     },
     {
       "path": "project/delivery/skills.json",
-      "hash": "b3fc46b69b3f660e2fb25b8282241ade46147d00b4d2355128a342df81ab0243",
+      "hash": "315e5696b1b032df7ba47cea559c76d9f609d0bc9db1c3c305032857844df25a",
       "mode": "0644"
     },
     {
       "path": "project/delivery/sources.json",
-      "hash": "8b62f3728154d45a0a79b78edaaad8cf022e8ce9c549c404dd33472e1b0c24b0",
+      "hash": "dc943c5613137d7d16e9bd0ab5a20f7ad884ec152fc6d17de65c0345ce771ac3",
       "mode": "0644"
     },
     {
@@ -3755,7 +3873,17 @@
     },
     {
       "path": "project/evidence/catalog.json",
-      "hash": "e7eb410e67672a5c36c2030a22a9970b7e5f9776085801e22f163b5d32753e3b",
+      "hash": "04c67583e0520cd5fda57b7d9c2abd46cf16b2f8a9ead25558c1ee5fabce9b0e",
+      "mode": "0644"
+    },
+    {
+      "path": "project/evidence/manifests/05158623966781e740594d5c9465806b7d92f81ae9109f961e4fb9bd1567bed6.json",
+      "hash": "05158623966781e740594d5c9465806b7d92f81ae9109f961e4fb9bd1567bed6",
+      "mode": "0644"
+    },
+    {
+      "path": "project/evidence/manifests/0919d9dfc18ea2dd18901ea6e54f2a6e100eff1edbade7465a36c93fae2b2def.json",
+      "hash": "0919d9dfc18ea2dd18901ea6e54f2a6e100eff1edbade7465a36c93fae2b2def",
       "mode": "0644"
     },
     {
@@ -3779,8 +3907,18 @@
       "mode": "0644"
     },
     {
+      "path": "project/evidence/manifests/468fc0e9e62b71416272e0071c632662b3bbba2df64134f4e7cdee8fbc84ae55.json",
+      "hash": "468fc0e9e62b71416272e0071c632662b3bbba2df64134f4e7cdee8fbc84ae55",
+      "mode": "0644"
+    },
+    {
       "path": "project/evidence/manifests/50a47f1a464f1cacfe949e3927c4875de40c56b09f54e28840f05f61a7525fb2.json",
       "hash": "50a47f1a464f1cacfe949e3927c4875de40c56b09f54e28840f05f61a7525fb2",
+      "mode": "0644"
+    },
+    {
+      "path": "project/evidence/manifests/5936698fb0b3b20105793a5d6f990eb271b9281cadf0fdb23f603f8561b43689.json",
+      "hash": "5936698fb0b3b20105793a5d6f990eb271b9281cadf0fdb23f603f8561b43689",
       "mode": "0644"
     },
     {
@@ -3791,6 +3929,11 @@
     {
       "path": "project/evidence/manifests/86d47f28ee80f8b62ebf434d30aa6a1e25c53adb6e861a0b827a2760ece668bd.json",
       "hash": "86d47f28ee80f8b62ebf434d30aa6a1e25c53adb6e861a0b827a2760ece668bd",
+      "mode": "0644"
+    },
+    {
+      "path": "project/evidence/manifests/901a0b509281acb93ae800b8c068d73db74fe024a3b8a4d1ca11bf838f89a2b0.json",
+      "hash": "901a0b509281acb93ae800b8c068d73db74fe024a3b8a4d1ca11bf838f89a2b0",
       "mode": "0644"
     },
     {
@@ -3814,6 +3957,11 @@
       "mode": "0644"
     },
     {
+      "path": "project/evidence/manifests/af1acc6ea7301a4b336c276f2063e58993d88c0876164689709997abd0c8a0a6.json",
+      "hash": "af1acc6ea7301a4b336c276f2063e58993d88c0876164689709997abd0c8a0a6",
+      "mode": "0644"
+    },
+    {
       "path": "project/evidence/manifests/e9c0f323881e660060bfd94ccdc0a1c0a39335ab43175f05b2de1c66c9a2a79c.json",
       "hash": "e9c0f323881e660060bfd94ccdc0a1c0a39335ab43175f05b2de1c66c9a2a79c",
       "mode": "0644"
@@ -3830,7 +3978,12 @@
     },
     {
       "path": "project/package.json",
-      "hash": "650bf96f3117e1ea8d6d0ce4a00a8fb607ceefbc960c3c8e3201593b7ba26db2",
+      "hash": "91940ba04ad734e6a8ed5e5e3526bcad5838b6bc4089d3ca03cac2a7335b7bd0",
+      "mode": "0644"
+    },
+    {
+      "path": "project/scripts/agent-permissions/cli.ts",
+      "hash": "c48ed052de823412401248bbb02d190033bba6aae14800a60ee8763ee2df5f81",
       "mode": "0644"
     },
     {
@@ -3874,13 +4027,68 @@
       "mode": "0644"
     },
     {
+      "path": "project/scripts/verification/test-guard.ts",
+      "hash": "2c7836a8c554f26b24baa9b2f6a59f1a016a65c9576285be82d07ceb3c3298f4",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/agent-permissions/baseline.ts",
+      "hash": "50e9cbf7a90496b58c6444c788f68a38245d938fa6512cccb30017e6288c31b6",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/agent-permissions/exclude.ts",
+      "hash": "27c7720b607698a03bc6d96e5f4921df63bc442937f19b870d5be611e21c411a",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/agent-permissions/guard.ts",
+      "hash": "b7a76a1983fb383be84564d2986a01184d389600e8ecf85e8a0f3564ff8c811f",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/agent-permissions/install.ts",
+      "hash": "10d1f0d71f750aad26baafc9608f6277df0dc31bc7eab513b7a794eb0958e7ba",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/agent-permissions/npx.ts",
+      "hash": "3b73b62c1ebea2cd628f76522940e9e83ea1442086394b39171ff4d2935f600b",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/agent-permissions/pushurl.ts",
+      "hash": "286c6ae313017b486236359b89a6107e86269899e39d2f52295e42c8c7672b19",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/agent-permissions/remove.ts",
+      "hash": "502b2f036624163ee08e44364214ecd84a17a0ed8552588698cad1bb5d567cf5",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/agent-permissions/state.ts",
+      "hash": "7125473bc6ef461d114e5b73e27aaf16f61c78a93074cf47f127ddc16b7df857",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/agent-permissions/templates.ts",
+      "hash": "52c8b2c9fd6c1f3274076b52ae2f7c4296057c57954ef7e2cfba4b8874788c0b",
+      "mode": "0644"
+    },
+    {
       "path": "project/src/delivery/artifacts.ts",
-      "hash": "ba6779acd603ff632ce8fd9cef3feb39f6dfe60514e7baaa89f4737d43d8026f",
+      "hash": "3a893120142ecff1361d7dc8335ef6123d50082224a650a254e959301e2a0477",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/delivery/check-plan.ts",
+      "hash": "a0fe116e8170777f02294ce56058776235ead52adbb348ddaef460d6ccb6e14b",
       "mode": "0644"
     },
     {
       "path": "project/src/delivery/checks.ts",
-      "hash": "2e5aeb00991d352123519751af11a271bf4b4fcae2be08f1fa22dd05b89920d3",
+      "hash": "5fdde41ec1961f8bdaae521130949ad5d75c398f191f2cb9cb1bd49ae5380dfb",
       "mode": "0644"
     },
     {
@@ -3890,17 +4098,17 @@
     },
     {
       "path": "project/src/delivery/contracts.ts",
-      "hash": "792bb655729b659fe5b20f132f61ed2003815e3b182ff60f57169352023d2fed",
+      "hash": "4e257c6a515614dd6f0dd9dc1668a712cbf4c9b2cd338aa76c278d5936da1aa0",
       "mode": "0644"
     },
     {
       "path": "project/src/delivery/dependencies.ts",
-      "hash": "14fc504e74e2e50d3996b1918213ad8db2ec2732efb43a95d76c7c67b593d9dc",
+      "hash": "bd44b3cca0a300cbf1b7964f8fb6e3a98db5a0a0d6a61b2502bd04fd57542778",
       "mode": "0644"
     },
     {
       "path": "project/src/delivery/identity.ts",
-      "hash": "feb62fbadda5e5df9f9737c9b8b06abace78ecbc52af1c04a4d795c0b21d99ee",
+      "hash": "f7f77d6b12f80b473d411316cbd3ce8447a974ebd79423f03eb2b7272b4626a1",
       "mode": "0644"
     },
     {
@@ -3920,7 +4128,7 @@
     },
     {
       "path": "project/src/delivery/updates.ts",
-      "hash": "18ce6ceaca71172341ce439d27d12f35ecb8cf353726ef0bdebf4af1f1b498e1",
+      "hash": "b38f58e733c053b4947a0fc4e99feffa0f8f039ac10d3a9b829faaae7adfd12f",
       "mode": "0644"
     },
     {
@@ -3935,7 +4143,7 @@
     },
     {
       "path": "project/src/verification/standard.ts",
-      "hash": "1194358a9182a9ee262d5421bff8ee2db6d223ef79afc5ec0d9855dcb30cc542",
+      "hash": "7edc9027ed323e7da930d2d261a7c8ac6d5294ba692cecc4b42f55d8a45c9516",
       "mode": "0644"
     },
     {
@@ -3944,8 +4152,18 @@
       "mode": "0644"
     },
     {
+      "path": "project/src/verification/test-baseline.ts",
+      "hash": "c90f2216b382235bbc0639db8d344c421ea9fa8d67fe4ce11937a6bd961f1c1b",
+      "mode": "0644"
+    },
+    {
+      "path": "project/src/verification/test-guard.ts",
+      "hash": "c903139610132fced83026cf77435bb145f4853faba0484946797a5f70715e92",
+      "mode": "0644"
+    },
+    {
       "path": "project/standard/1-\u5f00\u53d1\u539f\u5219.md",
-      "hash": "8e84d66006937ce33b19ccf8c369c5238995435be01e1ee174bfb7c3577b2642",
+      "hash": "a31b2a7f03192b6660f0e0819920fb6553984a433e5fababfb15c88309c54947",
       "mode": "0644"
     },
     {
@@ -3955,7 +4173,7 @@
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b.md",
-      "hash": "7d72ed306c5f5126b66e8a07bb8c6815c26425ee34fae22d864d0caeb4ef9a8a",
+      "hash": "bc29c936360e8347e5a570785c7cf1617e915a547e1c3970306a876d16a8509b",
       "mode": "0644"
     },
     {
@@ -3965,37 +4183,37 @@
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.2-\u9700\u6c42\u4e0e\u65b9\u6848.md",
-      "hash": "839f8b4ddb14eedd51e9e20e75c483edce608037ab76a09bc67bc74f3958aefd",
+      "hash": "96787063571ff32a78d09c422ac7646176050f296e688748feaef89585129ad1",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.3-\u4efb\u52a1\u5b89\u6392.md",
-      "hash": "5aacd2b48e1d10deed5e4f0bed061cb15bbbad9247fbe4a92e61fd2b70e1cfbe",
+      "hash": "810e92398f778518bc0522e4aaf302618da879d947abbdccce89ff9108b265da",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.4-\u6267\u884c\u73af\u5883.md",
-      "hash": "d596bffbb55adc2cfd11d486b100ede8f1a3a536c72816a11fa53b9338ab4330",
+      "hash": "07b466a28e923669bf8de5cb61093f5a9a53a991db80dbed604b5a20a2664dc3",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.5-\u5b9e\u73b0\u4e0e\u81ea\u68c0.md",
-      "hash": "4cc0b0cf696f2e5430a68c195450dfdb3bbd61ea88abe63961513c06f159c59b",
+      "hash": "c9c4bc9896e210232a0e7711e8d84dfa41e69af196ebe95cf76e835f29e6edfe",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.6-\u72ec\u7acb\u590d\u6838.md",
-      "hash": "68ba312b9ada37b6d2bf54e5563f3ffa0bab2694979f98ca39699bc4edae4000",
+      "hash": "c96550d2d7c68acc0ef968fedf7ac6ab1194d16130e60945a505f5ca7fcfb57c",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.7-\u9a8c\u8bc1\u4e0e\u9a8c\u6536.md",
-      "hash": "1291940764531fbe9264e7be28e9dea3b5eaf795706118f62fbdb00feeefa412",
+      "hash": "9538aa2572ab0bc34f967dafb87e484bfc34a8959e5f05b6e5828ec858a33860",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.8-\u96c6\u6210\u4e0e\u6536\u5c3e.md",
-      "hash": "48945ada7c42e5374d19cf586b8cd5c71faf22150dec579ca342602c9f614563",
+      "hash": "a1379163d5a25467cd0ef9eb59689216f6cce699a10e2025f57e82bc24febb24",
       "mode": "0644"
     },
     {
@@ -4005,17 +4223,62 @@
     },
     {
       "path": "project/standard/4-\u5b9a\u671f\u68c0\u67e5.md",
-      "hash": "0504d475cede77395839c5d5b67c2b29afbacfa0b36e62c9367e5b14306cbfe9",
+      "hash": "947527edb266c0555c7c0b2804da03d868695f3e6484e5beed9fb5e3b3f0057b",
       "mode": "0644"
     },
     {
-      "path": "project/standard/5-\u754c\u9762\u9a8c\u6536.md",
-      "hash": "7edeb058364bdc70781728ffae0f3663c1e7713048cecd8306b4c38af47b4733",
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762.md",
+      "hash": "cda83427f998d37d5b4c3a26c1eebefd5e444e09cb620fecfce54ac901ac9e45",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.1-\u7528\u6237\u4efb\u52a1\u4e0e\u6d41\u7a0b.md",
+      "hash": "a9bcd467067bde39fe39ca414e68aea01470ba99b66b7a618225d5363ee145cb",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.2-\u5165\u53e3\u4e0e\u5bfc\u822a.md",
+      "hash": "6074d3e2782258c1c77d0fb47351063ad47123ecfa56de59f573af058c693732",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.3-\u89c6\u89c9\u5c42\u7ea7\u4e0e\u6392\u7248.md",
+      "hash": "bd72b8686c0bc42d7d6f6e57a850a61c7b9f83c5738312eea0e605704d9a9851",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.4-\u8f93\u5165\u4e0e\u786e\u8ba4.md",
+      "hash": "e74969213af072257e5437ea21a0727fa0c1fb0436d58087c334b933e9f9b145",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.5-\u72b6\u6001\u4e0e\u6062\u590d.md",
+      "hash": "49eb271712ea2fe4c48d2feef2ee0d7773c9327b1c82d713f62131ae60bc1824",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.6-\u65e0\u969c\u788d\u4e0e\u8bbe\u5907\u9002\u914d.md",
+      "hash": "e7124f2c731d27784d6eab699afdb0917d9d6a64d2cc20cc6140226fb5fa4545",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.7-\u667a\u80fd\u8f85\u52a9\u4e0e\u81ea\u52a8\u5316.md",
+      "hash": "3850c8e24b1f89fa3a72aa5b9a38d864cf195d824bc2304e1c3071c1140b7af0",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.8-\u754c\u9762\u9a8c\u6536.md",
+      "hash": "3c432bf769607add5f510a0895d462f33127b146a5636a9a5aaf5157f19dd9de",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.9-\u6848\u4f8b\u4e0e\u53c2\u8003\u8d44\u6599.md",
+      "hash": "4f5fc26df700f5424868b543346c0ae5defcafee332d2c7c610405e405ede2b8",
       "mode": "0644"
     },
     {
       "path": "project/standard/6-Git\u4e0eGitHub\u534f\u4f5c.md",
-      "hash": "24be97d7070868e377fda1950b77c54b8480633a65dc470634ffe9315aa977db",
+      "hash": "8cd7092e7643dfdd41d66ede39c44244d3c13d679d193396a5a197406b1f96c9",
       "mode": "0644"
     },
     {
@@ -4025,17 +4288,17 @@
     },
     {
       "path": "project/standard/6-Git\u4e0eGitHub\u534f\u4f5c/6.3-\u6682\u5b58\u4e0e\u63d0\u4ea4.md",
-      "hash": "237afa42fb77df3836853816d07dd81cf94cec34aabfd587c05a92fd6c8263f3",
+      "hash": "e8d5b35c6eb29a5f941cd44c4f5a225971f8f01372c63433d4833795edb032a9",
       "mode": "0644"
     },
     {
       "path": "project/standard/6-Git\u4e0eGitHub\u534f\u4f5c/6.4-\u63a8\u9001\u4e0ePR.md",
-      "hash": "6405d40cbb656c01c7195a366f852c6c980a98658216d2f1f349128847cc6c6d",
+      "hash": "d98711349b63381d26a73b6e9f19c67b4932d431e63e4f03dc1927183c8ab27b",
       "mode": "0644"
     },
     {
       "path": "project/standard/6-Git\u4e0eGitHub\u534f\u4f5c/6.5-\u590d\u6838\u4e0e\u5408\u5165.md",
-      "hash": "d617731824190b0e9abf504a808d97167dcb1a7b103382aacb88eff23112f2f7",
+      "hash": "74ef2ee4c223e10da165e4aeb16b388d69a35ab0d00f419e1ff8719c9c6a75b2",
       "mode": "0644"
     },
     {
@@ -4050,22 +4313,42 @@
     },
     {
       "path": "project/standard/README.md",
-      "hash": "550948ee0027d0bfa1ce645eaa607278c92a0291e424f4bb79733dfe4270df66",
+      "hash": "6922772b2340824cc14598b81be6dda076334879980b77f603af6d5d9f1b9c28",
+      "mode": "0644"
+    },
+    {
+      "path": "project/templates/agent-permissions/claude-implement.settings.local.json",
+      "hash": "4bd9767ffee6a630c963cd5e45f69c977264df604f4f051b868e3c40f19800f0",
+      "mode": "0644"
+    },
+    {
+      "path": "project/templates/agent-permissions/claude-verify.settings.local.json",
+      "hash": "ef5226889337d8c813c3a48cd59400c43c33283d5d5719307cc0c3709d49b4b8",
+      "mode": "0644"
+    },
+    {
+      "path": "project/templates/agent-permissions/cursor-implement.cli.json",
+      "hash": "3e2bda5fe8142e39242f08a743810d67b6fe9ed6a391489730680d3400083f1d",
+      "mode": "0644"
+    },
+    {
+      "path": "project/templates/agent-permissions/cursor-verify.cli.json",
+      "hash": "79e3943aad89f8cc15c9f2d41b909243cad1c8a9f9d533a9a5217920ba3fb4d4",
       "mode": "0644"
     },
     {
       "path": "project/templates/\u4efb\u52a1\u5355.md",
-      "hash": "8f560c4cf222c6653b30d01bf7829c5ef36913a6de081ecc5316c8d4a79663d0",
+      "hash": "fa7581c4a63be242e211b66e9941aef1508e089959a2c22984c61b1044635e6f",
       "mode": "0644"
     },
     {
       "path": "project/templates/\u5ba1\u6838\u62a5\u544a.md",
-      "hash": "68f1d8d5fb624d09573c880ba1044921a368e0be0f10c2025f98b8469fb095b0",
+      "hash": "278c4b891a8984ab21623cefa973d9c6c1528a11dd31f646de11ce8747385222",
       "mode": "0644"
     },
     {
       "path": "project/templates/\u65b9\u6848\u6a21\u5757.md",
-      "hash": "acd2f0657bbde3801a04f5ae3a3dc26db6fe3a1fe4f7b2172a002410c98ae79a",
+      "hash": "a4e154e30536cd7914f5015a17e3766bbbb24d3ed0b97253412326a77851bd47",
       "mode": "0644"
     },
     {
@@ -4080,22 +4363,32 @@
     },
     {
       "path": "project/templates/\u7b80\u4efb\u52a1\u5355.md",
-      "hash": "f99887f1053e6c079a2d6fb49e3fe9809667cdb73a91e9013e5561f5096da802",
+      "hash": "13e4bc803fc2acd79d43f8ff7c7d63f933e432af60e8dbb3ada6b99f98bee5b7",
       "mode": "0644"
     },
     {
       "path": "project/templates/\u8e29\u5751\u4e0e\u6539\u8fdb.md",
-      "hash": "eb5a535e15244f9e67a53ae3982f049668ac9d7428451ea3cea0032e74392361",
+      "hash": "4e5b4bcf112a930357a4f6a90d3cae9a6f2eca1c107a1aeb27c7ed0fcecefd4e",
       "mode": "0644"
     },
     {
       "path": "project/templates/\u9879\u76ee\u63a5\u5165.md",
-      "hash": "5b6cb2d71a61f2219f7865ecfc4681a52722513202ce2e33d4474e42e845d40a",
+      "hash": "9d1978c535ed0a7bc8028634e4f9bc3e5dc67cb7edcb9eb36c0c4e0a5679f11a",
+      "mode": "0644"
+    },
+    {
+      "path": "project/tests/agent-permissions/agent-permissions.test.ts",
+      "hash": "d3fd4c91ca9832a7c27c746aca136317700ab8302dbf3609505acbcfb389a9e2",
       "mode": "0644"
     },
     {
       "path": "project/tests/delivery/artifacts.test.ts",
-      "hash": "54bc1187fef43eaaf9ba6bb71c62000f8e69d376e9f43bce6cb7f1de5a26c54a",
+      "hash": "147c7c1f1446354ccdf36be54e37a803a07b6083fa6823398e93326b9143c661",
+      "mode": "0644"
+    },
+    {
+      "path": "project/tests/delivery/candidate-verification.test.ts",
+      "hash": "089984ff25cc574ea2ab34d68e31d25d83113e24d1dbb27249a7020fe43e6181",
       "mode": "0644"
     },
     {
@@ -4104,8 +4397,13 @@
       "mode": "0644"
     },
     {
+      "path": "project/tests/delivery/check-plan.test.ts",
+      "hash": "6a08e23c0c3275e2130d7a7fd50151e03e6e2419878c549aec7a8d3bca7a02de",
+      "mode": "0644"
+    },
+    {
       "path": "project/tests/delivery/checks.test.ts",
-      "hash": "ad616e73d67a91ab8e512788a2b0811a8488292b1bc0ba933cd259cef0577c38",
+      "hash": "e975487bb5febd73f02a5fcb3d669b19e6ce4ef16d9bfe5954370d106e3d3416",
       "mode": "0644"
     },
     {
@@ -4115,7 +4413,7 @@
     },
     {
       "path": "project/tests/delivery/dependencies.test.ts",
-      "hash": "1d474f5d17627baef7aa468bc8dfae7f0fac9c484b77cf19beac3f989920cffc",
+      "hash": "64f65be187e218d79d2453791a2af38ee6b6cc50a1c7a85dcbfb519d703af77e",
       "mode": "0644"
     },
     {
@@ -4125,7 +4423,7 @@
     },
     {
       "path": "project/tests/delivery/helpers.ts",
-      "hash": "adebb67078e42367a677a6cc513b4daf722fad52754d0d364b96178099e4200e",
+      "hash": "d73d7d064d9a6feeeee71dc046060cf1646a50464196143826be136a7a46d29f",
       "mode": "0644"
     },
     {
@@ -4135,12 +4433,17 @@
     },
     {
       "path": "project/tests/delivery/invocation.test.ts",
-      "hash": "cf981d51c3ccd74e3af837966c4a374d223e1b0c79043fe9c52e7c97503ef607",
+      "hash": "528f69b50abbe5ecc72ecda1d98919d9f85a6a8ee48cea181e4105e8d12dffb0",
       "mode": "0644"
     },
     {
       "path": "project/tests/delivery/localization.test.ts",
       "hash": "d4ca3fc8f6c2edb1b743fa354d70b81e0fd0382463c0669a5f1ca652109f93ef",
+      "mode": "0644"
+    },
+    {
+      "path": "project/tests/delivery/resource-closure.test.ts",
+      "hash": "d244000d5f02ff932bd49fe52448f115a95d41ce28946f169f66c9a9fb1e4579",
       "mode": "0644"
     },
     {
@@ -4155,7 +4458,7 @@
     },
     {
       "path": "project/tests/delivery/sources.test.ts",
-      "hash": "765af34afa0fb4f22915c7795eefd7ca438ca785ec6de38784b386dc437a8432",
+      "hash": "b0738aa0c119cf61774b44344aa889d2a421c678d031a90f97e6bf6806f1c728",
       "mode": "0644"
     },
     {
@@ -4170,12 +4473,27 @@
     },
     {
       "path": "project/tests/verification/migration.test.ts",
-      "hash": "a276e292878e0509ea3db400e5c9db90a8f673c020bc7ac3e91836dd96d83a97",
+      "hash": "99314b0550e03b755831084afd47b71b8ad55b07d9118488aa3c37243ca2fd2b",
+      "mode": "0644"
+    },
+    {
+      "path": "project/tests/verification/test-baseline.test.ts",
+      "hash": "27ccb4f5ac2904dfd8e9720283ab368c19d89603fa22caf465df6efb18f693b1",
+      "mode": "0644"
+    },
+    {
+      "path": "project/tests/verification/test-guard-snapshots.test.ts",
+      "hash": "f245d5e52995f9a0c66e1729cffd4363865ea7610a60f94cd31ab8a9539961a5",
+      "mode": "0644"
+    },
+    {
+      "path": "project/tests/verification/test-guard.test.ts",
+      "hash": "231acfa42879d41dca295c6619df00f5c5106cd93e06e891f39a5b626577574a",
       "mode": "0644"
     },
     {
       "path": "project/tsconfig.json",
-      "hash": "187c8086af40af72cc37d9c603fd71ccf75b3bfebbf6d67a286006451ea14e6d",
+      "hash": "a755e47d4e08167c945e125572e005f75f1dce338f465507cc64fa7664b9faba",
       "mode": "0644"
     },
     {
@@ -5604,6 +5922,11 @@
       "mode": "0644"
     },
     {
+      "path": "project/verification/reviews/.gitattributes",
+      "hash": "09df0579d67d7036414c15aaeeb06430a550dfaedb1fc7ecbe83dff6b366c8cd",
+      "mode": "0644"
+    },
+    {
       "path": "project/verification/reviews/git-norm-evidence/audit.json",
       "hash": "5df4cf3a7ff95ccb74204ee74b8ddaacf07334926ad261ffd2d4a1c22343213f",
       "mode": "0644"
@@ -5751,6 +6074,11 @@
     {
       "path": "project/verification/reviews/git-norm-release.json",
       "hash": "1c2ff8ac5fe98b5fa8d963551f3e9dbb14fa2fc6576fb0460db6268599f5aa54",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/incremental-commits-20261118.md",
+      "hash": "2eaf8e8e91c2024d3f2feab78926339fb373a102cd80826f91214285b2989725",
       "mode": "0644"
     },
     {
@@ -6274,6 +6602,301 @@
       "mode": "0644"
     },
     {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/audit.json",
+      "hash": "7ab0502fb1a9d0823ee6913cb44b851269dce09e0e6315f0e1302a2ea4965c69",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/audit.ts",
+      "hash": "74a6a41892ccd9051d42d0c28713db5fb76b63d7072d7d96c90bfd4c6f89eecd",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/candidate-check.json",
+      "hash": "568cc93261e93d4154ab7f70592a26247329a6fbba4ec124fe0c6c3e493152cc",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/candidate-frozen.json",
+      "hash": "f677733ec9eb6db0114f267b6e1861e664c67eb660bd6a8fddb907fef38d72e6",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex-check.py",
+      "hash": "082aea40d0c3ee2fe30bd6f365e868701e5f6476e404681e5d83ec77799b36a0",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex-independent.json",
+      "hash": "437ae96ec8d6995f8868892dab753a550c2c03809dbe5183cce6c09796a8a9b4",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/bounded-a.final.md",
+      "hash": "d78ac70d95c04ec7c6a3350c33395166c1b9c79749c45c6f081fd50acf5faa0c",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/bounded-a.stderr.txt",
+      "hash": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/bounded-a.stdout.jsonl",
+      "hash": "f2f60e08f68b75ffc4727c97f4211ad48afcf3c82b97f64ecb5c33d38c2f2783",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/bounded-b.final.md",
+      "hash": "28e2330dece182ed9763f997a2d33834d9582ff85828529616ed9a7358220690",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/bounded-b.stderr.txt",
+      "hash": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/bounded-b.stdout.jsonl",
+      "hash": "12e3681286b0ee94c4990f6766be2df18f9e28fe0400b0ce7c3a6a8f5125bd60",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/codex-eval-progress-original-parser.json",
+      "hash": "92e3e2f925484dd2726e9fe7ecb85d73fc57e24d61ccfdb5518ac4154a3dbc6f",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/codex-eval-progress.json",
+      "hash": "1051a6f183670c6613ae8f2cc87b26b1cdb09ccb944ee0eb09a95bd992dc9470",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/critical-a.final.md",
+      "hash": "31c38338eb0f93253db9ae97a01c905f656a85d6d81df58fec8cb2e8bc338a09",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/critical-a.stderr.txt",
+      "hash": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/critical-a.stdout.jsonl",
+      "hash": "9311254b8d49f8bd1370c21b8874cc10a71c187604cc35aeada9404f919e011f",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/critical-b.final.md",
+      "hash": "825623422dd40f7e655d40d685e76fbc926c112934e6e9127d17afdfa03b3f8a",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/critical-b.stderr.txt",
+      "hash": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/critical-b.stdout.jsonl",
+      "hash": "576e4ff2b9f03d594c867af2db1ac598eb64fb4ef2b4b9b55ed455ca4c8941ac",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/eval-session.json",
+      "hash": "da1e6119fdfafaad5c624dab4772f8c5514e0aa04c96938d16898098fcd4933c",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/real-eval-authorization.json",
+      "hash": "a79a23cb2b97e380148d902a9a4358bc7b962e899761695b7b7ab0b277998a4a",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/run-codex-fixed.ts",
+      "hash": "448daf785bb1c72294d5d3812e3c9c2bac70354c9759a701409fc4d040d5abc9",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/run-codex.ts",
+      "hash": "db5df1f0db4a7db4c09118eaee447107062c6a4dd449083493f0c75f5a13a9c2",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/text-a.final.md",
+      "hash": "d1da756e770ffc594f8341467c243e675afbc1cbe8440fd43ac9abf3f7c269c1",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/text-a.stderr.txt",
+      "hash": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/text-a.stdout.jsonl",
+      "hash": "fbf80dba8da16b97cd766e388d89e7eb7dc7b5d3fce7252e99ca54a64657a5a9",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/text-b.final.md",
+      "hash": "456411708632201b1acc0ced8de918c171248d78e3f36c04848d336ca8d545fb",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/text-b.stderr.txt",
+      "hash": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/codex/text-b.stdout.jsonl",
+      "hash": "5c86457c569dccb26774c212b0b896112d84c033fa3c818d5e93790741217f05",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross-check.py",
+      "hash": "15686746f14652de58692d11659ac8f05c12ef8a9470ce6e1b1d9f3be1d72e64",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross-independent.json",
+      "hash": "ec9eaaeec8c9997a2fc3a603e823c70ee19cb4c7fb00e9598bda9476cc39ae7b",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/adjudicate-cursor.ts",
+      "hash": "f6b384baadeb73df0d24a7e2fe1c6f9f2dd51957bbfedd8d3ebee674586627e0",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/cross-eval-progress.json",
+      "hash": "860468bfe2def2fe582bd481f4b4f197feff7c6f4dee5206afbc386a95ec6640",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/cross-session.json",
+      "hash": "f38ba1988ddf2722969e1dcb2e2a57c75d9dbc6e6bc7c02af04931e2f48c5ba1",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/cursor-batch-adjudication.json",
+      "hash": "121b5efbaa9bbddf381bcc45d9ef17fdc64ca8194a5831ac449742f9eee03d5b",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/cursor-batch-plan.json",
+      "hash": "66b230c33dd724d00cfc982d5912cd2ec2250e41a9500069f4ec2bc958318d1c",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/cursor-batch.stderr.txt",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/cursor-batch.stdout.jsonl",
+      "hash": "89b478ba1b4c05442b39c333d223bc803d9b8470d5ae946042ad8bcbf868adb3",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/cursor-text.stderr.txt",
+      "hash": "4a45ad3058d49b05c9047c075493c1b7b623517046d00d7bdce8832b6e57f1ad",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/cursor-text.stdout.jsonl",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/glm-critical.stderr.txt",
+      "hash": "089dbf616da27f2f327878d5fb2ed70fd63a63b259b7c648536429d4b1c68609",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/glm-critical.stdout.jsonl",
+      "hash": "2ec74a204bc3c0ecd0683a7fd2b6c017c3cbc2755ce6a05356dc0251439991d6",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/glm-text.stderr.txt",
+      "hash": "089dbf616da27f2f327878d5fb2ed70fd63a63b259b7c648536429d4b1c68609",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/glm-text.stdout.jsonl",
+      "hash": "82c7a03c46bffd9cd75329e37bddfd7efe5a1c93001f187f93d045125fb7c373",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/real-eval-authorization.json",
+      "hash": "ced043cb0fead6786a42b1c80ce62bee59293db92dafbe936c0d6907a91644a0",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/run-cross.ts",
+      "hash": "fe3c5ccd4e325b19fd621605c3b2858a539875aebefd5e0a89e232e0f2bac2e5",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/cross/run-cursor-batch.ts",
+      "hash": "33a1535436c27af5f3e6d1035710ab4cb553576fb89d090d764ce74808df1e73",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/evidence-sha256.json",
+      "hash": "155bd5f059bb417b85adf6c5570e686475c6e5bdd833cac423a7fa28b22f3d00",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/logs/audit-first-invalid-probe.log",
+      "hash": "af3dd3602ba250a537a92727385787e502de4d4422255b1ccd1b73595c0b380b",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/logs/audit.log",
+      "hash": "61dd8d552d2fca7cb6e32dd46f5e8e4ab3f059d0329b15fe12f70b8696d7b7d0",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/logs/codex-independent.log",
+      "hash": "79c964697d72e3de26599cf4dd8cffd5067583901fcf4d21f340e36b2e78e06c",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/logs/cross-independent-first-format-probe.log",
+      "hash": "66028ed55ca324f1e4407bac7e5a2dec5415c74d0d1ad43ec811a1dc219a2604",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/logs/cross-independent-second-schema-probe.log",
+      "hash": "20e34f86e9e3465d618479d75f1d7386830a41bf95889cc41a81494125a1cbf4",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/logs/cross-independent.log",
+      "hash": "0e5e6765b62ba9792d638acb3dca802f88dbc88d3095eb7e78ebed7c56e6338d",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/logs/targeted.log",
+      "hash": "77942eb1768dadab551ee4d17bb72e52d4586d2914c58655227f7dbda69270fb",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/prepare-receipt.ts",
+      "hash": "fe247e967a6efbc6b9e3caf805b7c656eb2997d5996f274d39c41f98db80a7b7",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/review.json",
+      "hash": "0846f4029eaab64ae59a9c2fa7b6a1e9fdb947942544312d57439d462d5b9967",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-evidence/round2/review.md",
+      "hash": "507b88242c22d4675ceb84cd78399ba9369c84d6e746e200e8a4d178d79e2f33",
+      "mode": "0644"
+    },
+    {
       "path": "project/verification/reviews/runtime19-implementation-evidence/standard.ts.diff",
       "hash": "2574a47ed7676fadbe6c84109057453933e7483b7d50170f9be0287db2d2c11d",
       "mode": "0644"
@@ -6286,6 +6909,11 @@
     {
       "path": "project/verification/reviews/runtime19-implementation-evidence/test-source-protection.json",
       "hash": "775e15cef9ba6c78f7ecb57d2d428026f40ec7caf9dfc4a0328d54cfdc0a42bd",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-implementation-round2.md",
+      "hash": "6361bef103174821f91d1933e8886166ae221711a6b31e542a8dd26b5e55d8e7",
       "mode": "0644"
     },
     {
@@ -6829,6 +7457,16 @@
       "mode": "0644"
     },
     {
+      "path": "project/verification/reviews/runtime19-release.json",
+      "hash": "d34937fa460749ae958d54b1f987552d4f72cb9a3257982950983156dc08ba86",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/reviews/runtime19-task-input.md",
+      "hash": "75ea1cb216ba3bf5edc13290803ded568a34b07f6a06ac785734ef86df980f9e",
+      "mode": "0644"
+    },
+    {
       "path": "project/verification/templates/overview.md",
       "hash": "d3cfa1b2cd6babb09e6beb5340de86adcf0cc8b3dafa4d703958ef836e02e4b2",
       "mode": "0644"
@@ -6836,6 +7474,11 @@
     {
       "path": "project/verification/templates/report.md",
       "hash": "67931273d839c8899101e0e172794c22134d503c78fa6230e5b9f43c06d4bd75",
+      "mode": "0644"
+    },
+    {
+      "path": "project/verification/test-guard-allow.json",
+      "hash": "bacd13ca9276bb386c8469a39fb3c3c35c03f9967093e264db08162352ed9eb3",
       "mode": "0644"
     },
     {

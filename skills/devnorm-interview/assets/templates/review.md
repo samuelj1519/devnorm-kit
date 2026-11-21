@@ -1,6 +1,6 @@
 # Independent review template (1.0 draft)
 
-Use under the [workflow](../../references/standard/3-development-workflow.md).
+Use under [independent review](../../references/standard/3-workflow/3.6-independent-review.md). Ordinary tasks may retain conclusions, open items, and evidence references in the six-field brief. Expand this template when needed, without a duplicate mandatory review ledger. Omitting a template field does not waive an applicable required check. Default to the conclusion and scope, confirmed findings, personally executed or cited evidence, and unverified limits. Reference existing inputs and results; expand the following sections only as needed, without filling normal results or irrelevant N/A for appearance.
 
 ## <Task ID> independent review
 
@@ -18,11 +18,13 @@ Use under the [workflow](../../references/standard/3-development-workflow.md).
 | Independent copy, branch, tested tree, dependencies | <actual origin and identities> |
 | Author and reviewer sessions | <different IDs; reviewer did not implement target changes> |
 | Time zone and actual executor | <values; label reused author evidence separately> |
-| Scope and reduction approval | <full or approved incremental; no unapproved reduction> |
+| Review unit and stage | <identify implementation subtasks, commits, semantic units, and final combination separately; first/incremental/final integration> |
+| Scope and reduction approval | <complete first diff; affected re-review scope and grounds for expansion; exact approval for reductions beyond approved policy> |
+| Cumulative budget | <rounds/runtime/resources used, startup failures, timeouts, recoveries, resends; remaining budget and exhaustion action, without session/candidate reset> |
 
 ## Principles and merge conditions
 
-Apply all 12 [review items](../../references/standard/1-principles.md#17-manual-review-checklist) and automated evidence. Confirm trusted full checks for the exact version before merge, including tests, dependencies, security, and coverage. Verify approval of check/limit changes.
+Apply all 12 [review items](../../references/standard/1-principles.md#17-manual-review-checklist) and applicable automated evidence. Distinguish the semantic unit's review conclusion from the final combination's full-check status. Before merge, the final exact version requires trusted full checks, including project-required tests, dependencies, security, and coverage. Label an unverified final combination pending: unit approval is not a substitute, nor does every local commit need complete re-review. Verify approval of check/limit changes.
 
 ## State-model review
 
@@ -59,7 +61,7 @@ Fail design/standard review for logic that causes incorrect or impossible execut
 
 ## Re-review after repair
 
-<Fresh non-author review under section 3.6, before/after versions, original finding resolution, new changes/impact, original-failure replay/evidence, expanded scope, and remaining unverified work. Keep the original report and failures.>
+<Prefer resuming the original primary reviewer under section 3.6, still uninvolved in implementation. Explain replacement based on independence, context, or execution conditions. Record exact before/after inputs, original finding resolution, new differences and impact, original-failure replay evidence, expanded scope, and unverified work. Preserve prior conclusions, failures, and cumulative budget; a new candidate does not automatically inherit approval.>
 
 ## Follow-up
 

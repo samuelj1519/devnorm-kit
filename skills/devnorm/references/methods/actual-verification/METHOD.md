@@ -23,7 +23,7 @@ Record static, headless, browser, and native results separately. Another engine'
 2. Check tool/version, directory, process, and service ownership. Use only task-owned resources. Accounts, sends, install, and release retain authorization. Missing permission blocks only that action.
 3. Start the exact version and save build/start/action logs. An existing process or window does not prove this feature ran. Confirm the entry loads the candidate.
 4. Test normal, failure, and recovery paths. Wait for a public completion signal, such as terminal status or `aria-busy` changing from `true` to `false`. Arbitrary sleeps and command returns do not establish async completion.
-5. Inspect actual visibility, styles, bytes, or service state. Apply the [UI checklist](../../standard/5-ui-acceptance.md) to first use, empty/error/loading, narrow width, dark mode, keyboard, accessibility, AI output, layout, and screenshots.
+5. Inspect actual visibility, styles, bytes, or service state. Apply the [UI checklist](../../standard/5-interaction-and-interface/5.8-ui-acceptance.md) to first use, empty/error/loading, narrow width, dark mode, keyboard, accessibility, AI output, layout, and screenshots.
 6. For critical protection or a false-green risk, verify effective defect detection using the original failure or a runnable incorrect version. Reuse exact-input evidence where valid; do not invent a defect for a new feature or repeat the same proof for every role. Independent review still personally runs critical paths. Repair a broken/unmounted probe or tool without mislabeling it a product failure or pass.
 7. Save exact inputs, host, commands, tool versions, raw output, results, unrun reasons, and reproduction. Stop only owned processes and clean up under project rules.
 

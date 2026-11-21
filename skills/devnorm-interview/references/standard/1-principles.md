@@ -14,7 +14,7 @@ Refactoring, tests, and build checks are maintenance work. The absence of a new 
 
 ### 1.1.2 Task boundaries and independent review
 
-Give each task a clear goal and acceptance criteria. Plan large changes first. For the standard workflow, a fresh session that did not implement the work reviews the task brief, complete changes, and evidence. Resolve findings that affect correctness.
+Give each task a clear goal and acceptance criteria. Plan large changes first. For the standard workflow, a non-author primary reviewer starts in a fresh session to review the task brief, complete semantic unit, and evidence, then continues incremental re-verification under section 3.6. Resolve findings that affect correctness.
 
 ## 1.2 Code design and maintainability
 
@@ -68,13 +68,15 @@ Record actual commands, exit codes, and raw logs. UI work needs corresponding re
 
 Authors must not make checks pass by changing assertions, skipping tests, disabling rules, or raising limits. Explain every test change for separate review. Explain new exemptions and obtain approval where required. Missing evidence or an unrun required check prevents completion.
 
+**In process · Long-term**: The diff gate registered during project adoption machine-enforces test protection; manual review still applies. Map actual commands to the project toolchain without requiring Bun or this repository's scripts. A missing required gate remains unconfigured, not replaced by manual approval.
+
 ### 1.3.3 Root causes and related defects
 
-Reproduce the defect, find the first incorrect operation, and check related paths. Explain why an added null check, retry, or default fixes the cause. Keep protection for legitimate failure states.
+Before judging causes, performance, or cost, first measure on real objects, record the numbers and the measurement method, and only then conclude or change anything; reproduce the defect, find the first incorrect operation, and check related paths. Explain why an added null check, retry, or default fixes the cause. Keep protection for legitimate failure states.
 
 Include recurring defects in periodic review and automate their detection where possible.
 
-After two substantive repairs based on the same premise fail, state that premise and test it with a minimal experiment before continuing. This does not reset the rework budget. See [task-specific methods](3-workflow/3.5-implementation.md#351-task-specific-methods).
+After two substantive repairs based on the same premise fail, state that premise and test it with a minimal experiment per [measure before judging](#133-root-causes-and-related-defects) before continuing. This does not reset the rework budget. See [task-specific methods](3-workflow/3.5-implementation.md#351-task-specific-methods).
 
 ## 1.4 Documentation and standard maintenance
 
@@ -93,8 +95,8 @@ Reviewers focus on design and correctness. Tools handle style. Repair false posi
 | Trigger | Required checks | Responsibility and failure handling |
 | --- | --- | --- |
 | While editing | Check authorization and forbidden actions before writes. Format and run fast code checks after edits, returning errors to the agent. | The project tooling owner configures checks. Implementers follow them. Block forbidden actions. Return code failures to section 3.5 and permission gaps to an authorized user. |
-| Before commit | Format, code rules, spelling, and reasons for new exemptions, targeting feedback within seconds. | Git hooks run `scripts/check.sh --quick` or a verified equivalent. A failure prevents commit and returns to section 3.5. Passing does not authorize a commit. |
-| Before merge | All applicable tests, dependency checks, security scans, and no coverage decline for the exact version. | A trusted check service or merge tool runs `scripts/check.sh --full` or a verified equivalent. Missing tools, unrun checks, or failures prevent merge. Complete sections 3.5 through 3.7. |
+| Before commit | Format, code rules, spelling, and reasons for new exemptions, targeting feedback within seconds. | Git hooks run the project's registered quick command. A failure prevents commit and returns to section 3.5. Passing does not authorize a commit. |
+| Before merge | All applicable tests, dependency checks, security scans, and no coverage decline for the exact version. | A trusted check service or merge tool runs the project's registered full command. Missing tools, unrun checks, or failures prevent merge. Complete sections 3.5 through 3.7. |
 | At each milestone or agreed interval | The project's 3–5 architecture health checks, mutation testing, duplication, complexity, documentation, and quality data. | The assigned owner runs checks. Repair findings through the workflow, then recheck. Do not bypass the main workflow for repairs. |
 
 Configure these commands or verified equivalents when adopting the standard, and prove they work. Before writes, check scope, protected files, and forbidden directories. Run commit hooks normally. Push only with authorization. A trusted check service or merge tool enforces final merge conditions.
@@ -154,6 +156,8 @@ Standard-workflow reviewers record yes, no, or N/A for each item, with location 
 At each milestone, run full checks for the current version. Review dependencies, mutation testing, duplication and complexity changes, stale documents, exemptions, recurring defects, and four task metrics: rework count, review findings, post-merge regressions, and duplicate-code growth. Define 3–5 architecture health checks and their measurement rules in advance.
 
 Keep unrun checks pending and unknown data unknown. Repair and recheck ordinary low-risk findings directly. Use a task brief and the main workflow for other findings.
+
+**Key checkpoint · Long-term**: Projects agree and record a mutation survival rate threshold (the share of mutants that no test kills) for key modules when adopting the standard. Exceeding the threshold requires a task brief that adds tests; do not clear the failure by relaxing the threshold, and any relaxation still needs requirements-owner approval. Mutation tools are project dependencies and go through dependency approval at adoption.
 
 ## 1.9 Sources and applicability
 

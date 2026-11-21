@@ -1,12 +1,16 @@
 # DevNorm
 
 [![Validate delivery](https://github.com/samuelj1519/devnorm-kit/actions/workflows/validate.yml/badge.svg)](https://github.com/samuelj1519/devnorm-kit/actions/workflows/validate.yml)
-[![Version](https://img.shields.io/badge/version-1.5.0-blue)](https://github.com/samuelj1519/devnorm-kit/tree/v1.5.0)
+[![Version](https://img.shields.io/badge/version-1.8.0-blue)](https://github.com/samuelj1519/devnorm-kit/tree/v1.8.0)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Development standards and task-specific methods for Codex, Claude Code, Cursor, and other Agent Skills-compatible tools. DevNorm routes a task through requirements, design, implementation, debugging, review, verification, and delivery. Each of its nine skills includes the resources needed for independent installation.
 
 [Install](#install) · [Use](#use) · [Skills](#skills) · [Update or uninstall](#update-or-uninstall) · [Compatibility](#compatibility) · [Contribute](#verify-and-contribute)
+
+## Current release
+
+This working tree and the published `v1.8.0` tag contain accepted DevNorm `1.8.0` (publication authorized by the user on 2026-11-21). See [the delivery record](docs/DELIVERY.md#local-delivery-180-2026-11-21) for checks and limits. Installed and loaded versions must be checked separately.
 
 ## Install
 
@@ -14,12 +18,12 @@ Use one installation manager per skill in each client. If this machine already m
 
 ### Codex and Cursor
 
-Prerequisites: Git, Node.js **22.20.0 or newer**, npm with `npx`, and an installed client with Agent Skills support. The commands below pin the installer to `skills@1.8.1` and DevNorm to the published `v1.5.0` tag.
+Prerequisites: Git, Node.js **22.20.0 or newer**, npm with `npx`, and an installed client with Agent Skills support. The commands below pin the installer to `skills@1.8.1` and DevNorm to the published `v1.8.0` tag.
 
 Run this command from the project where you want to use the skills:
 
 ```sh
-npx --yes skills@1.8.1 add samuelj1519/devnorm-kit@v1.5.0 --skill '*' --agent codex --agent cursor --copy --yes
+npx --yes skills@1.8.1 add samuelj1519/devnorm-kit@v1.8.0 --skill '*' --agent codex --agent cursor --copy --yes
 ```
 
 This installs all nine entries at project scope. `--copy` keeps each installation self-contained. To install for only one client, keep its `--agent` option. To use user scope across projects, add `--global`. To install only the main workflow, replace `--skill '*'` with `--skill devnorm`.
@@ -37,12 +41,12 @@ For user scope, add `--global` to the list command. Start a fresh client session
 Install the complete native plugin at user scope:
 
 ```sh
-claude plugin marketplace add samuelj1519/devnorm-kit#v1.5.0
+claude plugin marketplace add samuelj1519/devnorm-kit#v1.8.0
 claude plugin install devnorm@devnorm-local --scope user
 claude plugin list --json
 ```
 
-Confirm that `devnorm@devnorm-local` is listed at version `1.5.0`, then start a fresh session and invoke `/devnorm:devnorm`. The marketplace name is `devnorm-local` even when its source is GitHub. All nine skills are included.
+Confirm that `devnorm@devnorm-local` is listed at version `1.8.0`, then start a fresh session and invoke `/devnorm:devnorm`. The marketplace name is `devnorm-local` even when its source is GitHub. All nine skills are included.
 
 For a standalone skill installation instead, use the skills CLI above with `--agent claude-code`. Choose either the native plugin or standalone copies for that Claude profile to keep a single effective installation. See [Claude's plugin installation guide](https://code.claude.com/docs/en/plugins/install).
 
@@ -51,7 +55,7 @@ For a standalone skill installation instead, use the skills CLI above with `--ag
 To inspect the pinned package or use an offline checkout:
 
 ```sh
-git clone --branch v1.5.0 https://github.com/samuelj1519/devnorm-kit.git
+git clone --branch v1.8.0 https://github.com/samuelj1519/devnorm-kit.git
 cd devnorm-kit
 python3 -B scripts/package.py verify
 ```

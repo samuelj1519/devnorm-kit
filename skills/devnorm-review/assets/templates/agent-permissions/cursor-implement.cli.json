@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(git status)",
+      "Shell(git diff)",
+      "Shell(git add)",
+      "Shell(git commit)",
+      "Shell(git log)",
+      "Shell(git rev-parse)",
+      "Shell(npm run)",
+      "Shell(bun)",
+      "Shell(bun run)",
+      "Write({{REPO_ROOT}}/**)",
+      "Write(/tmp/**)",
+      "Read({{REPO_ROOT}}/**)",
+      "Read(/tmp/**)"
+    ],
+    "deny": [
+      "Shell(git push)",
+      "Shell(git reset)",
+      "Shell(git rebase)",
+      "Shell(git checkout)",
+      "Shell(git switch)",
+      "Shell(git clean)",
+      "Shell(git stash)",
+      "Shell(git merge)",
+      "Shell(git tag)",
+      "Shell(git config)",
+      "Shell(git commit --amend)",
+      "Shell(git commit --no-verify)",
+      "Shell(npm install)",
+      "Shell(npm i)",
+      "Shell(npm add)",
+      "Shell(npm update)",
+      "Shell(npm exec)",
+      "Shell(npx)",
+      "Shell(bun add)",
+      "Shell(bun update)",
+      "Shell(bunx)",
+      "Shell(curl)",
+      "Shell(wget)",
+      "Shell(ssh)",
+      "Shell(sudo)",
+      "Shell(printenv)",
+      "Write(.claude/**)",
+      "Write(.cursor/**)",
+      "Read(~/.ssh/**)"
+    ]
+  }
+}
