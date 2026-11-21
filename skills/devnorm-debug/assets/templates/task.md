@@ -60,7 +60,7 @@ Use applicable [task-specific methods](../../references/standard/3-workflow/3.5-
 | <project full checks/isolated recheck> | Project checks | <command, TASK_CARD/fixed BASE, exact tested tree> | <role/path> |
 | <UI/real host/actual artifact> | Empirical | <pointer/keyboard/focus/scroll, platform/prototype comparison, or N/A> | <role/path> |
 
-For UI, record applicability, requirement, result, evidence, and repair task for [5.1 through 5.11](../../references/standard/5-ui-acceptance.md). Use defaults for missing project requirements, explain N/A, and mark unrun checks `not_run`.
+For UI, record applicability, requirement, result, evidence, and repair task for [5.8.1 through 5.8.11](../../references/standard/5-interaction-and-interface/5.8-ui-acceptance.md). Use defaults for missing project requirements, explain N/A, and mark unrun checks `not_run`.
 
 Choose scope before work under [section 3.3](../../references/standard/3-workflow/3.3-task-planning.md#33-task-brief-and-work-allocation). Obtain approval for additional reductions. For real models or real data, record authorization, counts, input/output limits, timeout, and failure-counting rules. Otherwise use fictional samples or test substitutes.
 

@@ -8,7 +8,7 @@ Help developers and agents deliver efficiently, correctly, and at low total cost
 | [2. Project setup](2-project-setup.md) | Project rules, current plan, tools, records, and evidence | First adoption or a material change |
 | [3. Development workflow](3-development-workflow.md) | Task classification, design, implementation, review, and acceptance, including state-model review before risky implementation | Every task. Use the [overview](3-workflow-overview.md) to locate a step. |
 | [4. Periodic review](4-periodic-review.md) | Accumulated issues, new automated checks, and temporary measures | Each milestone or agreed interval |
-| [5. UI acceptance](5-ui-acceptance.md) | UI applicability and evidence | UI tasks |
+| [5. Interaction and interface](5-interaction-and-interface.md) | Interaction and interface requirements, acceptance checklist, and evidence | UI tasks |
 
 For Git operations, read [6. Git and GitHub collaboration](6-version-control.md) on demand: starting work, commits, pushes, merges, undo, and cleanup. It does not add a workflow stage.
 

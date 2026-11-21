@@ -17,7 +17,7 @@ If required resources, command mappings, or authorization are missing, stop depe
 
 At task start, read this entry, the task, and relevant plan/progress records.
 On adoption or version change, check the standard entry and project differences.
-Follow workflow sections 3.1 through 3.8. Read UI acceptance for UI work.
+Follow workflow sections 3.1 through 3.8. Read interaction and interface for UI work.
 Recheck working location on session start or change. Read section 3.4 before input or approval.
 Use periodic review for scheduled checks and improvements.
 Project rules add or strengthen requirements. Exceptions need exact requirements-owner approval.
@@ -34,7 +34,7 @@ Project rules add or strengthen requirements. Exceptions need exact requirements
 | Product/plan authority | <goal documents, module versions, historical boundary> |
 | Prohibitions and authorization | <real data, credentials, network, install, Git operations, exact approvals; no expansion> |
 | Roles and skills | <implementation/review/coordination, disabled executors, actual models, quota checks> |
-| UI applicability | <map [5.1 through 5.11](../../references/standard/5-ui-acceptance.md) to project requirements and evidence. Use defaults for gaps. List old/new, risks, replacement protection, and approval before reducing requirements> |
+| UI applicability | <map [5.8.1 through 5.8.11](../../references/standard/5-interaction-and-interface/5.8-ui-acceptance.md) to project requirements and evidence. Use defaults for gaps. List old/new, risks, replacement protection, and approval before reducing requirements> |
 | Standard and method resources | <accessible main entry and every standalone skill, adopted identities, dependencies, and licenses; no sibling skill or maintainer-local path dependency> |
 | Verification commands | <actual quick, affected, and full commands and scope; test-diff protection, static/public/native/real-service behavior; trusted toolchain and comparison-baseline origins; gaps are not run, never an empty successful check> |
 | State-model review | <section 3.2.1 applicability, statechart/TLC entry, plan/model records, chart-review owner, implementation counterexamples> |

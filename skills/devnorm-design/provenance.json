@@ -65,8 +65,8 @@
         "source": "delivery/methods/actual-verification/METHOD.md",
         "translated": "delivery/locales/en/methods/actual-verification/METHOD.md",
         "output": "references/methods/actual-verification/METHOD.md",
-        "sourceHash": "ad49e79ee8d4e179b231e9c8a30f573bd5f10222d5d5ff80c1e040731fa7cf15",
-        "translatedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c"
+        "sourceHash": "9474bbe2a5cb0cd8fbe414c369a2ed0ec5717986405d8d89b4ef3ba5fcbd08d0",
+        "translatedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2"
       },
       {
         "source": "delivery/methods/actual-verification/references/maintenance.md",
@@ -142,15 +142,15 @@
         "source": "delivery/methods/frontend-design/METHOD.md",
         "translated": "delivery/locales/en/methods/frontend-design/METHOD.md",
         "output": "references/methods/frontend-design/METHOD.md",
-        "sourceHash": "d5b4216d3061f91a3c9de67fbd7985532b2d78831d726605c6c0a0a39f4cc98c",
-        "translatedHash": "1d873409bb768b82d1b08818ec3471f0d532a7c2a00dba768d88266c3c8d511f"
+        "sourceHash": "fec77f30d05c269fd6121be61d23dcc509529a140164ea8ab2534ced6a27f40a",
+        "translatedHash": "716ad899a7cd29dea0e67bd4e02fdbc13d6c630820a8ad72b19b7aca2ddfe1af"
       },
       {
         "source": "delivery/methods/interface-review/METHOD.md",
         "translated": "delivery/locales/en/methods/interface-review/METHOD.md",
         "output": "references/methods/interface-review/METHOD.md",
-        "sourceHash": "f5152d39cb3434bcabd8e8a39d1739d0108fb001413cdcb851a539c174d4072b",
-        "translatedHash": "f13fbdd2d7fe87102ab4c6bf48ab7144fb4d65568ba8711ce7f505d377a2d934"
+        "sourceHash": "1fc2cca70e11760936a9a373b6b7ea5d7a4fe54afae5b9792a79b1275f006e6d",
+        "translatedHash": "f8c9114d80023b43f1f8fd94cd86d00aed9d7546576fdfe86bd12dd301ff2aef"
       },
       {
         "source": "delivery/methods/interface-review/references/audit.md",
@@ -377,11 +377,74 @@
         "translatedHash": "40977666e94d601fe58aeb7eb3c439c62cd30dff37cc8521b6408214dd945816"
       },
       {
-        "source": "standard/5-\u754c\u9762\u9a8c\u6536.md",
-        "translated": "delivery/locales/en/standard/5-ui-acceptance.md",
-        "output": "references/standard/5-ui-acceptance.md",
-        "sourceHash": "7edeb058364bdc70781728ffae0f3663c1e7713048cecd8306b4c38af47b4733",
-        "translatedHash": "b7e8b73dbd71d871f2f032a87853467d636d44c086acec3a93efd5aef5fcd142"
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface.md",
+        "output": "references/standard/5-interaction-and-interface.md",
+        "sourceHash": "cda83427f998d37d5b4c3a26c1eebefd5e444e09cb620fecfce54ac901ac9e45",
+        "translatedHash": "2dfea1c0ba521948e8450901c69a19a45a05ae96937d0147e95e6ede8c2dcf0e"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.1-\u7528\u6237\u4efb\u52a1\u4e0e\u6d41\u7a0b.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.1-user-tasks.md",
+        "output": "references/standard/5-interaction-and-interface/5.1-user-tasks.md",
+        "sourceHash": "a9bcd467067bde39fe39ca414e68aea01470ba99b66b7a618225d5363ee145cb",
+        "translatedHash": "b3095ad359e0ca38dacb0c3783a972929da0c5c5cd9c5e4ff65d8120e007b587"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.2-\u5165\u53e3\u4e0e\u5bfc\u822a.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.2-entry-and-navigation.md",
+        "output": "references/standard/5-interaction-and-interface/5.2-entry-and-navigation.md",
+        "sourceHash": "6074d3e2782258c1c77d0fb47351063ad47123ecfa56de59f573af058c693732",
+        "translatedHash": "2932bb46dac51433ca83bad36580db83fcce6671dd9da7feb460b5066f3fcb38"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.3-\u89c6\u89c9\u5c42\u7ea7\u4e0e\u6392\u7248.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.3-visual-hierarchy.md",
+        "output": "references/standard/5-interaction-and-interface/5.3-visual-hierarchy.md",
+        "sourceHash": "bd72b8686c0bc42d7d6f6e57a850a61c7b9f83c5738312eea0e605704d9a9851",
+        "translatedHash": "580b3296a1c7b2929222b0654e0833b3142d3bbcd9b053627c8d4ae248d7cce1"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.4-\u8f93\u5165\u4e0e\u786e\u8ba4.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.4-input-and-confirmation.md",
+        "output": "references/standard/5-interaction-and-interface/5.4-input-and-confirmation.md",
+        "sourceHash": "e74969213af072257e5437ea21a0727fa0c1fb0436d58087c334b933e9f9b145",
+        "translatedHash": "a835c03a38ffcd54a59047613631a4a3d7eb2f04bd33cfddc635c6e6d7b158b5"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.5-\u72b6\u6001\u4e0e\u6062\u590d.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.5-state-and-recovery.md",
+        "output": "references/standard/5-interaction-and-interface/5.5-state-and-recovery.md",
+        "sourceHash": "49eb271712ea2fe4c48d2feef2ee0d7773c9327b1c82d713f62131ae60bc1824",
+        "translatedHash": "96169f4b91e0d6017cefea1ab2834e46ffcd62b1969ea476d1ba26b03dcb97e9"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.6-\u65e0\u969c\u788d\u4e0e\u8bbe\u5907\u9002\u914d.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.6-accessibility.md",
+        "output": "references/standard/5-interaction-and-interface/5.6-accessibility.md",
+        "sourceHash": "e7124f2c731d27784d6eab699afdb0917d9d6a64d2cc20cc6140226fb5fa4545",
+        "translatedHash": "1bbbe2fe7b2207b636aad83778091888f3977dfb46b0a45ee7b1ec0602bacc84"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.7-\u667a\u80fd\u8f85\u52a9\u4e0e\u81ea\u52a8\u5316.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.7-assisted-intelligence.md",
+        "output": "references/standard/5-interaction-and-interface/5.7-assisted-intelligence.md",
+        "sourceHash": "3850c8e24b1f89fa3a72aa5b9a38d864cf195d824bc2304e1c3071c1140b7af0",
+        "translatedHash": "9e9332489f44bd2d27c88b51b707e1b76b1350b4e5e529e225de0c6d92dd5c0e"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.8-\u754c\u9762\u9a8c\u6536.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.8-ui-acceptance.md",
+        "output": "references/standard/5-interaction-and-interface/5.8-ui-acceptance.md",
+        "sourceHash": "3c432bf769607add5f510a0895d462f33127b146a5636a9a5aaf5157f19dd9de",
+        "translatedHash": "ec8a01324e5ecbfb2e802ec7ba02d78e3d3458a8264d07a62ec1c9e3549cc319"
+      },
+      {
+        "source": "standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.9-\u6848\u4f8b\u4e0e\u53c2\u8003\u8d44\u6599.md",
+        "translated": "delivery/locales/en/standard/5-interaction-and-interface/5.9-cases-and-references.md",
+        "output": "references/standard/5-interaction-and-interface/5.9-cases-and-references.md",
+        "sourceHash": "4f5fc26df700f5424868b543346c0ae5defcafee332d2c7c610405e405ede2b8",
+        "translatedHash": "172ea5f9f464ecc8696b4c3854efec4d5afeac935032682e4e9a9be25f244dc2"
       },
       {
         "source": "standard/6-Git\u4e0eGitHub\u534f\u4f5c.md",
@@ -394,15 +457,15 @@
         "source": "standard/README.md",
         "translated": "delivery/locales/en/standard/README.md",
         "output": "references/standard/README.md",
-        "sourceHash": "71cb334ccedc8e332aef7c9fc69aa57f923fa058829a9239dc7bc51ec2809267",
-        "translatedHash": "9cdb8199ad65ec93b1591dcab436ff8475fbb246c49896f46d8451bded756c80"
+        "sourceHash": "6922772b2340824cc14598b81be6dda076334879980b77f603af6d5d9f1b9c28",
+        "translatedHash": "e23dc91513844faec3fac3b7b2036330e60930c20226e9f1dc67af28af95e51f"
       },
       {
         "source": "templates/\u4efb\u52a1\u5355.md",
         "translated": "delivery/locales/en/templates/task.md",
         "output": "assets/templates/task.md",
-        "sourceHash": "f2a14efec57ea802fab2930a71c1b85300e998332b2d51c45cf8e69aef289dec",
-        "translatedHash": "e90eafdcb937107a7875f37cdd3f250e308e7755eb25a206255e584ef84fa626"
+        "sourceHash": "fa7581c4a63be242e211b66e9941aef1508e089959a2c22984c61b1044635e6f",
+        "translatedHash": "10bf94aa164617381262f6a47cbb31383d6b2501cd9c7d3229efac9e4939b9d5"
       },
       {
         "source": "templates/\u5ba1\u6838\u62a5\u544a.md",
@@ -443,8 +506,8 @@
         "source": "templates/\u9879\u76ee\u63a5\u5165.md",
         "translated": "delivery/locales/en/templates/project-adoption.md",
         "output": "assets/templates/project-adoption.md",
-        "sourceHash": "caa034b17f8ae3618ee2e42cdd25bedf5ecee32e87e855b87c744f2cebff7c0a",
-        "translatedHash": "c349505e1278e8e87e963dc24bb66ab2cebc1b97a7f4d99d0acd901313de4362"
+        "sourceHash": "9d1978c535ed0a7bc8028634e4f9bc3e5dc67cb7edcb9eb36c0c4e0a5679f11a",
+        "translatedHash": "e376a3153a9441c30436a69f44321324bcfd29453ce734859eff81a679ef8e8e"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.1-\u4efb\u52a1\u5206\u7ea7.md",
@@ -492,8 +555,8 @@
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.7-\u9a8c\u8bc1\u4e0e\u9a8c\u6536.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.7-verification-and-acceptance.md",
         "output": "references/standard/3-workflow/3.7-verification-and-acceptance.md",
-        "sourceHash": "633c4bf8a1ea1eeb886fe9923d54bfaa7d5661904589d318a747a4801ddbbcbc",
-        "translatedHash": "18bad4be23a125e11678372020b583f56774d3e79870e2885d540c92ed976bba"
+        "sourceHash": "9538aa2572ab0bc34f967dafb87e484bfc34a8959e5f05b6e5828ec858a33860",
+        "translatedHash": "957134946fc25e42cfd12d4f6572fa54b12952c1034d07d334319ea0b93807a3"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.8-\u96c6\u6210\u4e0e\u6536\u5c3e.md",
@@ -560,7 +623,7 @@
       }
     ]
   },
-  "candidateHash": "13c40b6c980df4f50566dbb93d772eb0ebcf12866e993e092a133b3488219378",
+  "candidateHash": "0ad897952e24a7007c99e2e7ad3a93c860e937ed02be3201e9e3749bfb22a9bb",
   "purpose": "private",
   "sources": [
     {
@@ -1777,7 +1840,7 @@
       "original": "skills/frontend-design/SKILL.md",
       "output": "references/methods/frontend-design/METHOD.md",
       "originalHash": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
-      "adaptedHash": "1d873409bb768b82d1b08818ec3471f0d532a7c2a00dba768d88266c3c8d511f",
+      "adaptedHash": "716ad899a7cd29dea0e67bd4e02fdbc13d6c630820a8ad72b19b7aca2ddfe1af",
       "license": "Apache-2.0",
       "override": null
     },
@@ -2217,7 +2280,7 @@
       "original": "cursor-team-kit/skills/control-cli/SKILL.md",
       "output": "references/methods/actual-verification/METHOD.md",
       "originalHash": "13ac93e595bbda2000849bdb815d5f2ca03f7c2ca63788c8335f9212b9b422a2",
-      "adaptedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "adaptedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "license": "MIT",
       "override": null
     },
@@ -2237,7 +2300,7 @@
       "original": "cursor-team-kit/skills/control-ui/SKILL.md",
       "output": "references/methods/actual-verification/METHOD.md",
       "originalHash": "410cae25bdb1e5d2323b126abc5047b0213be7fdb0195710213fa8de8a751871",
-      "adaptedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "adaptedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "license": "MIT",
       "override": null
     },
@@ -2257,7 +2320,7 @@
       "original": "cursor-team-kit/skills/verify-this/SKILL.md",
       "output": "references/methods/actual-verification/METHOD.md",
       "originalHash": "c1c7b27c1133085bd3409c601ea12b6e6f61b4b23debcd52bc248fc01907e7de",
-      "adaptedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "adaptedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "license": "MIT",
       "override": null
     },
@@ -2297,7 +2360,7 @@
       "original": "pstack/skills/create-verification-skill/SKILL.md",
       "output": "references/methods/actual-verification/METHOD.md",
       "originalHash": "d353973547bf8ad8977eca645f4cd4feaed0d32f4b43d1448f906b0a76c4d694",
-      "adaptedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "adaptedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "license": "MIT",
       "override": null
     },
@@ -2317,7 +2380,7 @@
       "original": "pstack/skills/maintain-verification-skill/SKILL.md",
       "output": "references/methods/actual-verification/METHOD.md",
       "originalHash": "515c0eaa054b3f6be1b1fb06f2c2f173c80fddb58bbcac57576f89c479bc68e8",
-      "adaptedHash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "adaptedHash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "license": "MIT",
       "override": null
     },
@@ -2960,12 +3023,12 @@
     },
     {
       "path": "project/.devnorm-test-baseline.json",
-      "hash": "c8c3c6a6f7dc2156ab1b601708dd70e37c91bd1add33d807cd3d54b210d3e438",
+      "hash": "b8d4cdbcf9149d6f967235efd52c59c92fa297f230cf3ef65752e3910eeba7ae",
       "mode": "0644"
     },
     {
       "path": "project/.devnorm-toolchain.json",
-      "hash": "eb6c0030bbdc3085b03f44d02f7948c300198f35950814bc940f518634776fa4",
+      "hash": "7d9cad300d031efff4b4f9238351c061a934eec34f89ce5e07b1eb4795c65b7e",
       "mode": "0644"
     },
     {
@@ -2985,7 +3048,7 @@
     },
     {
       "path": "project/README.md",
-      "hash": "dc66220ca27cfaf907728d69738839701b1ba8c4d5f1a1313181b7b24154806a",
+      "hash": "e1e58aa5855fccaef166719c8e0bfafcddfd603eaac3b06d7b0315608ace9409",
       "mode": "0644"
     },
     {
@@ -3040,7 +3103,7 @@
     },
     {
       "path": "project/delivery/checks.json",
-      "hash": "6d4c7d857cfb520c1767e406e54605a0adc3aadbce87b08ddd458645a9e26aa5",
+      "hash": "fb8491fb5dd5106956d2bb6f87298d3e179c208fe6a1436c7329243d87cccbf8",
       "mode": "0644"
     },
     {
@@ -3145,7 +3208,7 @@
     },
     {
       "path": "project/delivery/locales/en/manifest.json",
-      "hash": "872fc00f917d9e7c469226e8c3403da71beeadc0106dea87376ff988fc472246",
+      "hash": "65a8c6767f3ef65288ffc112bbba98dc70d4469c83b0a25e3ad5247b49cb09c6",
       "mode": "0644"
     },
     {
@@ -3155,7 +3218,7 @@
     },
     {
       "path": "project/delivery/locales/en/methods/actual-verification/METHOD.md",
-      "hash": "147f4432010319e15ecd070feaea403acdea8ccb04d8574a238971e122517b6c",
+      "hash": "0521597f9823160f07ec0a857569de2490768976f5294f379be5dbcd933eede2",
       "mode": "0644"
     },
     {
@@ -3210,12 +3273,12 @@
     },
     {
       "path": "project/delivery/locales/en/methods/frontend-design/METHOD.md",
-      "hash": "1d873409bb768b82d1b08818ec3471f0d532a7c2a00dba768d88266c3c8d511f",
+      "hash": "716ad899a7cd29dea0e67bd4e02fdbc13d6c630820a8ad72b19b7aca2ddfe1af",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/methods/interface-review/METHOD.md",
-      "hash": "f13fbdd2d7fe87102ab4c6bf48ab7144fb4d65568ba8711ce7f505d377a2d934",
+      "hash": "f8c9114d80023b43f1f8fd94cd86d00aed9d7546576fdfe86bd12dd301ff2aef",
       "mode": "0644"
     },
     {
@@ -3405,7 +3468,7 @@
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.7-verification-and-acceptance.md",
-      "hash": "18bad4be23a125e11678372020b583f56774d3e79870e2885d540c92ed976bba",
+      "hash": "957134946fc25e42cfd12d4f6572fa54b12952c1034d07d334319ea0b93807a3",
       "mode": "0644"
     },
     {
@@ -3419,8 +3482,53 @@
       "mode": "0644"
     },
     {
-      "path": "project/delivery/locales/en/standard/5-ui-acceptance.md",
-      "hash": "b7e8b73dbd71d871f2f032a87853467d636d44c086acec3a93efd5aef5fcd142",
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface.md",
+      "hash": "2dfea1c0ba521948e8450901c69a19a45a05ae96937d0147e95e6ede8c2dcf0e",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.1-user-tasks.md",
+      "hash": "b3095ad359e0ca38dacb0c3783a972929da0c5c5cd9c5e4ff65d8120e007b587",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.2-entry-and-navigation.md",
+      "hash": "2932bb46dac51433ca83bad36580db83fcce6671dd9da7feb460b5066f3fcb38",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.3-visual-hierarchy.md",
+      "hash": "580b3296a1c7b2929222b0654e0833b3142d3bbcd9b053627c8d4ae248d7cce1",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.4-input-and-confirmation.md",
+      "hash": "a835c03a38ffcd54a59047613631a4a3d7eb2f04bd33cfddc635c6e6d7b158b5",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.5-state-and-recovery.md",
+      "hash": "96169f4b91e0d6017cefea1ab2834e46ffcd62b1969ea476d1ba26b03dcb97e9",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.6-accessibility.md",
+      "hash": "1bbbe2fe7b2207b636aad83778091888f3977dfb46b0a45ee7b1ec0602bacc84",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.7-assisted-intelligence.md",
+      "hash": "9e9332489f44bd2d27c88b51b707e1b76b1350b4e5e529e225de0c6d92dd5c0e",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.8-ui-acceptance.md",
+      "hash": "ec8a01324e5ecbfb2e802ec7ba02d78e3d3458a8264d07a62ec1c9e3549cc319",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/5-interaction-and-interface/5.9-cases-and-references.md",
+      "hash": "172ea5f9f464ecc8696b4c3854efec4d5afeac935032682e4e9a9be25f244dc2",
       "mode": "0644"
     },
     {
@@ -3460,7 +3568,7 @@
     },
     {
       "path": "project/delivery/locales/en/standard/README.md",
-      "hash": "9cdb8199ad65ec93b1591dcab436ff8475fbb246c49896f46d8451bded756c80",
+      "hash": "e23dc91513844faec3fac3b7b2036330e60930c20226e9f1dc67af28af95e51f",
       "mode": "0644"
     },
     {
@@ -3485,7 +3593,7 @@
     },
     {
       "path": "project/delivery/locales/en/templates/project-adoption.md",
-      "hash": "c349505e1278e8e87e963dc24bb66ab2cebc1b97a7f4d99d0acd901313de4362",
+      "hash": "e376a3153a9441c30436a69f44321324bcfd29453ce734859eff81a679ef8e8e",
       "mode": "0644"
     },
     {
@@ -3500,12 +3608,12 @@
     },
     {
       "path": "project/delivery/locales/en/templates/task.md",
-      "hash": "e90eafdcb937107a7875f37cdd3f250e308e7755eb25a206255e584ef84fa626",
+      "hash": "10bf94aa164617381262f6a47cbb31383d6b2501cd9c7d3229efac9e4939b9d5",
       "mode": "0644"
     },
     {
       "path": "project/delivery/maintenance.md",
-      "hash": "9bd665d385fc11c6942b5b803a7e4975265fcecffd6ae5588f260964b3677080",
+      "hash": "0d81d74fdc55341cb6886a4f11d028d045dff55330979b02993cd47cedd9f0ae",
       "mode": "0644"
     },
     {
@@ -3515,7 +3623,7 @@
     },
     {
       "path": "project/delivery/methods/actual-verification/METHOD.md",
-      "hash": "ad49e79ee8d4e179b231e9c8a30f573bd5f10222d5d5ff80c1e040731fa7cf15",
+      "hash": "9474bbe2a5cb0cd8fbe414c369a2ed0ec5717986405d8d89b4ef3ba5fcbd08d0",
       "mode": "0644"
     },
     {
@@ -3580,12 +3688,12 @@
     },
     {
       "path": "project/delivery/methods/frontend-design/METHOD.md",
-      "hash": "d5b4216d3061f91a3c9de67fbd7985532b2d78831d726605c6c0a0a39f4cc98c",
+      "hash": "fec77f30d05c269fd6121be61d23dcc509529a140164ea8ab2534ced6a27f40a",
       "mode": "0644"
     },
     {
       "path": "project/delivery/methods/interface-review/METHOD.md",
-      "hash": "f5152d39cb3434bcabd8e8a39d1739d0108fb001413cdcb851a539c174d4072b",
+      "hash": "1fc2cca70e11760936a9a373b6b7ea5d7a4fe54afae5b9792a79b1275f006e6d",
       "mode": "0644"
     },
     {
@@ -3765,7 +3873,7 @@
     },
     {
       "path": "project/evidence/catalog.json",
-      "hash": "08d2667709dba1b3552326fcd52a3dc349ad716fdb91f2faaa8141e80517962f",
+      "hash": "04c67583e0520cd5fda57b7d9c2abd46cf16b2f8a9ead25558c1ee5fabce9b0e",
       "mode": "0644"
     },
     {
@@ -3796,6 +3904,11 @@
     {
       "path": "project/evidence/manifests/27c0b76a356f1db76d8433eff1a59b6ea1a4455eb8afc9b7a7fc66243c3fd03a.json",
       "hash": "27c0b76a356f1db76d8433eff1a59b6ea1a4455eb8afc9b7a7fc66243c3fd03a",
+      "mode": "0644"
+    },
+    {
+      "path": "project/evidence/manifests/468fc0e9e62b71416272e0071c632662b3bbba2df64134f4e7cdee8fbc84ae55.json",
+      "hash": "468fc0e9e62b71416272e0071c632662b3bbba2df64134f4e7cdee8fbc84ae55",
       "mode": "0644"
     },
     {
@@ -3985,7 +4098,7 @@
     },
     {
       "path": "project/src/delivery/contracts.ts",
-      "hash": "400a0dc290b0fc33e4cb41041f428dc95a32a15a2968b75810be07a306654a4c",
+      "hash": "4e257c6a515614dd6f0dd9dc1668a712cbf4c9b2cd338aa76c278d5936da1aa0",
       "mode": "0644"
     },
     {
@@ -4030,7 +4143,7 @@
     },
     {
       "path": "project/src/verification/standard.ts",
-      "hash": "dd0b1f196969753ec802ad6118d6fd936fc4726671c430784cb9dff40b4909db",
+      "hash": "7edc9027ed323e7da930d2d261a7c8ac6d5294ba692cecc4b42f55d8a45c9516",
       "mode": "0644"
     },
     {
@@ -4095,7 +4208,7 @@
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.7-\u9a8c\u8bc1\u4e0e\u9a8c\u6536.md",
-      "hash": "633c4bf8a1ea1eeb886fe9923d54bfaa7d5661904589d318a747a4801ddbbcbc",
+      "hash": "9538aa2572ab0bc34f967dafb87e484bfc34a8959e5f05b6e5828ec858a33860",
       "mode": "0644"
     },
     {
@@ -4114,8 +4227,53 @@
       "mode": "0644"
     },
     {
-      "path": "project/standard/5-\u754c\u9762\u9a8c\u6536.md",
-      "hash": "7edeb058364bdc70781728ffae0f3663c1e7713048cecd8306b4c38af47b4733",
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762.md",
+      "hash": "cda83427f998d37d5b4c3a26c1eebefd5e444e09cb620fecfce54ac901ac9e45",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.1-\u7528\u6237\u4efb\u52a1\u4e0e\u6d41\u7a0b.md",
+      "hash": "a9bcd467067bde39fe39ca414e68aea01470ba99b66b7a618225d5363ee145cb",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.2-\u5165\u53e3\u4e0e\u5bfc\u822a.md",
+      "hash": "6074d3e2782258c1c77d0fb47351063ad47123ecfa56de59f573af058c693732",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.3-\u89c6\u89c9\u5c42\u7ea7\u4e0e\u6392\u7248.md",
+      "hash": "bd72b8686c0bc42d7d6f6e57a850a61c7b9f83c5738312eea0e605704d9a9851",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.4-\u8f93\u5165\u4e0e\u786e\u8ba4.md",
+      "hash": "e74969213af072257e5437ea21a0727fa0c1fb0436d58087c334b933e9f9b145",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.5-\u72b6\u6001\u4e0e\u6062\u590d.md",
+      "hash": "49eb271712ea2fe4c48d2feef2ee0d7773c9327b1c82d713f62131ae60bc1824",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.6-\u65e0\u969c\u788d\u4e0e\u8bbe\u5907\u9002\u914d.md",
+      "hash": "e7124f2c731d27784d6eab699afdb0917d9d6a64d2cc20cc6140226fb5fa4545",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.7-\u667a\u80fd\u8f85\u52a9\u4e0e\u81ea\u52a8\u5316.md",
+      "hash": "3850c8e24b1f89fa3a72aa5b9a38d864cf195d824bc2304e1c3071c1140b7af0",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.8-\u754c\u9762\u9a8c\u6536.md",
+      "hash": "3c432bf769607add5f510a0895d462f33127b146a5636a9a5aaf5157f19dd9de",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/5-\u4ea4\u4e92\u4e0e\u754c\u9762/5.9-\u6848\u4f8b\u4e0e\u53c2\u8003\u8d44\u6599.md",
+      "hash": "4f5fc26df700f5424868b543346c0ae5defcafee332d2c7c610405e405ede2b8",
       "mode": "0644"
     },
     {
@@ -4155,7 +4313,7 @@
     },
     {
       "path": "project/standard/README.md",
-      "hash": "71cb334ccedc8e332aef7c9fc69aa57f923fa058829a9239dc7bc51ec2809267",
+      "hash": "6922772b2340824cc14598b81be6dda076334879980b77f603af6d5d9f1b9c28",
       "mode": "0644"
     },
     {
@@ -4180,7 +4338,7 @@
     },
     {
       "path": "project/templates/\u4efb\u52a1\u5355.md",
-      "hash": "f2a14efec57ea802fab2930a71c1b85300e998332b2d51c45cf8e69aef289dec",
+      "hash": "fa7581c4a63be242e211b66e9941aef1508e089959a2c22984c61b1044635e6f",
       "mode": "0644"
     },
     {
@@ -4215,7 +4373,7 @@
     },
     {
       "path": "project/templates/\u9879\u76ee\u63a5\u5165.md",
-      "hash": "caa034b17f8ae3618ee2e42cdd25bedf5ecee32e87e855b87c744f2cebff7c0a",
+      "hash": "9d1978c535ed0a7bc8028634e4f9bc3e5dc67cb7edcb9eb36c0c4e0a5679f11a",
       "mode": "0644"
     },
     {
@@ -4315,7 +4473,7 @@
     },
     {
       "path": "project/tests/verification/migration.test.ts",
-      "hash": "a276e292878e0509ea3db400e5c9db90a8f673c020bc7ac3e91836dd96d83a97",
+      "hash": "99314b0550e03b755831084afd47b71b8ad55b07d9118488aa3c37243ca2fd2b",
       "mode": "0644"
     },
     {

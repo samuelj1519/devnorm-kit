@@ -10,7 +10,7 @@ Development standards and task-specific methods for Codex, Claude Code, Cursor, 
 
 ## Local validation status
 
-The generated payload in this working tree is private version `1.7.1`; the installation commands and version badge below still identify published `v1.5.0`. The private export is not a new public tag, persistent installation, or automatic adoption by other projects. See [the current local validation record](docs/DELIVERY.md#local-formal-delivery-171-2026-11-20). Installed and loaded versions must be checked separately.
+The generated payload in this working tree is accepted version `1.8.0`; following the user's 2026-11-21 authorization it is committed and pushed to the `release/v1.8.0` branch. The installation commands and version badge below still identify published `v1.5.0`; `main` and public tags are unchanged, and the branch push is not persistent installation or automatic adoption by other projects. See [the current delivery record](docs/DELIVERY.md#local-delivery-180-2026-11-21). Installed and loaded versions must be checked separately.
 
 ## Install
 
