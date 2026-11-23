@@ -88,3 +88,11 @@ Local installation was performed through the documented maintainer path: `script
 A fresh `claude -p` session in the `glm` profile listed the `devnorm:` plugin commands and successfully read `references/standard/5-interaction-and-interface/5.8-ui-acceptance.md`, confirming items 5.8.1 through 5.8.11. The session's proxy rejected further tool actions after those reads (environment-specific auto-mode check); the two requested answers were returned before the exit.
 
 Not exercised in this round: the public `npx skills add samuelj1519/devnorm-kit@v1.8.0` channel (command attempts were declined locally), Codex/Cursor copies previously managed by `mo`, and `mo skills upgrade` itself — `mo 0.2.1` currently reports ambiguous source selection and unbound plugin recipes for this asset, a macops-side registration state outside this repository. The `managed-agent-assets.json` registrations were updated to the 1.8.0 release path and revision for when that flow is rebound.
+
+## Local delivery and installation 1.9.0, 2026-11-23
+
+Source commit `8f5e7c1917c3758a1e69f6f8fba13e84eb06415f` delivers simple and formal task routes, combined design and test review, evidence-based candidate approval, and production verification and recovery. This private delivery binds source candidate `d7cf81a2b7ea87f5109bb5c0e103c2226ec184527177f26321fa7b3b8aaba189`, acceptance record `81a5628e206890b1c1679d93f9b70d597e0d59ba67cc36e889cb18391f0166a5`, and artifact identity `12f4516f802e69a4b4b507bb7f304f4f8289f8771077a1f1ab42e9f4f16ab113`.
+
+A clean source worktree excluded ignored historical logs from the accepted candidate. All six frozen-candidate checks passed on an unchanged-input replay following one test timeout, with 291 passed and zero failed. Independent review is included in the source acceptance record. The exported package passed `make check`, including 17 tests.
+
+The existing local release adapter installed nine skills each for Codex and Cursor, and upgraded the five configured Claude Code profiles. File content and executable modes match the release. All five native Claude registrations list version `1.9.0` and are enabled. Running-session load status was not tested. The persistent release is `~/.local/share/devnorm/releases/1.9.0`.

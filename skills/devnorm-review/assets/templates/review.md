@@ -1,6 +1,8 @@
 # Independent review template (1.0 draft)
 
-Use under [independent review](../../references/standard/3-workflow/3.6-independent-review.md). Ordinary tasks may retain conclusions, open items, and evidence references in the six-field brief. Expand this template when needed, without a duplicate mandatory review ledger. Omitting a template field does not waive an applicable required check. Default to the conclusion and scope, confirmed findings, personally executed or cited evidence, and unverified limits. Reference existing inputs and results; expand the following sections only as needed, without filling normal results or irrelevant N/A for appearance.
+Use under [independent review](../../references/standard/3-workflow/3.6-independent-review.md). Formal tasks may retain conclusions, open items, and evidence references in the six-field brief. Expand this template when needed, without a duplicate mandatory review ledger. Omitting a template field does not waive an applicable required check. Default to the conclusion and scope, confirmed findings, personally executed or cited evidence, and unverified limits. Reference existing inputs and results; expand the following sections only as needed, without filling normal results or irrelevant N/A for appearance.
+
+If review began before implementation, cite the approved design and test design inputs and the original conclusion. For candidate review, identify the exact candidate, which scenarios and implementation boundaries were verified, and any deviations or changes that require renewed prior review. Keep the conclusions separate in the existing task record.
 
 ## <Task ID> independent review
 
@@ -53,7 +55,7 @@ Apply all 12 [review items](../../references/standard/1-principles.md#17-manual-
 | --- | --- | --- | --- | --- |
 | <ID/P0/P1> | <file:line/command> | <behavior> | <root cause> | <raw log> |
 
-Fail design/standard review for logic that causes incorrect or impossible execution. Style and optional suggestions do not block. Applicable behavior failures cannot be dismissed because labeled P2. Follow task/project acceptance rules. Existing checker failures remain blocking rather than subjective feedback.
+Determine approval and blockers under [independent review](../../references/standard/3-workflow/3.6-independent-review.md#approval-and-blockers). For each blocker identify the applicable requirement violated or the required evidence missing, the actual or unresolved impact, and the evidence location. Record other findings as nonblocking suggestions.
 
 ## Itemized checks and unverified scope
 

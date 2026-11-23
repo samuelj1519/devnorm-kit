@@ -7,18 +7,16 @@ description: Handle software requirements, design, implementation, defects, revi
 
 Read the target project's current rules and task inputs. Preserve existing work and act within existing authorization.
 
-Proceed directly when goal, scope and authorization are clear, impact is known and recoverable, critical guarantees stay intact, and you can independently verify the result. Text edits and bounded logic or settings repairs within an existing contract can qualify. Technology and file count alone do not determine risk.
+Use two task types: simple and formal. Handle a simple task directly when the goal, scope and authorization are clear, the impact is known, bounded and recoverable, the existing contract and critical guarantees stay intact, and an effective check can be performed independently. Text edits and bounded logic or settings repairs within an existing contract can qualify. Classify by actual impact, using the technology and file scope to investigate affected behavior.
 
-For functional, interface or cross-module changes with bounded risk and unchanged critical guarantees, use the ordinary workflow: a short brief, necessary design, affected checks, brief independent review and applicable acceptance.
+Use the formal route for tasks that do not qualify as simple. Only formal tasks follow the standard workflow. Derive the necessary design, prior review, models, checks and actual acceptance from the change. One non-author primary reviewer checks the exact candidate.
 
-Changed permissions or trust boundaries, shared-write or transaction ordering, data integrity/migration/recovery guarantees, irreversible real effects, or unknown impact require the high-risk workflow: prior plan/architecture review, applicable models, full independent review and real acceptance.
-
-Finish direct work after necessary checks and a brief result with unverified limits. Do not load the full workflow, capability index or task brief for it. New risk stops affected writes and escalates the task, invalidating affected evidence. Stricter project rules, actual authorization and full checks before updating integration targets still apply.
+Finish a simple task after necessary checks and a brief result with unverified limits. Skip the full workflow, capability index and task brief. If simple-task conditions cease to hold, stop affected writes, switch to the formal workflow and invalidate affected evidence. Investigate unknown impact and stop actions lacking necessary authorization. Stricter project rules and trusted full checks before integration still apply.
 Regressions or repeated failure require the standard workflow and inclusion in quality statistics.
 
 ## Current action
 
-Ordinary tasks use [task planning](references/standard/3-workflow/3.3-task-planning.md) and a short brief. High-risk work first completes [design review](references/standard/3-workflow/3.2-requirements-and-design.md). Read only the current stage: [implementation](references/standard/3-workflow/3.5-implementation.md), [independent review](references/standard/3-workflow/3.6-independent-review.md), or [acceptance](references/standard/3-workflow/3.7-verification-and-acceptance.md).
+For formal tasks, set the brief and review arrangements under [task planning](references/standard/3-workflow/3.3-task-planning.md). When applicable conditions such as changes to critical guarantees apply, first complete [design and test design review](references/standard/3-workflow/3.2-requirements-and-design.md#design-and-test-design-review). Read only the current stage: [implementation](references/standard/3-workflow/3.5-implementation.md), [independent review](references/standard/3-workflow/3.6-independent-review.md), or [acceptance](references/standard/3-workflow/3.7-verification-and-acceptance.md).
 
 Choose one primary method: [debugging](references/methods/debugging/METHOD.md), [module design](references/methods/module-design/METHOD.md), [TDD](references/methods/tdd/METHOD.md), [code review](references/methods/code-review/METHOD.md), [runtime verification](references/methods/actual-verification/METHOD.md), or [Chinese writing](references/methods/chinese-writing/METHOD.md). Read the [method selector](references/methods/README.md) for other applicable methods, not the full capability JSON by default. Interviews, history recovery, task refinement, source maintenance and tooling setup require an explicit request. Helper skills work independently without first loading this entry.
 
