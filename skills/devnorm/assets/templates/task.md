@@ -1,13 +1,13 @@
 # Task brief template (1.0 draft)
 
-Use under the [development workflow](../../references/standard/3-development-workflow.md). High-risk tasks use this brief; ordinary tasks prefer the [short brief](task-short.md). Direct work needs no brief. Expand fields by applicable risk within the existing authoritative task record, without duplicating the six-field brief or development/acceptance/review records. Replace placeholders and save in the project's task directory, satisfying its checker fields.
+Use under the [development workflow](../../references/standard/3-development-workflow.md). Formal tasks prefer the [short brief](task-short.md) and use applicable sections here when more detail is needed. Simple tasks need no brief. Expand fields by applicable risk within the existing authoritative task record, without duplicating the six-field brief or development/acceptance/review records. Replace placeholders and save in the project's task directory, satisfying its checker fields.
 
 ## <Task ID>: <observable outcome>
 
 - Status: <pending / active / independent review / recheck / approval / completed scope>
 - Standard: DevNorm <approved version> at <package artifactHash or full source commit>; project rules: <path/version>
 - Task type: <design / prototype / implementation / review / recheck / integration>
-- Risk: <ordinary / high-risk>; reason and classifier: <changed contracts/critical guarantees, known impact, recovery and check evidence; unknown or critical guarantee changes require high-risk>
+- Change impact  <changed contracts or critical guarantees, evidence of recoverability and checks, applicable prior review, and classifier. Investigate unknown impact first>
 - Checks: <full / affected checks then pre-merge full / identical-input reuse then isolated combination and milestone full checks before actual merge>; authority: <section 3.3, stricter project rules, separate exception approvals>
 - Milestone: <name/boundary or N/A>
 - Implementer: <one role/session>; primary reviewer: <non-author ID; fresh first review, then continuation; or pending assignment>
@@ -48,6 +48,8 @@ The coordinator defines:
 - Combination/merge: <only an isolated combination before full checks; trusted full checks for the exact version before actual merge>
 
 ## Verification plan
+
+Reference relevant commitments in product behavior, architecture and module organization, and core algorithms and code logic. At design review, record applicable unit, integration, and acceptance scenarios, what to observe, expected results, and environment. Cite actual evidence for the exact candidate in the same record after implementation.
 
 Use applicable [task-specific methods](../../references/standard/3-workflow/3.5-implementation.md#351-task-specific-methods). Record a refactor behavior baseline, batch sample, or performance comparison only when applicable. For observable uncertainty, record a minimal experiment's input, expectation, and observation.
 
@@ -112,6 +114,6 @@ Complete this section only after delegation is justified.
 
 After a plan changes implementation, acceptance, or permissions, record the new version and recheck affected areas. Repeated returns require a different split or one executor. Budgets accumulate continuously. Planning reads implementation without editing it, but may write plans. A session that edited implementation cannot independently review the same task.
 
-## Pre-implementation review when risk applies
+## Applicable pre-implementation review
 
-Only when section 3.2 requires prior review for this increment, record its exact plan/architecture inputs, reviewer, conclusion, unresolved blockers, and actual review record before changing runtime code. Check data owners, async changes, final commit validation, and initial/failure/retry behavior. Do not fill this section retroactively from implementation review. Direct low-risk tasks need no additional brief.
+When section 3.2 requires prior review of the current increment, record the exact design, architecture and test design inputs, reviewer, conclusion, blockers and actual review evidence before substantive implementation. Check data ownership, async changes, validation at final commit, and the initial, failure and retry paths. Record expected results, observable side effects and evidence for affected guarantees. Implementation review cannot retroactively satisfy this step. Direct low-risk tasks need no brief.

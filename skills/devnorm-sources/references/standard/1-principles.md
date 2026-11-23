@@ -136,7 +136,7 @@ Choose tools for actual project needs. Verify versions and options, prove reject
 
 ## 1.7 Manual review checklist
 
-Standard-workflow reviewers record yes, no, or N/A for each item, with location or evidence. Separate errors from suggestions. Style suggestions do not block, but machine-reported errors still need repair. Direct tasks do not require a separate review because of this checklist.
+Reviewers check each applicable item in the standard workflow and cite locations or evidence for the conclusion, blockers, and unverified items in the existing task record. Use [independent review](3-workflow/3.6-independent-review.md#approval-and-blockers) to determine approval and blockers. Style suggestions are nonblocking. Resolve failures in required automated checks. Simple tasks need no separate review.
 
 1. The change serves the current requirement without hypothetical features.
 2. Interfaces are clear and hide implementation details from callers.

@@ -1,10 +1,10 @@
-# Install DevNorm 1.8.0
+# Install DevNorm 1.9.0
 
 This package provides the `devnorm` workflow skill and independently invocable helpers with the development standard, task-specific methods, runtime resources, and licenses. Ordinary method reading needs the agent's existing tools, not the source repository's Bun build environment.
 
 ## Verify the package
 
-Candidate: `0ad897952e24a7007c99e2e7ad3a93c860e937ed02be3201e9e3749bfb22a9bb`. Check `artifact.json` and every entry in `SHA256SUMS` before loading. The skill's `provenance.json` and `THIRD_PARTY_NOTICES.md` identify original commits, adaptations, and licenses.
+Candidate: `d7cf81a2b7ea87f5109bb5c0e103c2226ec184527177f26321fa7b3b8aaba189`. Check `artifact.json` and every entry in `SHA256SUMS` before loading. The skill's `provenance.json` and `THIRD_PARTY_NOTICES.md` identify original commits, adaptations, and licenses.
 
 | Location | Generated release | Delivery repository |
 | --- | --- | --- |
