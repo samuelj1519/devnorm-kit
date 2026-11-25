@@ -1,11 +1,11 @@
 ---
 name: devnorm-design
-description: "Design module interfaces, domain concepts, and shared state."
+description: "Design additions and changes to modules, interface contracts and shared state."
 ---
 
 # devnorm-design
 
-Handle the current design question, clarify responsibilities/recovery, and use state modeling when required. Do not delegate automatically.
+Define responsibilities, contracts and recovery for the current design. For complex transitions, event interleavings or critical consistency risks, use [section 3.2.1](references/standard/3-workflow/3.2-requirements-and-design.md#321-plan-state-modeling-and-review) and the [bundled state-modeling method](references/methods/statechart/METHOD.md) to verify existing tools and run applicable checks. Do not delegate automatically.
 
 Read the target project's current rules and exact task inputs. Preserve its scope, existing authorization, cumulative budget, and required verification. Use [the method](references/methods/module-design/METHOD.md) for this capability. Read related resources only when needed.
 

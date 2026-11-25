@@ -8,9 +8,9 @@ Development standards and task-specific methods for Codex, Claude Code, Cursor, 
 
 [Install](#install) · [Use](#use) · [Skills](#skills) · [Update or uninstall](#update-or-uninstall) · [Compatibility](#compatibility) · [Contribute](#verify-and-contribute)
 
-## Current release
+## Checkout and published versions
 
-This working tree and the published `v1.8.0` tag contain accepted DevNorm `1.8.0` (publication authorized by the user on 2026-11-21). See [the delivery record](docs/DELIVERY.md#local-delivery-180-2026-11-21) for checks and limits. Installed and loaded versions must be checked separately.
+Read [the artifact manifest](artifact.json) for the version and digest in this checkout. The [delivery record](docs/DELIVERY.md) documents verified candidates. The commands below install the pinned published tag. For another approved version, choose its exact tag from [published tags](https://github.com/samuelj1519/devnorm-kit/tags). Verify installed files and skill discovery in a fresh client session separately.
 
 ## Install
 

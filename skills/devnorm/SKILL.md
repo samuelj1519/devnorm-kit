@@ -5,7 +5,7 @@ description: Route development under this project standard.
 
 # DevNorm
 
-Read project rules and inputs. Protect existing work. Stay authorized. Search this skill first.
+Read project rules and inputs. Protect existing work. Stay authorized. Check affected project paths and callers for project facts, follow the current stage's bundled links for DevNorm rules, and broaden the search for a local docs edit only if evidence is missing.
 
 <!-- devnorm:condition:simple-route:start -->
 Use two task types: simple and formal. Handle a simple task directly when the goal, scope and authorization are clear, the impact is known, bounded and recoverable, the existing contract and critical guarantees stay intact, and an effective check can be performed independently. Text edits and bounded logic or settings repairs within an existing contract can qualify. Classify by actual impact, using the technology and file scope to investigate affected behavior.

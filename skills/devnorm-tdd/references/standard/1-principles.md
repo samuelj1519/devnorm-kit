@@ -2,6 +2,8 @@
 
 Deliver development work efficiently, correctly, and at low total cost. Build what the current task needs. Keep code understandable, verifiable, and maintainable. Count communication, tools, rework, and maintenance as costs. Correctness and safety come first, followed by maintainability and simplicity. Meet agreed performance requirements. Automate requirements that tools can check.
 
+Start with the result the user or caller needs and the situation in which they need it. Distinguish hard constraints, acceptable criteria and goals to optimize. When goals conflict, compare the cost of reducing scope, delivering in stages, choosing a different approach or changing the commitment. The authorized owner decides whether to change a hard constraint already promised. Use section 1.2 to choose the simplest design that satisfies the constraints and supports later changes. If the trade-off remains unclear, try one representative follow-up change to find what must be understood and modified.
+
 Use the [development workflow](3-development-workflow.md) and the [check schedule](#15-automated-check-schedule).
 
 ## 1.1 Requirements and scope
@@ -153,7 +155,7 @@ Reviewers check each applicable item in the standard workflow and cite locations
 
 ## 1.8 Milestone checks
 
-At each milestone, run full checks for the current version. Review dependencies, mutation testing, duplication and complexity changes, stale documents, exemptions, recurring defects, and four task metrics: rework count, review findings, post-merge regressions, and duplicate-code growth. Define 3–5 architecture health checks and their measurement rules in advance.
+At each milestone, run full checks for the current version. Review dependencies, mutation testing, duplication and complexity changes, stale documents, exemptions, recurring defects, and four task metrics: rework count, review findings, post-merge regressions, and duplicate-code growth. In the execution contract, record 3–5 architecture health checks, comparison baselines and measurement rules in the same [periodic checklist](4-periodic-review.md#41-scheduled-checks). Section 1.5 uses that checklist for scheduled checks.
 
 Keep unrun checks pending and unknown data unknown. Repair and recheck ordinary low-risk findings directly. Use a task brief and the main workflow for other findings.
 

@@ -21,7 +21,7 @@ The skills table below is generated from the accepted entry declarations. Each h
 | Skill | Purpose | Invocation | Instructions |
 | --- | --- | --- | --- |
 | devnorm | Full project development workflow | By task | [Entry](skills/devnorm/SKILL.md) |
-| devnorm-design | Design module interfaces, domain concepts, and shared state. | When applicable | [Entry](skills/devnorm-design/SKILL.md) |
+| devnorm-design | Design additions and changes to modules, interface contracts and shared state. | When applicable | [Entry](skills/devnorm-design/SKILL.md) |
 | devnorm-debug | Reproduce defects and verify root causes and repairs. | When applicable | [Entry](skills/devnorm-debug/SKILL.md) |
 | devnorm-review | Independently review a fixed candidate against standards and specifications. | When applicable | [Entry](skills/devnorm-review/SKILL.md) |
 | devnorm-verify | Verify actual CLI, service, browser, and native behavior. | When applicable | [Entry](skills/devnorm-verify/SKILL.md) |

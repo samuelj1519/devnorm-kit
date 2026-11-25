@@ -6,6 +6,8 @@ Record the adopted version, project differences, and actual check commands under
 
 Replace placeholders with approved project versions and paths.
 
+See the [local documentation link repair](examples/local-doc-anchor.md) for a routing example.
+
 ```markdown
 This project adopts DevNorm version <version>.
 Actual standard location: <installed package standard entry or an accessible project path>
@@ -17,7 +19,7 @@ If required resources, command mappings, or authorization are missing, stop depe
 
 At task start, read this entry, the task, and relevant plan/progress records.
 On adoption or version change, check the standard entry and project differences.
-Follow workflow sections 3.1 through 3.8. Read interaction and interface for UI work.
+Classify the task under section 3.1. Handle simple tasks directly and run necessary checks. For formal tasks, read the applicable requirements for the current stage and complete the required design review, checks, independent review and acceptance. Read interaction and interface for UI work. Verify the exact combination under the integration procedure before updating an integration target.
 Recheck working location on session start or change. Read section 3.4 before input or approval.
 Use periodic review for scheduled checks and improvements.
 Project rules add or strengthen requirements. Exceptions need exact requirements-owner approval.
@@ -38,7 +40,7 @@ Project rules add or strengthen requirements. Exceptions need exact requirements
 | Standard and method resources | <accessible main entry and every standalone skill, adopted identities, dependencies, and licenses; no sibling skill or maintainer-local path dependency> |
 | Verification commands | <actual quick, affected, and full commands and scope; test-diff protection, static/public/native/real-service behavior; trusted toolchain and comparison-baseline origins; gaps are not run, never an empty successful check> |
 | State-model review | <section 3.2.1 applicability, statechart/TLC entry, plan/model records, chart-review owner, implementation counterexamples> |
-| Continuous production deployment, where applicable | <existing release procedure and owner; exact artifact and authorization; exposure, observation window, signals and thresholds; pause, containment or recovery rehearsal, and evidence of restored behavior and affected data; see [verification and acceptance](../../references/standard/3-workflow/3.7-verification-and-acceptance.md)> |
+| Continuous production deployment, where applicable | <existing release procedure, owner and record; exact artifact, configuration and authorization; initial actual exposure, applicable sample, observation window, signals and thresholds; pause conditions, query for unknown outcomes, containment or compatible recovery rehearsal, and evidence for restored behavior, affected data and external effects. See [verification and acceptance](../../references/standard/3-workflow/3.7-verification-and-acceptance.md)> |
 | Task classification and checks | <criteria for handling simple tasks directly, one formal-task record and non-author primary reviewer, applicable prior review, models and actual acceptance, and approved project trials> |
 | Writers | <single owners of shared interfaces, generated content, locks, aggregate state> |
 | Git/checkouts | <under the [collaboration standard](../../references/standard/6-version-control.md): remotes/main branch, branches/writers, commit format/language, merge method, quick/full checks and trusted execution, actual approval accounts, tag/evidence retention, cleanup and history exceptions; state platform gaps and replacement safeguards> |

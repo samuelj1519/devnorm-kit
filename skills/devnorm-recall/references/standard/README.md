@@ -2,6 +2,15 @@
 
 Help developers and agents deliver efficiently, correctly, and at low total cost. Select preparation, implementation, and verification by task risk to reduce waiting, duplicate work, and rework. Continue within existing authorization. Clarify material gaps in goal, scope, or permission. Prove completion with actual results.
 
+## Common decisions
+
+- **Can I make this change directly?** Proceed when the goal, scope and authorization are clear, the impact is known, bounded and recoverable, existing contracts and critical guarantees stay intact, and you can run an effective check independently. [Task classification](3-workflow/3.1-task-classification.md)
+- **What if I do not know the impact yet?** Pause affected writes, trace callers and investigate the actual impact, then classify the work. [Requirements and design](3-workflow/3.2-requirements-and-design.md#32-requirements-and-design)
+- **When does the architecture need another review?** A non-author must review the design, applicable architecture and test design before affected implementation changes critical guarantees or causes irreversible real effects. [Design and test design review](3-workflow/3.2-requirements-and-design.md#design-and-test-design-review)
+- **What is still needed to merge after workspace checks pass?** Confirm authorization, the current target and the exact combination. Obtain trusted full-check results for that combination. [Integration](3-workflow/integration.md)
+
+## Chapter index
+
 | Reading order | Content | Use |
 | --- | --- | --- |
 | [1. Development principles](1-principles.md) | Scope, code design, tests, acceptance, and maintenance | First reading, planning, and code review |
@@ -14,7 +23,7 @@ For Git operations, read [6. Git and GitHub collaboration](6-version-control.md)
 
 Use [requirements and design](3-workflow/3.2-requirements-and-design.md#32-requirements-and-design) and [task-specific methods](3-workflow/3.5-implementation.md#351-task-specific-methods). Read templates and verification material on demand.
 
-Simple tasks proceed directly with necessary checks, without a brief or separate review. Formal tasks follow the standard workflow. An actual merge still requires full checks. No UI or an existing prototype means no extra prototype. Before delegating, compare work, task relationships, and the total cost of receiving and integrating results.
+Report simple-task results and remaining verification briefly. Formal tasks follow the standard workflow. No UI or an existing prototype means no extra prototype. Before delegating, compare work, task relationships, and the total cost of receiving and integrating results.
 
 | Role | Responsibility |
 | --- | --- |

@@ -116,3 +116,11 @@ This revision adds guidance for checking all affected uses of changed behavior a
 `make check` passed all 17 Kit tests. A separate restoration rebuilt nine skills and matched 3,507 release files by path, SHA-256, and mode.
 
 The approved delivery destination is `release/v1.10.1`. The runtime results apply to the two isolated fixtures. Persistent installation and a paired Token comparison remain separate.
+
+## Public delivery 1.11.0
+
+This checkout contains the accepted public DevNorm Kit 1.11.0. The source tree is `b3c8f367672bb6548cb56f244e200203009c1c99`. The frozen candidate is `779989403604f555d82f511e4a0c2f3afeb7749002e7b422f9085c26532cf12b`, the source acceptance record is `733f3a313710409512bfc1fe5ee128dadb55a86679b26320c48bc3158db8820f`, and the release artifact is `2b0fc6fc4e92f0dcf030993db0e4a19841115e7886e255eae5812aee6fee04bb`.
+
+The standard routes tasks by evidence requirements and gives independent skills direct links to relevant package resources. The design skill includes its own path to state modeling. The source program invalidates a previous pass before freezing a candidate again.
+
+The public candidate passed all six checks with 299 tests passing. The independent reviewer verified 16 model cases and three isolated Codex sessions for direct routing, unresolved compatibility, and independent review. Published installation examples retain their existing explicit tag.

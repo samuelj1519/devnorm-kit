@@ -16,11 +16,11 @@ Maintain the current plan under the [workflow](../../references/standard/3-devel
 
 ## Verification and unresolved issues
 
-<Applicability of constraints, empirical checks, and formal checks. Invariants, evidence, verified and unverified scope, method, and owner.>
+<Key commitments, actual paths, violations, pass criteria, original evidence and owners. For compatibility or recovery, name supported parties, formats and mixed-version reads and writes. For a shared hot path, record load, baseline and regression criteria.>
 
 ## State modeling and design review
 
-Assess applicability under [section 3.2.1](../../references/standard/3-workflow/3.2-requirements-and-design.md#321-plan-state-modeling-and-review). Explain N/A.
+Assess applicability under [section 3.2.1](../../references/standard/3-workflow/3.2-requirements-and-design.md#321-plan-state-modeling-and-review). If applicable, use the [state-modeling method](../../references/methods/statechart/METHOD.md) to check the existing tools and run the controlled entry. Explain N/A where applicable.
 
 - Applicability: <complex transitions, event interleavings, consistency risk, or N/A reason>
 - Scope: <states, events, transitions, invariants, termination, bounds, assumptions>
@@ -29,7 +29,7 @@ Assess applicability under [section 3.2.1](../../references/standard/3-workflow/
 - Chart review: <reviewer, normal/abnormal paths, exits, returns, responsibilities, conflicts, chart omissions>
 - Counterexamples: <model or design defect, original failure, repair, rerun, remaining blockers>
 - Decision: <pass / fail / incomplete, confirmation of critical semantics, implementation conditions>
-- Implementation: <model/code entry mappings, executable counterexample tests, re-review after state-contract changes>
+- Implementation: <model/code entry mappings, model reruns and key counterexamples, side effects and valid outcomes observed through public entries, and re-review after state-contract changes>
 
 ## Prototype and detailed-design overrides
 

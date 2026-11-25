@@ -15,6 +15,6 @@ Add abstractions for demonstrated production/test callers, not hypothetical repl
 
 ## Migration
 
-Freeze current public behavior first. After the new interface covers existing callers and failures, migrate every caller and delete obsolete APIs. Remove an old test only when equivalent or stronger behavior protection has actually run and the old test is redundant. Internal-test labels do not justify lower coverage or quality.
+Freeze current public behavior first. After the new interface covers existing callers and failures, migrate every caller and delete obsolete APIs. Follow the test-change requirements in [implementation and self-checks](../../../standard/3-workflow/3.5-implementation.md). Run equivalent or stronger behavior checks first, show they still detect the old defect, and complete the applicable diff review. When a specification change requires changing an old assertion, stop for the requirements owner to approve and assign the change separately to a test or tooling owner.
 
 Check call-chain length, shared mutable state, error/recovery order, and how many responsibilities one requirement change affects.

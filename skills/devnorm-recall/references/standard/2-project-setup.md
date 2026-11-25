@@ -6,6 +6,8 @@ Check this chapter when first adopting the standard, changing its version, or ch
 
 The common standard defines collaboration, authorization, verification, and delivery. Project rules define product facts, commands, role limits, runtime, and cleanup. Task briefs fix the task's exact input, files, people or agents, checks, and authorization.
 
+Project rules record the outcome users or callers need, the hard constraints and acceptance criteria, and applicable default methods. Formal tasks apply those rules and add the current goal, trade-offs and verification approach to the existing task record. When goals conflict, compare options under chapter 1. The authorized owner decides whether to change a hard constraint already promised.
+
 Project rules may add or strengthen requirements. For an exception, record the conflicting clause, reason, exact scope, risks, replacement checks, expiry, and revocation. Obtain requirements-owner approval. One project's permission does not authorize another project. Apply existing exact approvals within their original scope.
 
 Reference the [standard](README.md) from `AGENTS.md` or an equivalent entry. Record the adopted standard version, exact commit, product-plan version, and task input version separately.
