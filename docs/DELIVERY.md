@@ -96,3 +96,23 @@ Source commit `8f5e7c1917c3758a1e69f6f8fba13e84eb06415f` delivers simple and for
 A clean source worktree excluded ignored historical logs from the accepted candidate. All six frozen-candidate checks passed on an unchanged-input replay following one test timeout, with 291 passed and zero failed. Independent review is included in the source acceptance record. The exported package passed `make check`, including 17 tests.
 
 The existing local release adapter installed nine skills each for Codex and Cursor, and upgraded the five configured Claude Code profiles. File content and executable modes match the release. All five native Claude registrations list version `1.9.0` and are enabled. Running-session load status was not tested. The persistent release is `~/.local/share/devnorm/releases/1.9.0`.
+
+## Release branch 1.10.0, 2026-11-25
+
+The approved version is `1.10.0`. The frozen candidate is `f07e2ff3ca460a24797f705585909164ed86f15a07ff0d09ec078ec987e31d68`, the accepted source record is `723adbe9f8bc8a5cc45b05833e4cbe36f9944deb2ad1c1cea1eed09f872fe32e`, and the artifact identity is `c7b8c7d30a7db0698ae8304a9e64f749313546e9a4a1ddfc65627126beb614b3`.
+
+This version introduces versioned mandatory conditions and shorter default reading paths. The source and exact candidate each passed the required checks, including 298 project tests. Independent review and the seven required condition proofs passed. Seventeen TLC results matched their expected outcomes. Two isolated read-only Codex sessions verified simple-task completion and escalation, and independent review before and after required evidence.
+
+`make check` passed all 17 Kit tests. A separate restoration rebuilt nine skills and matched all 3,507 release files by path, SHA-256, and mode.
+
+The approved destination is `release/v1.10.0`. The two client samples support the observed routing and review behavior. A paired Token comparison and persistent installation were outside this verification.
+
+## Release branch 1.10.1, 2026-11-25
+
+The accepted version is `1.10.1`. The frozen candidate is `7cf1e582e18570f6a43c86b02f6113f8ea0eb9fb8610f232af99b79f41d0836e`, the accepted source record is `270055b6cd72d1113a3084cf1ef87c8569e95b0bda5dc5da1551cdb8555cec86`, and the artifact identity is `cbec014542768aa1fe98b06606a842acef75b80dfb12beffccd0c1c7f595f0c8`.
+
+This revision adds guidance for checking all affected uses of changed behavior and for preventing confirmed defects from recurring. The source and isolated candidate each passed the required checks, including 298 project tests. The independent review accepted seven condition proofs. Three model proofs had matching scopes and were reused. Seven targeted TLC cases matched their expected outcomes. Two authorized read-only Codex sessions observed the direct route and escalation, and independent review before and after required evidence.
+
+`make check` passed all 17 Kit tests. A separate restoration rebuilt nine skills and matched 3,507 release files by path, SHA-256, and mode.
+
+The approved delivery destination is `release/v1.10.1`. The runtime results apply to the two isolated fixtures. Persistent installation and a paired Token comparison remain separate.
