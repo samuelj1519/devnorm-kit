@@ -51,15 +51,15 @@
         "source": "delivery/capabilities.json",
         "translated": "delivery/locales/en/capabilities.json",
         "output": "references/capabilities.json",
-        "sourceHash": "cdc8bb8c1c922f87430d9f4ac80886d7ccf36945527b9e777c32d8ebb661d70a",
-        "translatedHash": "8332bcda9a1b6dfbcaf39a83887c04797075140bd672ac118dc6a9ce22020212"
+        "sourceHash": "50f6974069dde868040459de75833e6b6f46d5768d4579b9e76cc6b82e9e0e80",
+        "translatedHash": "2dc731b127cc4df7ac712da1f7bffa0cd5df518e2faaa77bafcd5cb40df291c5"
       },
       {
         "source": "delivery/entry/SKILL.md",
         "translated": "delivery/locales/en/entry/SKILL.md",
         "output": "SKILL.md",
-        "sourceHash": "f218e61d885dae5b969f0c685b61a2608bdcfcb3ff23cf617dafe89ea6b95c60",
-        "translatedHash": "753ede5630feef4346fd15941319be12defe0f12abb290a82cfec59c93541343"
+        "sourceHash": "3ec9fe74698eaa4f1e3ab0599bde276631d21321841a84aa287612c90653647c",
+        "translatedHash": "5f60be74a420bd932ac8ed040b9345c19e3004ab5b3dda5a68406bfea841fc0f"
       },
       {
         "source": "delivery/methods/actual-verification/METHOD.md",
@@ -93,8 +93,8 @@
         "source": "delivery/methods/code-review/METHOD.md",
         "translated": "delivery/locales/en/methods/code-review/METHOD.md",
         "output": "references/methods/code-review/METHOD.md",
-        "sourceHash": "9b763e980f38bb256efb9eb49789ae2048abe65de6ba9a06e29f6571af8968eb",
-        "translatedHash": "373d23c904eebfaa0928ef1447a27f57816368a9f28b592f99a1b2ad680204af"
+        "sourceHash": "f46950596843cdc056a99472afca4183ffdf70bb0cf15b7a307ab980d089eebf",
+        "translatedHash": "a67d276b7b24b95857157e24b90dad3b5c633c1b06f03fbb38a130cfbcce68c6"
       },
       {
         "source": "delivery/methods/code-review/references/impact.md",
@@ -107,8 +107,8 @@
         "source": "delivery/methods/code-simplification/METHOD.md",
         "translated": "delivery/locales/en/methods/code-simplification/METHOD.md",
         "output": "references/methods/code-simplification/METHOD.md",
-        "sourceHash": "49fa1778ad874cf050a0de32812ef276cef09809543905b911bb10b63bb92322",
-        "translatedHash": "3cb492fe4e51fedda58c361ded10cb214d4fc6c8252e023d19635674112b2c05"
+        "sourceHash": "a05bb96f2a4412675095cbce5e68cde1ade59fff43cff81c142a6763e5675240",
+        "translatedHash": "98ee1fbd61329f989c1bb1cffc3f056420ca2cf9d8c603bc66e3adbb905fdbfb"
       },
       {
         "source": "delivery/methods/context-recovery/METHOD.md",
@@ -513,22 +513,22 @@
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.1-\u4efb\u52a1\u5206\u7ea7.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.1-task-classification.md",
         "output": "references/standard/3-workflow/3.1-task-classification.md",
-        "sourceHash": "a1eb1d84c7afe892ba4fdcf44241ab748b9c586fb0f8bbf2d8cf7ee7377f506a",
-        "translatedHash": "27c37d6dbeb1ddb8ef5699a2241d1ed6603936b301fe31bc32e2e9398f5466a6"
+        "sourceHash": "0b8deb26c2e2006312470e1aea8f79f84d1cf1756d1cb55890b50cb207da0747",
+        "translatedHash": "e9938b3547be542266932ee5357ceb5f3836f9fa263fad5dbdc9234ffd5c5598"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.2-\u9700\u6c42\u4e0e\u65b9\u6848.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.2-requirements-and-design.md",
         "output": "references/standard/3-workflow/3.2-requirements-and-design.md",
-        "sourceHash": "b16a47f53ec97c8dfcef758f8ef081cdc27e89f8858b7d87526f50dda9b21253",
-        "translatedHash": "0db237834511f0a26fd8195ba253196429fc841ff492ec5b8a10ba1454188554"
+        "sourceHash": "ebc1506746bc238d8c40bc55a2123774be2c5270920911d169bd34199a7e2fe1",
+        "translatedHash": "b4e747c3c2e904ebc1b224d04a133f30d10f4e2f0643db34bf106a9e97614242"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.3-\u4efb\u52a1\u5b89\u6392.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.3-task-planning.md",
         "output": "references/standard/3-workflow/3.3-task-planning.md",
-        "sourceHash": "5b45db4506f5dbefb58ef857217cf7cac51e21d3642f7fc3ecf1cf57a69cd67b",
-        "translatedHash": "27d779532741ac6242b54d60b1b5686cc3ef9a8b340c6ee1441d7b125f6e4eb9"
+        "sourceHash": "6218125570c26de245d9e04a21dddb087a7d3f30c05526815ce56755495525a7",
+        "translatedHash": "3bbd56d33679fbce7630ccfacda54fd64d45ce8826db774d4442fdf53d9093ad"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.4-\u6267\u884c\u73af\u5883.md",
@@ -541,29 +541,50 @@
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.5-\u5b9e\u73b0\u4e0e\u81ea\u68c0.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.5-implementation.md",
         "output": "references/standard/3-workflow/3.5-implementation.md",
-        "sourceHash": "c9c4bc9896e210232a0e7711e8d84dfa41e69af196ebe95cf76e835f29e6edfe",
-        "translatedHash": "6c8856a49b4034af48926d85b0e9abce5b9c9202e47741cca97ed637606924b8"
+        "sourceHash": "ffc5ff0ec9829df5130353decf8d5e5cf5cf542cdbf248e950f5e0cdfc7e5f85",
+        "translatedHash": "15eb0c4b5b4493b0f695d7565dd76fdd5ea9d4a306f30e81b3738ae3a09dfb47"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.6-\u72ec\u7acb\u590d\u6838.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.6-independent-review.md",
         "output": "references/standard/3-workflow/3.6-independent-review.md",
-        "sourceHash": "ab0fcdbab8f1ee2507849db78a0832e8d5d1aff2bc8e3c7fa4585fa4c22f9af7",
-        "translatedHash": "3e851e0500e96cbf60a8b95a97777d8c541d1aadd94d03cfb14aa0f115bb1a4d"
+        "sourceHash": "ffd665aaab890c9d98f8148102611f4e8cd76a18d4cb9a14ca0484d2b0c5446f",
+        "translatedHash": "805867d310cb81019d1bb6ea534b49280357d82db1ac4b4935cbc6d632015858"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.7-\u9a8c\u8bc1\u4e0e\u9a8c\u6536.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.7-verification-and-acceptance.md",
         "output": "references/standard/3-workflow/3.7-verification-and-acceptance.md",
-        "sourceHash": "8ffd3b8c98a4e729b7e861a3fac54aa427ae392bda35891241401dee91d774d0",
-        "translatedHash": "e1bfe91de0b6e71c56cc350c575627f46866c5c53a78b138f3dab29aac51860c"
+        "sourceHash": "a545c79e21ff336958b6040a6a00c5e07ee8e021a9b2de8df86d6c0b50a14a3d",
+        "translatedHash": "d4fa846881ee967dc6eaedea1b4f52414cf173434fc3eaea176cf6017b226d17"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.8-\u96c6\u6210\u4e0e\u6536\u5c3e.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.8-integration-and-completion.md",
         "output": "references/standard/3-workflow/3.8-integration-and-completion.md",
-        "sourceHash": "a1379163d5a25467cd0ef9eb59689216f6cce699a10e2025f57e82bc24febb24",
-        "translatedHash": "1951f03995057ad94ae5f5fdcc75bec62c3ae3db7980d775081e611836f479e1"
+        "sourceHash": "77ec7a6b27f3328b467fe49eb5930ea61f67a346749f1def59a138e97b10fda5",
+        "translatedHash": "73d67818745dfe5b6c0f8b52e773a02003994e5b2c24500d5ff5c16b588dad3e"
+      },
+      {
+        "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/\u5408\u5165.md",
+        "translated": "delivery/locales/en/standard/3-workflow/integration.md",
+        "output": "references/standard/3-workflow/integration.md",
+        "sourceHash": "fa8ad779e0a03f2e71e0e7eb18b89f1950237662280604c62f39c9fdd9f921ad",
+        "translatedHash": "129200f8700635f810c43146f305fa23c1a4ec90be3647f061f867a8a88dfce4"
+      },
+      {
+        "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/\u8bc1\u636e\u4fdd\u7559.md",
+        "translated": "delivery/locales/en/standard/3-workflow/evidence-retention.md",
+        "output": "references/standard/3-workflow/evidence-retention.md",
+        "sourceHash": "97f1253d14798e3c6c84975f0ce9cc1029e77434e7968db38f12dc99bde8dc95",
+        "translatedHash": "de6f941f3ef0624baa0f2b1cc65f4db893d318a116c693563fe7ca26488ca88f"
+      },
+      {
+        "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/\u7528\u6237\u6c9f\u901a.md",
+        "translated": "delivery/locales/en/standard/3-workflow/reporting.md",
+        "output": "references/standard/3-workflow/reporting.md",
+        "sourceHash": "ed69202d873b6fd46be3a45b6b3ad56b4a72a1f18901319e52b0fea7637e7878",
+        "translatedHash": "0aa56b529f3998c5e7e91aa788ad5b57c7dd8907190d7e43db6fe95421a9bcf4"
       },
       {
         "source": "standard/6-Git\u4e0eGitHub\u534f\u4f5c/6.2-\u5f00\u5de5\u4e0e\u5206\u652f.md",
@@ -623,8 +644,8 @@
       }
     ]
   },
-  "candidateHash": "d7cf81a2b7ea87f5109bb5c0e103c2226ec184527177f26321fa7b3b8aaba189",
-  "purpose": "private",
+  "candidateHash": "f07e2ff3ca460a24797f705585909164ed86f15a07ff0d09ec078ec987e31d68",
+  "purpose": "public",
   "sources": [
     {
       "sourceId": "anthropic",
@@ -2340,7 +2361,7 @@
       "original": "pstack/skills/blast-radius/SKILL.md",
       "output": "references/methods/code-review/METHOD.md",
       "originalHash": "2e10745b97f5862323dcda3b29ca60d56b5c3c98e37020085d26b48efbe0a436",
-      "adaptedHash": "373d23c904eebfaa0928ef1447a27f57816368a9f28b592f99a1b2ad680204af",
+      "adaptedHash": "a67d276b7b24b95857157e24b90dad3b5c633c1b06f03fbb38a130cfbcce68c6",
       "license": "MIT",
       "override": null
     },
@@ -2520,7 +2541,7 @@
       "original": "pstack/skills/principle-laziness-protocol/SKILL.md",
       "output": "references/methods/code-simplification/METHOD.md",
       "originalHash": "1be6e7a435f26a75a76eb848b9c3d611b9977d0f5822361753244da25ca3ca45",
-      "adaptedHash": "3cb492fe4e51fedda58c361ded10cb214d4fc6c8252e023d19635674112b2c05",
+      "adaptedHash": "98ee1fbd61329f989c1bb1cffc3f056420ca2cf9d8c603bc66e3adbb905fdbfb",
       "license": "MIT",
       "override": null
     },
@@ -2540,7 +2561,7 @@
       "original": "pstack/skills/principle-minimize-reader-load/SKILL.md",
       "output": "references/methods/code-simplification/METHOD.md",
       "originalHash": "1ea2b7fef2391cae5844c4efdbd59031f775e8a52d06b7495d707229a200dcca",
-      "adaptedHash": "3cb492fe4e51fedda58c361ded10cb214d4fc6c8252e023d19635674112b2c05",
+      "adaptedHash": "98ee1fbd61329f989c1bb1cffc3f056420ca2cf9d8c603bc66e3adbb905fdbfb",
       "license": "MIT",
       "override": null
     },
@@ -2820,7 +2841,7 @@
       "original": "skills/engineering/code-review/SKILL.md",
       "output": "references/methods/code-review/METHOD.md",
       "originalHash": "9c921a8d88138a41401d8897ca1bb852088ab1b7b605cdd04edc13e3e8aab6dd",
-      "adaptedHash": "373d23c904eebfaa0928ef1447a27f57816368a9f28b592f99a1b2ad680204af",
+      "adaptedHash": "a67d276b7b24b95857157e24b90dad3b5c633c1b06f03fbb38a130cfbcce68c6",
       "license": "MIT",
       "override": null
     },
@@ -3023,12 +3044,12 @@
     },
     {
       "path": "project/.devnorm-test-baseline.json",
-      "hash": "bf9a9a619a11c4a9436967289f0fad1c67a5ba2d39ec631d17c4f35c16ab4251",
+      "hash": "7b66e6bd40fa64c519c38a55be041dd64d2dfebd999a3572ab32936009ead7b6",
       "mode": "0644"
     },
     {
       "path": "project/.devnorm-toolchain.json",
-      "hash": "b889c096c5fa33c1211941efe8c5fc498dd7a1a46b7951a3ab6b14871a8e21ea",
+      "hash": "eaa96d8aa70274efa3cd1a70f32704cce7b04e1c43dd23cf0712407e47388136",
       "mode": "0644"
     },
     {
@@ -3098,7 +3119,7 @@
     },
     {
       "path": "project/delivery/capabilities.json",
-      "hash": "cdc8bb8c1c922f87430d9f4ac80886d7ccf36945527b9e777c32d8ebb661d70a",
+      "hash": "50f6974069dde868040459de75833e6b6f46d5768d4579b9e76cc6b82e9e0e80",
       "mode": "0644"
     },
     {
@@ -3107,8 +3128,18 @@
       "mode": "0644"
     },
     {
+      "path": "project/delivery/conditions-bootstrap.json",
+      "hash": "4a096a5a6336c3e1d6b204e7c5576a3179b2007dbc8e191324806361c647894a",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/conditions.json",
+      "hash": "bccb8344830e044178ccd101e6030e082624e5714adfb208e64cbe44e76f858b",
+      "mode": "0644"
+    },
+    {
       "path": "project/delivery/entry/SKILL.md",
-      "hash": "f218e61d885dae5b969f0c685b61a2608bdcfcb3ff23cf617dafe89ea6b95c60",
+      "hash": "3ec9fe74698eaa4f1e3ab0599bde276631d21321841a84aa287612c90653647c",
       "mode": "0644"
     },
     {
@@ -3198,17 +3229,17 @@
     },
     {
       "path": "project/delivery/locales/en/capabilities.json",
-      "hash": "8332bcda9a1b6dfbcaf39a83887c04797075140bd672ac118dc6a9ce22020212",
+      "hash": "2dc731b127cc4df7ac712da1f7bffa0cd5df518e2faaa77bafcd5cb40df291c5",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/entry/SKILL.md",
-      "hash": "753ede5630feef4346fd15941319be12defe0f12abb290a82cfec59c93541343",
+      "hash": "5f60be74a420bd932ac8ed040b9345c19e3004ab5b3dda5a68406bfea841fc0f",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/manifest.json",
-      "hash": "c4af11a420d5b762aac4c650d8b01667a2f6f96dadf3acfb975b8c2abac1cc96",
+      "hash": "5c8c2d3fe24e0ea6780d0c94497846a2667ad4089cabcd98129459091f2418cc",
       "mode": "0644"
     },
     {
@@ -3238,7 +3269,7 @@
     },
     {
       "path": "project/delivery/locales/en/methods/code-review/METHOD.md",
-      "hash": "373d23c904eebfaa0928ef1447a27f57816368a9f28b592f99a1b2ad680204af",
+      "hash": "a67d276b7b24b95857157e24b90dad3b5c633c1b06f03fbb38a130cfbcce68c6",
       "mode": "0644"
     },
     {
@@ -3248,7 +3279,7 @@
     },
     {
       "path": "project/delivery/locales/en/methods/code-simplification/METHOD.md",
-      "hash": "3cb492fe4e51fedda58c361ded10cb214d4fc6c8252e023d19635674112b2c05",
+      "hash": "98ee1fbd61329f989c1bb1cffc3f056420ca2cf9d8c603bc66e3adbb905fdbfb",
       "mode": "0644"
     },
     {
@@ -3438,17 +3469,17 @@
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.1-task-classification.md",
-      "hash": "27c37d6dbeb1ddb8ef5699a2241d1ed6603936b301fe31bc32e2e9398f5466a6",
+      "hash": "e9938b3547be542266932ee5357ceb5f3836f9fa263fad5dbdc9234ffd5c5598",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.2-requirements-and-design.md",
-      "hash": "0db237834511f0a26fd8195ba253196429fc841ff492ec5b8a10ba1454188554",
+      "hash": "b4e747c3c2e904ebc1b224d04a133f30d10f4e2f0643db34bf106a9e97614242",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.3-task-planning.md",
-      "hash": "27d779532741ac6242b54d60b1b5686cc3ef9a8b340c6ee1441d7b125f6e4eb9",
+      "hash": "3bbd56d33679fbce7630ccfacda54fd64d45ce8826db774d4442fdf53d9093ad",
       "mode": "0644"
     },
     {
@@ -3458,22 +3489,37 @@
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.5-implementation.md",
-      "hash": "6c8856a49b4034af48926d85b0e9abce5b9c9202e47741cca97ed637606924b8",
+      "hash": "15eb0c4b5b4493b0f695d7565dd76fdd5ea9d4a306f30e81b3738ae3a09dfb47",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.6-independent-review.md",
-      "hash": "3e851e0500e96cbf60a8b95a97777d8c541d1aadd94d03cfb14aa0f115bb1a4d",
+      "hash": "805867d310cb81019d1bb6ea534b49280357d82db1ac4b4935cbc6d632015858",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.7-verification-and-acceptance.md",
-      "hash": "e1bfe91de0b6e71c56cc350c575627f46866c5c53a78b138f3dab29aac51860c",
+      "hash": "d4fa846881ee967dc6eaedea1b4f52414cf173434fc3eaea176cf6017b226d17",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.8-integration-and-completion.md",
-      "hash": "1951f03995057ad94ae5f5fdcc75bec62c3ae3db7980d775081e611836f479e1",
+      "hash": "73d67818745dfe5b6c0f8b52e773a02003994e5b2c24500d5ff5c16b588dad3e",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/3-workflow/evidence-retention.md",
+      "hash": "de6f941f3ef0624baa0f2b1cc65f4db893d318a116c693563fe7ca26488ca88f",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/3-workflow/integration.md",
+      "hash": "129200f8700635f810c43146f305fa23c1a4ec90be3647f061f867a8a88dfce4",
+      "mode": "0644"
+    },
+    {
+      "path": "project/delivery/locales/en/standard/3-workflow/reporting.md",
+      "hash": "0aa56b529f3998c5e7e91aa788ad5b57c7dd8907190d7e43db6fe95421a9bcf4",
       "mode": "0644"
     },
     {
@@ -3613,7 +3659,7 @@
     },
     {
       "path": "project/delivery/maintenance.md",
-      "hash": "0d81d74fdc55341cb6886a4f11d028d045dff55330979b02993cd47cedd9f0ae",
+      "hash": "087850dd66cb6d876eea4a15e04b9d8e080c6c5332129f3438701b357f35963a",
       "mode": "0644"
     },
     {
@@ -3653,7 +3699,7 @@
     },
     {
       "path": "project/delivery/methods/code-review/METHOD.md",
-      "hash": "9b763e980f38bb256efb9eb49789ae2048abe65de6ba9a06e29f6571af8968eb",
+      "hash": "f46950596843cdc056a99472afca4183ffdf70bb0cf15b7a307ab980d089eebf",
       "mode": "0644"
     },
     {
@@ -3663,7 +3709,7 @@
     },
     {
       "path": "project/delivery/methods/code-simplification/METHOD.md",
-      "hash": "49fa1778ad874cf050a0de32812ef276cef09809543905b911bb10b63bb92322",
+      "hash": "a05bb96f2a4412675095cbce5e68cde1ade59fff43cff81c142a6763e5675240",
       "mode": "0644"
     },
     {
@@ -3873,7 +3919,7 @@
     },
     {
       "path": "project/evidence/catalog.json",
-      "hash": "cdfe5d3f428d0b1af5be2501b6be29c61ce352861deb6a98d33577c70fb0aca7",
+      "hash": "bf66d4854cfd8e0ecacbe74f320024a2ed11389d656eb142ed693039ac918554",
       "mode": "0644"
     },
     {
@@ -3909,6 +3955,11 @@
     {
       "path": "project/evidence/manifests/29b727c24c4ed65e77ce5e77bdc72682c2cd3eca37830b66f742a652f9f0cd39.json",
       "hash": "29b727c24c4ed65e77ce5e77bdc72682c2cd3eca37830b66f742a652f9f0cd39",
+      "mode": "0644"
+    },
+    {
+      "path": "project/evidence/manifests/2bea3c414a99f7b8d9b803f323b8aa877e9431f9dbb035d8535fad5a249ff896.json",
+      "hash": "2bea3c414a99f7b8d9b803f323b8aa877e9431f9dbb035d8535fad5a249ff896",
       "mode": "0644"
     },
     {
@@ -4083,32 +4134,32 @@
     },
     {
       "path": "project/src/delivery/artifacts.ts",
-      "hash": "3a893120142ecff1361d7dc8335ef6123d50082224a650a254e959301e2a0477",
+      "hash": "e6a5b71d28723175b215bfcffcc9da34cc1cc7cafb89516b260d5c9de1806c28",
       "mode": "0644"
     },
     {
       "path": "project/src/delivery/check-plan.ts",
-      "hash": "a0fe116e8170777f02294ce56058776235ead52adbb348ddaef460d6ccb6e14b",
+      "hash": "8feb860a41f11ed1af75aeaa06a938e46a479b78c85ce6130061804a30cc9168",
       "mode": "0644"
     },
     {
       "path": "project/src/delivery/checks.ts",
-      "hash": "5fdde41ec1961f8bdaae521130949ad5d75c398f191f2cb9cb1bd49ae5380dfb",
+      "hash": "e1b32a3f6be49a364cb189a1daf7fa2d68ab7043d196be82d1d511967ffc4c9b",
       "mode": "0644"
     },
     {
       "path": "project/src/delivery/commands.ts",
-      "hash": "ae60e7cef16718c89a7a7b784378d7a448385e18c6c6859f0ee4e50cd053a0a7",
+      "hash": "1c45e593a4c8c66197e46f3e7dfb2eb38b94b30746536a7a1b291faf313473c4",
       "mode": "0644"
     },
     {
       "path": "project/src/delivery/contracts.ts",
-      "hash": "4e257c6a515614dd6f0dd9dc1668a712cbf4c9b2cd338aa76c278d5936da1aa0",
+      "hash": "05f32fd27e078e2084fb65ee073fa10d954b16a2f6e22d52af29d27f3acbee6b",
       "mode": "0644"
     },
     {
       "path": "project/src/delivery/dependencies.ts",
-      "hash": "bd44b3cca0a300cbf1b7964f8fb6e3a98db5a0a0d6a61b2502bd04fd57542778",
+      "hash": "9e47fb2769675fde8d9c68bd927851efd63762c98e6e31ea2edcdf80c89bbf40",
       "mode": "0644"
     },
     {
@@ -4133,7 +4184,7 @@
     },
     {
       "path": "project/src/delivery/updates.ts",
-      "hash": "b38f58e733c053b4947a0fc4e99feffa0f8f039ac10d3a9b829faaae7adfd12f",
+      "hash": "fa3e9e688baf13158d289bdd0c9348db943cab63866322e4b294b5efed537281",
       "mode": "0644"
     },
     {
@@ -4148,7 +4199,7 @@
     },
     {
       "path": "project/src/verification/standard.ts",
-      "hash": "d83c3b677775174e815bcc10157e40f711a5ec25975a66949d160646ba5d3869",
+      "hash": "252f2f0bf34a46dce22483c252597b91f1c244111eda656f7c3b42c8c079869e",
       "mode": "0644"
     },
     {
@@ -4183,17 +4234,17 @@
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.1-\u4efb\u52a1\u5206\u7ea7.md",
-      "hash": "a1eb1d84c7afe892ba4fdcf44241ab748b9c586fb0f8bbf2d8cf7ee7377f506a",
+      "hash": "0b8deb26c2e2006312470e1aea8f79f84d1cf1756d1cb55890b50cb207da0747",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.2-\u9700\u6c42\u4e0e\u65b9\u6848.md",
-      "hash": "b16a47f53ec97c8dfcef758f8ef081cdc27e89f8858b7d87526f50dda9b21253",
+      "hash": "ebc1506746bc238d8c40bc55a2123774be2c5270920911d169bd34199a7e2fe1",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.3-\u4efb\u52a1\u5b89\u6392.md",
-      "hash": "5b45db4506f5dbefb58ef857217cf7cac51e21d3642f7fc3ecf1cf57a69cd67b",
+      "hash": "6218125570c26de245d9e04a21dddb087a7d3f30c05526815ce56755495525a7",
       "mode": "0644"
     },
     {
@@ -4203,22 +4254,37 @@
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.5-\u5b9e\u73b0\u4e0e\u81ea\u68c0.md",
-      "hash": "c9c4bc9896e210232a0e7711e8d84dfa41e69af196ebe95cf76e835f29e6edfe",
+      "hash": "ffc5ff0ec9829df5130353decf8d5e5cf5cf542cdbf248e950f5e0cdfc7e5f85",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.6-\u72ec\u7acb\u590d\u6838.md",
-      "hash": "ab0fcdbab8f1ee2507849db78a0832e8d5d1aff2bc8e3c7fa4585fa4c22f9af7",
+      "hash": "ffd665aaab890c9d98f8148102611f4e8cd76a18d4cb9a14ca0484d2b0c5446f",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.7-\u9a8c\u8bc1\u4e0e\u9a8c\u6536.md",
-      "hash": "8ffd3b8c98a4e729b7e861a3fac54aa427ae392bda35891241401dee91d774d0",
+      "hash": "a545c79e21ff336958b6040a6a00c5e07ee8e021a9b2de8df86d6c0b50a14a3d",
       "mode": "0644"
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.8-\u96c6\u6210\u4e0e\u6536\u5c3e.md",
-      "hash": "a1379163d5a25467cd0ef9eb59689216f6cce699a10e2025f57e82bc24febb24",
+      "hash": "77ec7a6b27f3328b467fe49eb5930ea61f67a346749f1def59a138e97b10fda5",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/\u5408\u5165.md",
+      "hash": "fa8ad779e0a03f2e71e0e7eb18b89f1950237662280604c62f39c9fdd9f921ad",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/\u7528\u6237\u6c9f\u901a.md",
+      "hash": "ed69202d873b6fd46be3a45b6b3ad56b4a72a1f18901319e52b0fea7637e7878",
+      "mode": "0644"
+    },
+    {
+      "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/\u8bc1\u636e\u4fdd\u7559.md",
+      "hash": "97f1253d14798e3c6c84975f0ce9cc1029e77434e7968db38f12dc99bde8dc95",
       "mode": "0644"
     },
     {
@@ -4408,12 +4474,17 @@
     },
     {
       "path": "project/tests/delivery/checks.test.ts",
-      "hash": "e975487bb5febd73f02a5fcb3d669b19e6ce4ef16d9bfe5954370d106e3d3416",
+      "hash": "b7f1f30dd53c34dd7e45a2dd2346c5d9ec330991f166a0e942be1a6c8a86ddbc",
       "mode": "0644"
     },
     {
       "path": "project/tests/delivery/commands.test.ts",
       "hash": "c9eb3593c7a9ad3791112fda408f38a1077482065214df2a82210da5f6d76218",
+      "mode": "0644"
+    },
+    {
+      "path": "project/tests/delivery/conditions.test.ts",
+      "hash": "64716e8172ae112a49c4648fa747a64448b2a96ff19be3e5a6d3a812d4a13cad",
       "mode": "0644"
     },
     {
