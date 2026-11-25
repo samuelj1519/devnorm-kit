@@ -1,14 +1,12 @@
 # Repository export ownership
 
-The source exporter currently treats every non-`.git` destination file as generated. This prevents a delivery repository from maintaining its own homepage, installation guide, CI, contribution guidance, and audit documents.
+The exporter updates generated release files and preserves repository-owned files. The accepted release manifest includes the original documentation bytes for exact reconstruction.
 
-The user explicitly requested independent README maintenance and removal of unnecessary hash restrictions. The accepted release remains immutable: its complete file identities and original README/INSTALL bytes still reconstruct exactly.
-
-## Proposed ownership
+## Current ownership
 
 - Repository-owned, mutable and outside generated checksums: root `README.md`, root `INSTALL.md`, `AGENTS.md`, `CONTRIBUTING.md`, `SECURITY.md`, `.github/`, repository scripts/tests and ordinary `docs/` files.
 - Generated and verified: `skills/` (including agent-readable references and bundled licenses), native manifests, root `LICENSE`, provenance/identity/checksum records, and `docs/generated/`.
-- Preserve original release README/INSTALL bytes at `docs/generated/README.md` and `docs/generated/INSTALL.md`. This is a byte archive for exact release reconstruction, not the public installation guide. Source `release-artifact.json`, candidate/version/record identity, runtime bytes and installed versions stay unchanged.
+- Preserve original release README/INSTALL bytes at `docs/generated/README.md` and `docs/generated/INSTALL.md`. These copies are used for exact release reconstruction. The root files are the public documentation. Source `release-artifact.json`, candidate/version/record identity, runtime bytes and installed versions stay unchanged.
 - On the first export, seed root README/INSTALL from the release only if absent. Later exports preserve them, including intentional edits. Legacy registries may relinquish those two root documents without blessing changes to generated runtime content.
 
 ## Synchronization and recovery
@@ -25,7 +23,7 @@ No registry: preserve existing repository-owned files, reject collisions with ge
 
 Synchronization moves only the generated units above and any first-export document seeds. Before every removal or restoration during rollback, verify the complete affected unit's file bytes, modes, directory set, and backup identity against the preflight/staged snapshot. Repeat this check at each unit boundary. Foreign additions/edits or lost lock stop recovery: preserve destination, backup and journal, and report `export-incomplete`. Newly seeded documents receive the same protection. No filesystem probe can make arbitrary external concurrent writes atomic; the lock coordinates this program's writers and mutation tests cover observed changes at public operation boundaries.
 
-## Model and implementation gates
+## Verification of the ownership migration
 
 [RepositoryExport.tla](../verification/export/RepositoryExport.tla) and [configuration](../verification/export/RepositoryExport.cfg) model existing generated units plus an initially absent seed, preflight/staging/journal/replace/verify/complete, controlled restoration or blocked recovery, document edits, foreign unit writes, source drift and lease loss. Properties: preserve foreign content, preserve repository documents, record only an exact verified result, retain journal when moved-unit recovery is blocked. The abstract rollback is atomic; filesystem per-unit interleavings and backup drift require the failure-injection tests above.
 
@@ -58,7 +56,7 @@ stateDiagram-v2
     Restored --> [*]
 ```
 
-The previously supplied `v1.5.0` release remains immutable. The export/checksum layout changes without adopting a new runtime version or replacing installed copies. Root documentation follows the published runtime tag; package validation accepts both legacy and separated-document layouts.
+The ownership migration used the already accepted `v1.5.0` artifact. Its acceptance identity is recorded in [export verification](../verification/export/README.md). The package verifier supports both the legacy and separated-document layouts.
 
 ## Success cleanup boundary
 

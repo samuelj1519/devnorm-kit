@@ -1,6 +1,18 @@
 # Delivery evidence
 
-Date: 2026-11-16. Package version: `1.5.0`.
+## Public delivery 1.11.0
+
+The [published `v1.11.0` tag](https://github.com/samuelj1519/devnorm-kit/tree/v1.11.0) points to Kit commit `c4a8504891b19a6b69f3852191e1b99bc9d5518d`. The local source commit used for this release is `b3c8f367672bb6548cb56f244e200203009c1c99`. The frozen candidate is `779989403604f555d82f511e4a0c2f3afeb7749002e7b422f9085c26532cf12b`, the source acceptance record is `733f3a313710409512bfc1fe5ee128dadb55a86679b26320c48bc3158db8820f`, and the release artifact is `2b0fc6fc4e92f0dcf030993db0e4a19841115e7886e255eae5812aee6fee04bb`.
+
+The standard routes tasks by evidence requirements and gives independent skills direct links to relevant package resources. The design skill includes its own path to state modeling. The source program invalidates a previous pass before freezing a candidate again.
+
+The public candidate passed all six checks with 299 tests passing. The independent reviewer verified 16 model cases and three isolated Codex sessions for direct routing, unresolved compatibility, and independent review. The Kit passed all 17 repository tests and reconstructed the accepted release. For current install commands, see [Install DevNorm](../INSTALL.md).
+
+## Historical evidence
+
+These dated entries describe the checks and installations for earlier deliveries.
+
+### Initial delivery 1.5.0, 2026-11-16
 
 Accepted candidate: `a22bf22eb0c8d21a31a449d6a48c3675819f20b1bd2fa16decd664186da8b127`.
 Accepted release identity: `a09cc096df2c4b0e207c4150821ddcb690d14f0f3a6eec71d960b52ed923d41b`.
@@ -10,7 +22,7 @@ The initial staged whitespace check found final blank lines in 18 generated noti
 
 The generated payload is preserved exactly. Repository governance, validation, CI, and local mo compatibility are maintained separately.
 
-## Local checks
+### Local checks
 
 - `make check`: PASS; complete generated file identities, all nine entrypoints, release reconstruction, and eight failure/round-trip tests at the time of this record (the suite has 11 tests as of 2026-11-17; see the follow-up below).
 - Original mo release-adapter suite against the patched backend: PASS, 33 tests.
@@ -19,7 +31,7 @@ The generated payload is preserved exactly. Repository governance, validation, C
 - Existing skillctl suite against the patched backend: PASS, 10 tests.
 - Reconstructed release resolved by mo: PASS; exact accepted release hash, all nine skills, and accepted source record.
 
-## Publication and local acceptance
+### Publication and local acceptance
 
 - Published to [samuelj1519/devnorm-kit](https://github.com/samuelj1519/devnorm-kit): initial generated import `0a17541`; repository/tooling commit `2726608`.
 - [Validate delivery on the pushed tooling commit](https://github.com/samuelj1519/devnorm-kit/actions/runs/43896929258): PASS (`push`, exact commit `2726608007206949f43b2ed5bce62b25ee9bc48c`).
@@ -33,9 +45,9 @@ The generated payload is preserved exactly. Repository governance, validation, C
 - Source registration changed only the DevNorm entry. Existing local settings changes remain uncommitted and preserved.
 - Registration and original backend backup: `~/.agents/backups/devnorm-registration-20261116-ehmhsb3p/`; installation backups use the mo operation ID above.
 
-Runtime model behavior, fresh-session discovery, Cursor IDE acceptance, and adoption by target projects remain `not_run`; file or inventory checks do not establish them. Reload the relevant clients before using the new entries. Normal maintenance uses `mo skills upgrade devnorm` and `mo skills check devnorm`.
+The 1.5.0 delivery recorded runtime model behavior, fresh-session discovery, Cursor IDE acceptance, and adoption by target projects as `not_run`.
 
-## Repository documentation follow-up, 2026-11-17
+### Repository documentation follow-up, 2026-11-17
 
 The root README and INSTALL now have repository ownership. Their accepted originals moved unchanged to `docs/generated/`; skills, native manifests, licenses, notices, source records, and runtime checks remain protected. The source exporter preserves ordinary repository files instead of requiring the whole directory to equal its generated registry.
 
@@ -43,7 +55,7 @@ Source validation: `bun run verify` PASS (174 tests plus dependencies, types, fo
 
 The installed runtime remains `1.5.0`, with its original release identity and accepted source record. Full runtime regeneration with the edited source program was correctly blocked by `toolchain-changed`; no new acceptance, installation, or uninstall occurred. The source code is a separately reviewed local change pending its next source release cycle. The homepage's pinned installation/removal examples were also exercised with the cached `skills@1.8.1` in an isolated temporary project/home; all nine entries installed and removal preserved an unrelated fictional skill.
 
-## Private local validation follow-up, 2026-11-20
+### Private local validation follow-up, 2026-11-20
 
 The current generated working tree is accepted private version `1.7.0`, source candidate `027b27e2725285611a8736d07ca86fa1c4a88a141d208679152b051137f188d2`, accepted source record `44c9efe8e830349d0b1ff429ee76248c691f2154541887dc605f145d6cb0e61f`, and source release identity `5228652e81ece0bbb68fc277df7ea66775de3ccf2b97f07a76fbb24be5e9f787`. The [source-release metadata](../release-artifact.json) preserves the accepted identity. This is not a published release. The earlier dated evidence above remains historical rather than being transferred to this version.
 
@@ -55,7 +67,7 @@ The exporter preserved all 144 observed repository-owned/Git file identities bef
 
 No persistent installation, push, public tag, or project-wide automatic adoption was performed by this task. The published examples remain pinned to `v1.5.0`. The current installed/loaded versions and Cursor IDE, Claude Code, and Codex behavior are not established by this local CLI validation. The follow-up package check result is recorded with the source task's final evidence rather than inferred from export success.
 
-## Local formal delivery 1.7.1, 2026-11-20
+### Local formal delivery 1.7.1, 2026-11-20
 
 The user explicitly selected local formal delivery only. The current generated payload is accepted private `1.7.1`, candidate `13c40b6c980df4f50566dbb93d772eb0ebcf12866e993e092a133b3488219378`, accepted source record `6cecee2b046d529f02df626d7aacb460130e7a3efe637b73a7825fd483ae133e`, and source release identity `dd305ae5babcf0c62200ad6bd0ece95f52158ca54120904e7fd5019d59a28e9a`. The prior dated 1.7.0 entry remains historical. Published installation examples remain pinned to `v1.5.0`; this task performs no push, public tag, upload, persistent installation, or automatic project adoption.
 
@@ -65,7 +77,7 @@ The first candidate full-test process exceeded the unchanged 120-second deadline
 
 The exporter preserved the immediately recorded repository-owned/Git identities before these three deliberate manual-document updates. Preview and accepted build differ only in the top-level accepted-record identity and its checksum; runtime/resource bytes and modes match. The final source evidence records the actual post-export package and make-check outcomes rather than inferring them from export success. Installed and loaded versions remain unestablished by this operation.
 
-## Local delivery 1.8.0, 2026-11-21
+### Local delivery 1.8.0, 2026-11-21
 
 The generated payload is accepted `1.8.0`, candidate `0ad897952e24a7007c99e2e7ad3a93c860e937ed02be3201e9e3749bfb22a9bb`, accepted source record `4d91e30a4c2769858aecadb295d697d3aa03f851a28bdbf5fd50c5e528bcd2b3`, and artifact identity `9d70d500a236b326c8d48c7ba3debe25279aaaea9fc310f3d564fc101df5cb3c`. The prior dated entries remain historical. The [release metadata](../release-artifact.json) keeps purpose `private` from the accepted candidate; the push scope below was authorized separately.
 
@@ -75,11 +87,11 @@ Candidate checks passed on the first run (291 tests, 0 failures, 123.33s). An ea
 
 Authorization scope is `public-release` limited to pushing this repository's `release/v1.8.0` branch (user instruction, 2026-11-21). This entry records that push as performed; no public tag, `main` advance, install-command change, persistent installation, or automatic adoption by other projects occurred. After export, `make check` passed: package verify, 17 tests, and `git diff --check`. Installed and loaded versions remain unestablished by this operation.
 
-## Publication v1.8.0, 2026-11-21
+### Publication v1.8.0, 2026-11-21
 
 Following the user's same-day authorization, the 1.8.0 payload was published: `main` fast-forwarded to the payload commit plus this documentation update, annotated tag `v1.8.0` created at the publication commit, and the root README/INSTALL installation commands and version badge repointed from `v1.5.0` to `v1.8.0`. The publication commit passed `make check` before tagging. Installation and fresh-session verification results follow below.
 
-## Installation evidence 1.8.0, 2026-11-21
+### Installation evidence 1.8.0, 2026-11-21
 
 The `main` advance was blocked by the repository rule "changes must be made through a pull request", and the active fine-grained token lacks pull-request write access, so `main` remains at its previous head pending that merge; the annotated tag `v1.8.0` and the `release/v1.8.0` branch (including this documentation) are pushed and carry the same content.
 
@@ -89,7 +101,7 @@ A fresh `claude -p` session in the `glm` profile listed the `devnorm:` plugin co
 
 Not exercised in this round: the public `npx skills add samuelj1519/devnorm-kit@v1.8.0` channel (command attempts were declined locally), Codex/Cursor copies previously managed by `mo`, and `mo skills upgrade` itself — `mo 0.2.1` currently reports ambiguous source selection and unbound plugin recipes for this asset, a macops-side registration state outside this repository. The `managed-agent-assets.json` registrations were updated to the 1.8.0 release path and revision for when that flow is rebound.
 
-## Local delivery and installation 1.9.0, 2026-11-23
+### Local delivery and installation 1.9.0, 2026-11-23
 
 Source commit `8f5e7c1917c3758a1e69f6f8fba13e84eb06415f` delivers simple and formal task routes, combined design and test review, evidence-based candidate approval, and production verification and recovery. This private delivery binds source candidate `d7cf81a2b7ea87f5109bb5c0e103c2226ec184527177f26321fa7b3b8aaba189`, acceptance record `81a5628e206890b1c1679d93f9b70d597e0d59ba67cc36e889cb18391f0166a5`, and artifact identity `12f4516f802e69a4b4b507bb7f304f4f8289f8771077a1f1ab42e9f4f16ab113`.
 
@@ -97,7 +109,7 @@ A clean source worktree excluded ignored historical logs from the accepted candi
 
 The existing local release adapter installed nine skills each for Codex and Cursor, and upgraded the five configured Claude Code profiles. File content and executable modes match the release. All five native Claude registrations list version `1.9.0` and are enabled. Running-session load status was not tested. The persistent release is `~/.local/share/devnorm/releases/1.9.0`.
 
-## Release branch 1.10.0, 2026-11-25
+### Release branch 1.10.0, 2026-11-25
 
 The approved version is `1.10.0`. The frozen candidate is `f07e2ff3ca460a24797f705585909164ed86f15a07ff0d09ec078ec987e31d68`, the accepted source record is `723adbe9f8bc8a5cc45b05833e4cbe36f9944deb2ad1c1cea1eed09f872fe32e`, and the artifact identity is `c7b8c7d30a7db0698ae8304a9e64f749313546e9a4a1ddfc65627126beb614b3`.
 
@@ -107,7 +119,7 @@ This version introduces versioned mandatory conditions and shorter default readi
 
 The approved destination is `release/v1.10.0`. The two client samples support the observed routing and review behavior. A paired Token comparison and persistent installation were outside this verification.
 
-## Release branch 1.10.1, 2026-11-25
+### Release branch 1.10.1, 2026-11-25
 
 The accepted version is `1.10.1`. The frozen candidate is `7cf1e582e18570f6a43c86b02f6113f8ea0eb9fb8610f232af99b79f41d0836e`, the accepted source record is `270055b6cd72d1113a3084cf1ef87c8569e95b0bda5dc5da1551cdb8555cec86`, and the artifact identity is `cbec014542768aa1fe98b06606a842acef75b80dfb12beffccd0c1c7f595f0c8`.
 
@@ -116,11 +128,3 @@ This revision adds guidance for checking all affected uses of changed behavior a
 `make check` passed all 17 Kit tests. A separate restoration rebuilt nine skills and matched 3,507 release files by path, SHA-256, and mode.
 
 The approved delivery destination is `release/v1.10.1`. The runtime results apply to the two isolated fixtures. Persistent installation and a paired Token comparison remain separate.
-
-## Public delivery 1.11.0
-
-This checkout contains the accepted public DevNorm Kit 1.11.0. The source tree is `b3c8f367672bb6548cb56f244e200203009c1c99`. The frozen candidate is `779989403604f555d82f511e4a0c2f3afeb7749002e7b422f9085c26532cf12b`, the source acceptance record is `733f3a313710409512bfc1fe5ee128dadb55a86679b26320c48bc3158db8820f`, and the release artifact is `2b0fc6fc4e92f0dcf030993db0e4a19841115e7886e255eae5812aee6fee04bb`.
-
-The standard routes tasks by evidence requirements and gives independent skills direct links to relevant package resources. The design skill includes its own path to state modeling. The source program invalidates a previous pass before freezing a candidate again.
-
-The public candidate passed all six checks with 299 tests passing. The independent reviewer verified 16 model cases and three isolated Codex sessions for direct routing, unresolved compatibility, and independent review. Published installation examples retain their existing explicit tag.

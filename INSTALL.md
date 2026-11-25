@@ -1,48 +1,56 @@
 # Install DevNorm
 
-The [README installation section](README.md#install) provides commands for the published `v1.8.0` tag, with the installer pinned to `skills@1.8.1`. Pick one manager for each skill/client/scope.
+Choose the guide for your client. The commands install the published [`v1.11.0` tag](https://github.com/samuelj1519/devnorm-kit/tree/v1.11.0). Use one installation route per client and scope.
 
-## Choose a delivery mode
+## Cursor
 
-| Target | Method | Scope |
-| --- | --- | --- |
-| Codex and Cursor | Skills CLI, `--agent codex --agent cursor --copy` | Project by default; add `--global` for user scope |
-| Claude Code | Native `devnorm@devnorm-local` plugin | Explicit `--scope user` in the examples |
-| Other compatible agents | Pinned skills CLI with the client's supported agent name | Select the intended scope |
-| Maintainer's managed Mac | Registered accepted release through `mo` | Existing managed Agent/Cursor copies and Claude profiles |
-| Isolated inspection | Local checkout with a temporary `--plugin-dir` session | That session only |
-
-The native plugin includes all nine entries. The skills CLI selects all with `--skill '*'`, the main workflow with `--skill devnorm`, or one helper by its exact name. Each selected skill includes its own references, scripts, licenses, and provenance. Preserve complete directories rather than copying only `SKILL.md`.
-
-For a Claude profile, choose either the native plugin or standalone skill copies. Profile settings, user/project scope, and a plugin cache's existence are separate from discovery in a running session.
-
-## Verify the checkout
-
-Python 3.11 or newer is sufficient for package verification:
+From the project where you want to use DevNorm, run the Skills CLI.
 
 ```sh
-python3 -B scripts/package.py verify
+npx skills add samuelj1519/devnorm-kit@v1.11.0
 ```
 
-For repository tooling and failure-path checks, run `make check`. Generated file bytes, executable modes, provenance, and checksum coverage must match. Root README/INSTALL are independently maintained; their accepted release originals are hash-verified in `docs/generated/`. Those archives retain their original plugin-root relative links and serve reconstruction rather than user navigation.
+Choose Cursor when prompted. Select `devnorm` for the development workflow, or include the helpers you want. Choose project scope to keep the installation in this project.
 
-The installation examples use the published tag pinned in the README. To verify this checkout, read its version and digest in [the artifact manifest](artifact.json). The [source release identity](release-artifact.json) records the accepted candidate and source record. See the [delivery record](docs/DELIVERY.md) for actual checks and [third-party notices](skills/devnorm/THIRD_PARTY_NOTICES.md) for licenses.
+Start a new Cursor session in the project and ask it to use `devnorm`.
 
-## Verify discovery
+## Codex and other Agent Skills clients
 
-1. Inspect the selected manager's installation list at the intended scope.
-2. Open a fresh client session.
-3. Select `devnorm` or a helper. In the native Claude plugin, invoke `/devnorm:devnorm`.
-4. Ask it to identify the loaded entry and one linked method before using it on a task.
+Run this command from your project.
 
-Installer success and static checks do not prove model behavior. Record actual CLI and IDE acceptance separately. See [delivery evidence](docs/DELIVERY.md) for what has been exercised.
+```sh
+npx skills add samuelj1519/devnorm-kit@v1.11.0
+```
 
-## Conditional runtime tools
+Choose Codex or another supported client when prompted. Select `devnorm` and any helpers you want. Start a new session in the project and select `devnorm` or mention it in your request.
 
-Ordinary methods use the client's existing tools. Source generation uses Bun; installing and reading the skills does not require it. State modeling requires existing Java, a TLC JAR, and Node with native TypeScript support or Bun. Selected Chinese-writing helpers use Python. The methods check prerequisites before use and do not install these tools automatically.
+The Skills CLI uses Git and Node.js with `npx`. For command options and supported clients, see the [Skills CLI documentation](https://github.com/vercel-labs/skills).
 
-## Managed updates and recovery
+## Claude Code
 
-On the maintainer's Mac, use `mo skills upgrade devnorm`, `mo skills check devnorm`, and `mo skills ls devnorm --details`. The current adapter manages all nine Agent/Cursor entries and the complete native Claude plugin. Source registration pins the accepted release hash; it does not adopt third-party updates. See [maintenance](docs/MAINTENANCE.md) for setup, backups, and exact release reconstruction.
+Add the marketplace to Claude Code, then install the native plugin.
 
-For other installations, follow [update and removal instructions](README.md#update-or-uninstall) using the original manager and scope. Preserve user edits, target-project records, unrelated skills, real data, and active cache leases. A temporary plugin session needs no persistent uninstall.
+```sh
+claude plugin marketplace add "samuelj1519/devnorm-kit#v1.11.0"
+claude plugin install devnorm@devnorm-local
+```
+
+The plugin installs at user scope by default and includes all nine skills. Start a new Claude Code session and invoke `/devnorm:devnorm`. If you need a different scope, see the [Claude Code installation guide](https://code.claude.com/docs/en/plugins/install#choose-an-install-scope).
+
+If `devnorm-local` is already registered, check its source in the **Marketplaces** tab of `/plugin`. For a registration pinned to an older tag, replace the registration with the desired tag and reinstall in the intended scope. Claude Code removes plugins installed from a marketplace when you remove that marketplace. Review the affected installations before confirming. [Claude Code marketplace management](https://code.claude.com/docs/en/plugins/install#manage-marketplaces)
+
+## Verify installation
+
+- For the Skills CLI, run `npx skills list` from the project. Add `--global` if you chose user scope.
+- For Claude Code, run `claude plugin list` and check for `devnorm@devnorm-local` at version `1.11.0`.
+- In a fresh session, select `devnorm` and ask the agent to identify the skill and a linked method. An installation listing confirms registration. This session check confirms discovery.
+
+If you see duplicate skills, check whether the client has both a native plugin and a standalone installation. Keep the route you want to manage.
+
+## Update or uninstall
+
+For the Skills CLI, rerun the install command with the new [published tag](https://github.com/samuelj1519/devnorm-kit/tags). Choose the original clients and scope. To remove DevNorm skills, run `npx skills remove` and select the entries you installed. Add `--global` if you chose user scope.
+
+For Claude Code, check the marketplace's tag before updating. For removal, use the **Installed** tab in `/plugin` and select the scope where you installed DevNorm. [Claude Code plugin management](https://code.claude.com/docs/en/plugins/install#manage-installed-plugins)
+
+The individual skill lists any tools it needs. State modeling, for example, uses Java, a TLC JAR, and Bun or a compatible Node.js runtime.
