@@ -86,7 +86,7 @@ Keep current plans, architecture decisions, and constraints in the repository. C
 
 ### 1.4.2 Prevention and automated checks
 
-When a reviewer finds a checkable defect, create a task to automate detection. Record why automation is unsuitable for other findings. By a second reviewer discovery of the same defect class, a corresponding task or specific explanation must already exist. Follow the implementation order below. Errors must explain the fix.
+Register findings and prevent recurrence under [prevention and automated checks](4-periodic-review.md#42-prevention-and-automated-checks). Follow section 1.5.1 for selecting checks and writing error messages.
 
 Reviewers focus on design and correctness. Tools handle style. Repair false positives as well. The requirements owner must approve any reduction in existing protection.
 
@@ -113,7 +113,7 @@ Errors identify the violated requirement, file or actual value, repair, recheck 
 
 ### 1.5.2 Limits and exceptions
 
-Record the baseline and existing findings. Do not redefine a new violation as baseline to clear a failure. Raising complexity limits, disabling rules, widening exclusions, lowering severity, or adding skip conditions reduces protection.
+Record existing violations individually in the baseline and resolve them over time. Compare individual violations. Keep new violations out of the old baseline, even when swapping them would leave the total unchanged. Raising complexity limits, disabling rules, widening exclusions, lowering severity, or adding skip conditions reduces protection.
 
 Before a reduction, provide the exact change, reason, replacement protection, counterevidence, recovery, and current architecture decision. Obtain a verifiable requirements-owner approval. An author's self-written approval is insufficient. The designated tooling owner implements the approved change, then runs trusted full checks and independent review.
 
