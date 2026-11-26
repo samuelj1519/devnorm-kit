@@ -20,6 +20,7 @@ If required resources, command mappings, or authorization are missing, stop depe
 At task start, read this entry, the task, and relevant plan/progress records.
 On adoption or version change, check the standard entry and project differences.
 Classify the task under section 3.1. Handle simple tasks directly and run necessary checks. For formal tasks, read the applicable requirements for the current stage and complete the required design review, checks, independent review and acceptance. Read interaction and interface for UI work. Verify the exact combination under the integration procedure before updating an integration target.
+Use Git closeout in section 3.8 on both routes. Commit independently verifiable increments after their checks within existing authorization. Finish and verify required delivery before reporting completion.
 Recheck working location on session start or change. Read section 3.4 before input or approval.
 Use periodic review for scheduled checks and improvements.
 Project rules add or strengthen requirements. Exceptions need exact requirements-owner approval.
@@ -44,6 +45,7 @@ Project rules add or strengthen requirements. Exceptions need exact requirements
 | Task classification and checks | <criteria for handling simple tasks directly, one formal-task record and non-author primary reviewer, applicable prior review, models and actual acceptance, and approved project trials> |
 | Writers | <single owners of shared interfaces, generated content, locks, aggregate state> |
 | Git/checkouts | <under the [collaboration standard](../../references/standard/6-version-control.md): remotes/main branch, branches/writers, commit format/language, merge method, quick/full checks and trusted execution, actual approval accounts, tag/evidence retention, cleanup and history exceptions; state platform gaps and replacement safeguards> |
+| Delivery and authorization | <local or remote delivery, direct branch or PR route, local commit authorization and coordinator; for any standing push permission, record actual owner approval, repository, effective push destination, target branch, eligible changes, conditions and revocation; record when a version is due and who authorizes tag creation and publication> |
 | Input mutual exclusion | <acquire/hold/release owners, target, launch batch/time, stop on failure; equivalent replacement needs evidence and exact approval> |
 | Isolation | <clean input copy/worktree, fictional samples, test-data/runtime-output directories, trusted execution entry, real app identity, CUA limits; missing environment means not run, not inapplicable> |
 | Evidence/status | <existing authoritative task record, accessible original logs and access controls, failure/unrun terms, retention-policy reference; protect active/open/referenced evidence and exclude private material from packages> |

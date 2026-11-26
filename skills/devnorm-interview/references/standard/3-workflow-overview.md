@@ -22,7 +22,7 @@ stateDiagram-v2
   s3 --> s2: Preserve state and notify
   s4 --> s0: Risk requires standard workflow
   s4 --> s2: Preserve state and notify
-  s4 --> s5: Necessary checks and brief result
+  s4 --> s5: Necessary checks and local closeout
   s4 --> s6: Actual merge required
   s6 --> s2: Preserve state and notify
   s6 --> s5: Complete remaining work
@@ -30,7 +30,7 @@ stateDiagram-v2
   s3 --> s0: Continue workflow
 ```
 
-For Git operations at any node, read the [Git and GitHub collaboration standard](6-version-control.md) on demand; it adds no workflow stage.
+For Git operations at any node, read the [Git and GitHub collaboration standard](6-version-control.md) on demand. Verify applicable [Git closeout](3-workflow/3.8-integration-and-completion.md#git-closeout) before reporting completion. This adds no workflow stage.
 
 In this chart, merge covers every project-designated integration-target update, including direct commits or pushes. Ordinary task-branch commits still use quick checks. The chart shows integration routes, without requiring every workspace task to update a target.
 

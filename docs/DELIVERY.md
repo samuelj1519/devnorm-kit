@@ -1,16 +1,24 @@
 # Delivery evidence
 
-## Public delivery 1.11.0
+## Public delivery 1.12.0
+
+The source implementation is commit `7b58a66ca61c9fc61ae6650a381ac376b00678f2`. The public candidate is `ef269d25ef59d66f3a1993d4fe5ccf2d0746519ff45535e68de17a04f6824301`, the source acceptance record is `cf2476dd556f3d844067c18028664c06073d34669a5fe61fc9de0fc4ba10d83b`, and the release artifact is `77ef11be3517434c8e521b4421f354a97812224a09064ec87d4573694775e473`.
+
+The workflow now tells agents when to commit each verified increment, how to complete authorized remote delivery, and when a change needs a separate version tag. The adoption template records who can push and to which repository and branch.
+
+The public candidate passed all six required checks, including 299 tests. Independent review verified eight required proofs from 16 targeted model cases and five isolated Codex sessions. The sessions covered separate commits, push and remote SHA readback, refusal of an out-of-scope push, discovery of an external compatibility obligation, and a formal review held pending until verification. The first model launch could not open a local Java port under the sandbox. The same inputs passed on replay with local port access. Persistent installation and other clients were outside this verification.
+
+The Kit passed all 17 repository tests. Independent restoration matched all 3,541 accepted payload files by SHA-256 and mode. Export changed 100 generated files, including the registry, and preserved 1,678. See [Install DevNorm](../INSTALL.md).
+
+## Historical evidence
+
+### Public delivery 1.11.0
 
 The [published `v1.11.0` tag](https://github.com/samuelj1519/devnorm-kit/tree/v1.11.0) points to Kit commit `c4a8504891b19a6b69f3852191e1b99bc9d5518d`. The local source commit used for this release is `b3c8f367672bb6548cb56f244e200203009c1c99`. The frozen candidate is `779989403604f555d82f511e4a0c2f3afeb7749002e7b422f9085c26532cf12b`, the source acceptance record is `733f3a313710409512bfc1fe5ee128dadb55a86679b26320c48bc3158db8820f`, and the release artifact is `2b0fc6fc4e92f0dcf030993db0e4a19841115e7886e255eae5812aee6fee04bb`.
 
 The standard routes tasks by evidence requirements and gives independent skills direct links to relevant package resources. The design skill includes its own path to state modeling. The source program invalidates a previous pass before freezing a candidate again.
 
 The public candidate passed all six checks with 299 tests passing. The independent reviewer verified 16 model cases and three isolated Codex sessions for direct routing, unresolved compatibility, and independent review. The Kit passed all 17 repository tests and reconstructed the accepted release. For current install commands, see [Install DevNorm](../INSTALL.md).
-
-## Historical evidence
-
-These dated entries describe the checks and installations for earlier deliveries.
 
 ### Initial delivery 1.5.0, 2026-11-16
 

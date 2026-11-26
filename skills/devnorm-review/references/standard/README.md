@@ -23,7 +23,7 @@ For Git operations, read [6. Git and GitHub collaboration](6-version-control.md)
 
 Use [requirements and design](3-workflow/3.2-requirements-and-design.md#32-requirements-and-design) and [task-specific methods](3-workflow/3.5-implementation.md#351-task-specific-methods). Read templates and verification material on demand.
 
-Report simple-task results and remaining verification briefly. Formal tasks follow the standard workflow. No UI or an existing prototype means no extra prototype. Before delegating, compare work, task relationships, and the total cost of receiving and integrating results.
+For simple tasks, finish applicable [Git actions](3-workflow/3.8-integration-and-completion.md) and briefly report results and unverified limits. Formal tasks follow the standard workflow. No UI or an existing prototype means no extra prototype. Before delegating, compare work, task relationships, and the total cost of receiving and integrating results.
 
 | Role | Responsibility |
 | --- | --- |

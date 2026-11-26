@@ -1,7 +1,7 @@
 # DevNorm Kit
 
 [![Validate delivery](https://github.com/samuelj1519/devnorm-kit/actions/workflows/validate.yml/badge.svg)](https://github.com/samuelj1519/devnorm-kit/actions/workflows/validate.yml)
-[![Version](https://img.shields.io/badge/version-1.11.0-blue)](https://github.com/samuelj1519/devnorm-kit/tree/v1.11.0)
+[![Version](https://img.shields.io/badge/version-1.12.0-blue)](https://github.com/samuelj1519/devnorm-kit/tree/v1.12.0)
 [![MIT license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 DevNorm gives coding agents a workflow for deciding when a change needs design, review, or further testing. It also includes standalone skills for debugging, design, review, and verification.
@@ -11,13 +11,13 @@ DevNorm gives coding agents a workflow for deciding when a change needs design, 
 In your project, use the Skills CLI for Cursor, Codex, or another supported client.
 
 ```sh
-npx skills add samuelj1519/devnorm-kit@v1.11.0
+npx skills add samuelj1519/devnorm-kit@v1.12.0
 ```
 
 Choose your client, skills, and installation scope when prompted. For Claude Code, add the marketplace and install its native plugin.
 
 ```sh
-claude plugin marketplace add "samuelj1519/devnorm-kit#v1.11.0"
+claude plugin marketplace add "samuelj1519/devnorm-kit#v1.12.0"
 claude plugin install devnorm@devnorm-local
 ```
 

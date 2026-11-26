@@ -12,7 +12,7 @@ Use two task types: simple and formal. Handle a simple task directly when the go
 
 Use the formal route for tasks that do not qualify as simple. Only formal tasks follow the standard workflow. Derive the necessary design, prior review, models, checks and actual acceptance from the change. One non-author primary reviewer checks the exact candidate.
 
-Finish a simple task after necessary checks and a brief result with unverified limits. Skip the full workflow, capability index and task brief. If simple-task conditions cease to hold, stop affected writes, switch to the formal workflow and invalidate affected evidence. Investigate unknown impact and stop actions lacking necessary authorization. Stricter project rules and trusted full checks before integration still apply.
+For a simple task, run the necessary checks, complete applicable [Git closeout](references/standard/3-workflow/3.8-integration-and-completion.md#git-closeout), and report the result and unverified limits. Skip the full workflow, capability index and task brief. If simple-task conditions cease to hold, stop affected writes, switch to the formal workflow and invalidate affected evidence. Investigate unknown impact and stop actions lacking necessary authorization. Stricter project rules and trusted full checks before integration still apply.
 Regressions or repeated failure require the standard workflow and inclusion in quality statistics.
 <!-- devnorm:condition:simple-route:end -->
 
@@ -22,6 +22,8 @@ For formal work, read [planning](references/standard/3-workflow/3.3-task-plannin
 
 Choose one [method](references/methods/README.md) if needed. Helpers work independently.
 
-Use [quick checks](references/standard/6-version-control/6.3-staging-and-commits.md) on task branches and [trusted full checks](references/standard/3-workflow/integration.md) for integration targets. Push, install and release need their own checks and authorization.
+After each independently verifiable increment passes, [commit it and confirm its SHA](references/standard/6-version-control/6.3-staging-and-commits.md) within existing authorization. A single small task can use one commit after acceptance. Use quick checks on task branches and [trusted full checks](references/standard/3-workflow/integration.md) for integration targets.
+
+Before reporting completion, follow [Git closeout](references/standard/3-workflow/3.8-integration-and-completion.md#git-closeout). Finish pending commits and any required, authorized integration and push, then read back the remote SHA. Handle tags only for an authorized version release. Keep installation separately authorized. Report any blocked step.
 
 Hold actions lacking tools, permission or evidence. Query unknown outcomes before retry. For formal evidence or handoff, see [records](references/standard/3-workflow/evidence-retention.md) and [reporting](references/standard/3-workflow/reporting.md) when needed. [Provenance](provenance.json).

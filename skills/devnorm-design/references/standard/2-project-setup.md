@@ -24,7 +24,7 @@ Use the [project adoption template](../../assets/templates/project-adoption.md) 
 
 Before work, check repository path, branch, existing changes, and actual writers. Use independent copies for long implementation, parallel work, and incorrect-version probes. Candidate and incorrect-version source, test data, and build outputs must be physically isolated. They must not share outputs, alias each other, be ancestor directories, or hard-link test artifacts. Verify the actual compiled source and executable.
 
-Follow the [Git collaboration standard](6-version-control.md) for Git operations. At adoption, define remotes and the main branch, commit format, merge method, actual checks and approvals, retention, and cleanup. Tasks inherit these policies and record only their objects, authorization, and differences.
+Follow the [Git collaboration standard](6-version-control.md) for Git operations. At adoption, define the expected delivery target, remotes and main branch, commit format, merge method, checks, owners and authorization, release policy, retention, and cleanup. Record any standing permission separately from the delivery requirement, including its scope and revocation. Tasks inherit these policies and record only their objects, authorization, and differences.
 
 ## 2.4 Task records and evidence
 

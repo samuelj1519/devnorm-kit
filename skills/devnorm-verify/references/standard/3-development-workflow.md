@@ -46,4 +46,4 @@ Determine impact, design and acceptance criteria. Check whether critical guarant
 
 ## 3.8 Merge and completion
 
-Once workspace checks pass, confirm authorization and obtain trusted full-check results for the exact combination before updating the integration target. [Integration](3-workflow/integration.md) · [Integration and completion](3-workflow/3.8-integration-and-completion.md)
+Obtain trusted full-check results for the exact combination before any authorized integration update. Close out applicable commits, remote delivery, and any version release before reporting completion. [Integration](3-workflow/integration.md) · [Integration and completion](3-workflow/3.8-integration-and-completion.md)
