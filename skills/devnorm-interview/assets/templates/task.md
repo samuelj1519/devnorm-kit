@@ -8,7 +8,7 @@ Use under the [development workflow](../../references/standard/3-development-wor
 - Standard: DevNorm <approved version> at <package artifactHash or full source commit>; project rules: <path/version>
 - Task type: <design / prototype / implementation / review / recheck / integration>
 - Change impact  <changed contracts or critical guarantees, evidence of recoverability and checks, applicable prior review, and classifier. Investigate unknown impact first>
-- Checks: <full / affected checks then pre-merge full / identical-input reuse then isolated combination and milestone full checks before actual merge>; authority: <section 3.3, stricter project rules, separate exception approvals>
+- Checks: <targeted checks at each stage, quick checks for task-branch commits, and risks to verify early. Follow section 3.3 and record stricter project requirements and any applicable exception approvals>
 - Milestone: <name/boundary or N/A>
 - Implementer: <one role/session>; primary reviewer: <non-author ID; fresh first review, then continuation; or pending assignment>
 - Working location: <absolute path, branch, writer, reason>
@@ -45,7 +45,7 @@ The coordinator defines:
 - Four check triggers: <pre/post-write, commit, pre-merge, milestone; actual project commands under the [principles](../../references/standard/1-principles.md#15-automated-check-schedule)>
 - Check/limit changes: <none or proposed reduction, reason, replacement protection, requirements-owner approval; no author self-approval>
 - Existing assertions: <necessary spec change, approval, assigned test owner; preserve until approved>
-- Combination/merge: <only an isolated combination before full checks; trusted full checks for the exact version before actual merge>
+- Combination and integration (when applicable): <prepare the combination in isolation and fix the candidate and target baseline. Update the target after the exact combination passes trusted full checks. Reference the same result in review, acceptance, and integration while it remains valid>
 
 ## Verification plan
 
@@ -59,7 +59,7 @@ Use applicable [task-specific methods](../../references/standard/3-workflow/3.5-
 | <normal/boundary/failure/recovery> | Empirical | <public result, sample, actual side effects> | <role/path> |
 | <old defect/protection> | Empirical | <runnable incorrect version fails, repair passes, or N/A reason> | <independent source/build directories> |
 | <plan state/implementation mapping> | Formal and empirical | <review, properties, mapping, executable counterexamples/replay, or N/A> | <owner/path> |
-| <project full checks/isolated recheck> | Project checks | <command, TASK_CARD/fixed BASE, exact tested tree> | <role/path> |
+| <trusted full checks before updating the integration target (when applicable)> | Project checks | <registered trusted entry point, full-check command, fixed target baseline, and exact tested tree> | <who triggers the check and where to find its result> |
 | <UI/real host/actual artifact> | Empirical | <pointer/keyboard/focus/scroll, platform/prototype comparison, or N/A> | <role/path> |
 
 For UI, record applicability, requirement, result, evidence, and repair task for [5.8.1 through 5.8.11](../../references/standard/5-interaction-and-interface/5.8-ui-acceptance.md). Use defaults for missing project requirements, explain N/A, and mark unrun checks `not_run`.

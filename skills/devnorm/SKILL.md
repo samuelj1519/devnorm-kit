@@ -22,7 +22,7 @@ For formal work, read [planning](references/standard/3-workflow/3.3-task-plannin
 
 Choose one [method](references/methods/README.md) if needed. Helpers work independently.
 
-After each independently verifiable increment passes, [commit it and confirm its SHA](references/standard/6-version-control/6.3-staging-and-commits.md) within existing authorization. A single small task can use one commit after acceptance. Use quick checks on task branches and [trusted full checks](references/standard/3-workflow/integration.md) for integration targets.
+Choose checks at each stage based on the affected behavior. After each independently verifiable increment passes its checks, [commit it and confirm its SHA](references/standard/6-version-control/6.3-staging-and-commits.md) within existing authorization. A single small task can use one commit after acceptance. Run quick checks on the exact staged version on task branches. Before updating an integration target, run [trusted full checks](references/standard/3-workflow/integration.md) on the exact combination. Review, acceptance, and integration reference the same result while it remains valid.
 
 Before reporting completion, follow [Git closeout](references/standard/3-workflow/3.8-integration-and-completion.md#git-closeout). Finish pending commits and any required, authorized integration and push, then read back the remote SHA. Handle tags only for an authorized version release. Keep installation separately authorized. Report any blocked step.
 

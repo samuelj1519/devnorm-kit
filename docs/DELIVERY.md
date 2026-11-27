@@ -1,5 +1,13 @@
 # Delivery evidence
 
+## Delivery 1.12.1 on `main`
+
+The workflow now selects preflight checks by impact. Task-branch commits use quick checks on the exact staged version. Review, acceptance, and integration refer to the same still-valid trusted full-check result for the exact integration combination.
+
+Source implementation commit `8a3c149656a577a410dde3dde85e369f23fdf36a`. Candidate `4ebb51b2d536e742e2ee5029c2a66488b61975c33d852c78695699d68febedfc`. Acceptance record `2f90f6317d313f99ad705cbc118f31e79129d7779f71fc4661061c2ff686c7b2`. Release artifact `51d271fd9861a9c2101322d157a4d18ed4f7af1416db6abb540b84927a549d9c`.
+
+The frozen candidate passed six required checks and 299 tests. Independent review covered 18 targeted model cases and three isolated Codex CLI sessions. The delivery fixture exercised two separate staged quick checks and one trusted full check before a synthetic push and SHA readback. The model runner rejected the first output path. It completed on replay in an allowed directory. The export updated 46 generated paths, including the registry, and preserved 1732 registry entries. This delivery uses the `main` branch. Persistent client installation and loading were outside the verification scope.
+
 ## Public delivery 1.12.0
 
 The source implementation is commit `7b58a66ca61c9fc61ae6650a381ac376b00678f2`. The public candidate is `ef269d25ef59d66f3a1993d4fe5ccf2d0746519ff45535e68de17a04f6824301`, the source acceptance record is `cf2476dd556f3d844067c18028664c06073d34669a5fe61fc9de0fc4ba10d83b`, and the release artifact is `77ef11be3517434c8e521b4421f354a97812224a09064ec87d4573694775e473`.
