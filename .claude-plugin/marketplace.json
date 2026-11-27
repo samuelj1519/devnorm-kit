@@ -1,1 +1,1 @@
-{"description":"Development standards, task-specific methods, and verified delivery.","name":"devnorm-local","owner":{"name":"DevNorm"},"plugins":[{"description":"Development standards and task-specific methods.","name":"devnorm","source":"./","version":"1.12.1"}]}
+{"description":"Development standards, task-specific methods, and verified delivery.","name":"devnorm-local","owner":{"name":"DevNorm"},"plugins":[{"description":"Development standards and task-specific methods.","name":"devnorm","source":"./","version":"1.13.0"}]}

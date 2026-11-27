@@ -1,13 +1,13 @@
 # Install DevNorm
 
-Choose the guide for your client. The commands install the published [`v1.12.1` tag](https://github.com/samuelj1519/devnorm-kit/tree/v1.12.1). Use one installation route per client and scope.
+Choose the guide for your client. The commands install the published [`v1.13.0` tag](https://github.com/samuelj1519/devnorm-kit/tree/v1.13.0). Use one installation route per client and scope.
 
 ## Cursor
 
 From the project where you want to use DevNorm, run the Skills CLI.
 
 ```sh
-npx skills add samuelj1519/devnorm-kit@v1.12.1
+npx skills add samuelj1519/devnorm-kit@v1.13.0
 ```
 
 Choose Cursor when prompted. Select `devnorm` for the development workflow, or include the helpers you want. Choose project scope to keep the installation in this project.
@@ -19,7 +19,7 @@ Start a new Cursor session in the project and ask it to use `devnorm`.
 Run this command from your project.
 
 ```sh
-npx skills add samuelj1519/devnorm-kit@v1.12.1
+npx skills add samuelj1519/devnorm-kit@v1.13.0
 ```
 
 Choose Codex or another supported client when prompted. Select `devnorm` and any helpers you want. Start a new session in the project and select `devnorm` or mention it in your request.
@@ -31,7 +31,7 @@ The Skills CLI uses Git and Node.js with `npx`. For command options and supporte
 Add the marketplace to Claude Code, then install the native plugin.
 
 ```sh
-claude plugin marketplace add "samuelj1519/devnorm-kit#v1.12.1"
+claude plugin marketplace add "samuelj1519/devnorm-kit#v1.13.0"
 claude plugin install devnorm@devnorm-local
 ```
 
@@ -42,7 +42,7 @@ If `devnorm-local` is already registered, check its source in the **Marketplaces
 ## Verify installation
 
 - For the Skills CLI, run `npx skills list` from the project. Add `--global` if you chose user scope.
-- For Claude Code, run `claude plugin list` and check for `devnorm@devnorm-local` at version `1.12.1`.
+- For Claude Code, run `claude plugin list` and check for `devnorm@devnorm-local` at version `1.13.0`.
 - In a fresh session, select `devnorm` and ask the agent to identify the skill and a linked method. An installation listing confirms registration. This session check confirms discovery.
 
 If you see duplicate skills, check whether the client has both a native plugin and a standalone installation. Keep the route you want to manage.

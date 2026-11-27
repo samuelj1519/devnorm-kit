@@ -1,5 +1,13 @@
 # Delivery evidence
 
+## Public delivery 1.13.0
+
+DevNorm now requires documentation closeout for simple and formal tasks. Update current guidance to match the delivered result, remove obsolete and duplicate material, and check instructions from the entry point readers use. Preserve historical evidence and finish any updates that depend on the published tag within the same delivery.
+
+Source implementation commit `bcf3a1de9b51dafc5e01ed3d4f15436a8c1bf3ad`. Candidate `78d61926a070b515c2465737688daced928245fbda283f74e3d1a15005288489`. Acceptance record `36c937ba02ba1c0816f0ca9e124dd4ae3cd7c5f6e8e440ca178c02b775049ff5`. Release artifact `f67731d8e8b465ffaa128682e7768b63fa0a3afbf1a3a1ee204eb795e5ac308b`.
+
+The frozen candidate passed all six checks and 299 tests. The independent review covered 18 targeted model outcomes and four isolated Codex CLI scenarios. The documentation fixture verified its tag, corrected stale examples and commands, removed repeated instructions, and preserved the historical record. The export updated 46 generated paths, including the registry, and preserved 1732 registry entries. The Kit homepage and installation guide point to `v1.13.0`. Persistent client installation and loading were outside the verification scope.
+
 ## Delivery 1.12.1 on `main`
 
 The workflow now selects preflight checks by impact. Task-branch commits use quick checks on the exact staged version. Review, acceptance, and integration refer to the same still-valid trusted full-check result for the exact integration combination.

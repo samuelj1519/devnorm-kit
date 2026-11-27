@@ -58,8 +58,8 @@
         "source": "delivery/entry/SKILL.md",
         "translated": "delivery/locales/en/entry/SKILL.md",
         "output": "SKILL.md",
-        "sourceHash": "af93fcb9c95913346fee9967990c5156b4ddbf1a51ea50e5974491e16effa8c8",
-        "translatedHash": "62f0e92ded95f3f3e618eae56e94d27b975eb721a7d416cb42d59eed46b1af1b"
+        "sourceHash": "f8cb56c94ec03e75dbbcdede39b45d7a47f3f6e22c19f3ffb0ad602bed87a37c",
+        "translatedHash": "fe099ff1ad7315aabb2b5d06c555c7418f4275dad456c36cb5b52bc902839756"
       },
       {
         "source": "delivery/methods/actual-verification/METHOD.md",
@@ -457,8 +457,8 @@
         "source": "standard/README.md",
         "translated": "delivery/locales/en/standard/README.md",
         "output": "references/standard/README.md",
-        "sourceHash": "dc705f6cd64f6015e09d99353615862258a4089fd974b456ab47a6ed98996abd",
-        "translatedHash": "abbfebb858bf6aaf8fd2514df3e81c3c14266cd574a7520e5bfa4512145dd15c"
+        "sourceHash": "0888382205a9c31e20f84a336b7fc5986d984e9b3a1c7d71d66adbe49649f711",
+        "translatedHash": "08e7fba809fd85e8a2bb3b7ed0ece19b2c8cc5cba1cbbd8dba063a5db1014f61"
       },
       {
         "source": "templates/\u4efb\u52a1\u5355.md",
@@ -562,8 +562,8 @@
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/3.8-\u96c6\u6210\u4e0e\u6536\u5c3e.md",
         "translated": "delivery/locales/en/standard/3-workflow/3.8-integration-and-completion.md",
         "output": "references/standard/3-workflow/3.8-integration-and-completion.md",
-        "sourceHash": "4f2d3cb302eb35c833644469445735abba75e667b58ff54292af0a639dcd82dc",
-        "translatedHash": "b6144a847a3d6719d0fb50194c7e4a2b9c2d790cb487f5d5954bdeaf2a1417a0"
+        "sourceHash": "64b3b1beb299fb2c2b1daa363916f06f66624aa9012d09e3355e0dcc0738081c",
+        "translatedHash": "e5a4e817b9724f1824b5405fae5b92df5c89973c8cb88f5f253dfb4d676e0f6f"
       },
       {
         "source": "standard/3-\u5f00\u53d1\u6d41\u7a0b/\u5408\u5165.md",
@@ -658,7 +658,7 @@
       }
     ]
   },
-  "candidateHash": "4ebb51b2d536e742e2ee5029c2a66488b61975c33d852c78695699d68febedfc",
+  "candidateHash": "78d61926a070b515c2465737688daced928245fbda283f74e3d1a15005288489",
   "purpose": "public",
   "sources": [
     {
@@ -3058,7 +3058,7 @@
     },
     {
       "path": "project/.devnorm-test-baseline.json",
-      "hash": "40c53def0cee4194aed978c3c0e409c40943b26bdf27d5c54ffc9bb04be62047",
+      "hash": "a7fe7e5e5096a519b9e014e46aa2ea2fb6a3f63891b2c87d6f62492dab834db3",
       "mode": "0644"
     },
     {
@@ -3153,7 +3153,7 @@
     },
     {
       "path": "project/delivery/entry/SKILL.md",
-      "hash": "af93fcb9c95913346fee9967990c5156b4ddbf1a51ea50e5974491e16effa8c8",
+      "hash": "f8cb56c94ec03e75dbbcdede39b45d7a47f3f6e22c19f3ffb0ad602bed87a37c",
       "mode": "0644"
     },
     {
@@ -3248,12 +3248,12 @@
     },
     {
       "path": "project/delivery/locales/en/entry/SKILL.md",
-      "hash": "62f0e92ded95f3f3e618eae56e94d27b975eb721a7d416cb42d59eed46b1af1b",
+      "hash": "fe099ff1ad7315aabb2b5d06c555c7418f4275dad456c36cb5b52bc902839756",
       "mode": "0644"
     },
     {
       "path": "project/delivery/locales/en/manifest.json",
-      "hash": "3cff6df32f8c1a37ea8e3b845d1132dded631dbce483cc140b5cc6a6097038c0",
+      "hash": "56ce7ae2bddd4f71561beb2f63a1c81486cdc04278a22fb8f805e7278ab8a82d",
       "mode": "0644"
     },
     {
@@ -3518,7 +3518,7 @@
     },
     {
       "path": "project/delivery/locales/en/standard/3-workflow/3.8-integration-and-completion.md",
-      "hash": "b6144a847a3d6719d0fb50194c7e4a2b9c2d790cb487f5d5954bdeaf2a1417a0",
+      "hash": "e5a4e817b9724f1824b5405fae5b92df5c89973c8cb88f5f253dfb4d676e0f6f",
       "mode": "0644"
     },
     {
@@ -3628,7 +3628,7 @@
     },
     {
       "path": "project/delivery/locales/en/standard/README.md",
-      "hash": "abbfebb858bf6aaf8fd2514df3e81c3c14266cd574a7520e5bfa4512145dd15c",
+      "hash": "08e7fba809fd85e8a2bb3b7ed0ece19b2c8cc5cba1cbbd8dba063a5db1014f61",
       "mode": "0644"
     },
     {
@@ -3943,7 +3943,7 @@
     },
     {
       "path": "project/evidence/catalog.json",
-      "hash": "855ec10d75361fa2178f71707da5b0fe12f36ac679772c0a9a94f2466d86b2d1",
+      "hash": "af3bee280ffa3af3bd684c2e69e8a2e3aa72d9adab75b931f1f53e895c1f048d",
       "mode": "0644"
     },
     {
@@ -3979,6 +3979,11 @@
     {
       "path": "project/evidence/manifests/29b727c24c4ed65e77ce5e77bdc72682c2cd3eca37830b66f742a652f9f0cd39.json",
       "hash": "29b727c24c4ed65e77ce5e77bdc72682c2cd3eca37830b66f742a652f9f0cd39",
+      "mode": "0644"
+    },
+    {
+      "path": "project/evidence/manifests/2b865063f2b45821e2202ffa0a2d9e322c3536829537f9491b67323c76100c82.json",
+      "hash": "2b865063f2b45821e2202ffa0a2d9e322c3536829537f9491b67323c76100c82",
       "mode": "0644"
     },
     {
@@ -4308,7 +4313,7 @@
     },
     {
       "path": "project/standard/3-\u5f00\u53d1\u6d41\u7a0b/3.8-\u96c6\u6210\u4e0e\u6536\u5c3e.md",
-      "hash": "4f2d3cb302eb35c833644469445735abba75e667b58ff54292af0a639dcd82dc",
+      "hash": "64b3b1beb299fb2c2b1daa363916f06f66624aa9012d09e3355e0dcc0738081c",
       "mode": "0644"
     },
     {
@@ -4423,7 +4428,7 @@
     },
     {
       "path": "project/standard/README.md",
-      "hash": "dc705f6cd64f6015e09d99353615862258a4089fd974b456ab47a6ed98996abd",
+      "hash": "0888382205a9c31e20f84a336b7fc5986d984e9b3a1c7d71d66adbe49649f711",
       "mode": "0644"
     },
     {
