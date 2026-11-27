@@ -1,5 +1,13 @@
 # Delivery evidence
 
+## Public delivery 2.0.0
+
+The Claude market is `devnorm`, and the native installation ID is `devnorm@devnorm`. The current guides pin the public tag and explain replacement of the former ID in its original scope.
+
+Source implementation commit `8b71fba7fa1a8b5213c69329a19d8c7b8bbfb069`. Candidate `9d1920b2e86f529236abaec8a8bfa797b247c2f76c1928c1e77cf901e5c4be8e`. Acceptance record `477fc77e211bdeaf8218c7e0061fa6fbf58d2d94e55283abe640e654f9bae47d`. Release artifact `c0b5cd6bc5221bc8cf1873a78dacf860094f68f82659c97a062be5866e7c1857`.
+
+The frozen candidate passed six required checks and 299 tests. Independent review verified the migration model, 18 standard model outcomes, three isolated Codex sessions, and two native Claude scenarios. The native checks verified nine skills, retention of the old data marker after both removal steps, and recovery of the old ID after a rejected replacement. The export updated 27 generated paths, including the registry, and preserved 1751 registered entries. The first Kit check rejected the new marketplace under its legacy rule. The verifier now checks the name against the accepted release version, and a regression test checks that even a resealed version 2 package cannot use the former name.
+
 ## Public delivery 1.13.0
 
 DevNorm now requires documentation closeout for simple and formal tasks. Update current guidance to match the delivered result, remove obsolete and duplicate material, and check instructions from the entry point readers use. Preserve historical evidence and finish any updates that depend on the published tag within the same delivery.

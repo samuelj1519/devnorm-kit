@@ -1,10 +1,10 @@
-# Install DevNorm 1.13.0
+# Install DevNorm 2.0.0
 
 This package provides the `devnorm` workflow skill and independently invocable helpers with the development standard, task-specific methods, runtime resources, and licenses. Ordinary method reading needs the agent's existing tools, not the source repository's Bun build environment.
 
 ## Verify the package
 
-Candidate: `78d61926a070b515c2465737688daced928245fbda283f74e3d1a15005288489`. Check `artifact.json` and every entry in `SHA256SUMS` before loading. The skill's `provenance.json` and `THIRD_PARTY_NOTICES.md` identify original commits, adaptations, and licenses.
+Candidate: `9d1920b2e86f529236abaec8a8bfa797b247c2f76c1928c1e77cf901e5c4be8e`. Check `artifact.json` and every entry in `SHA256SUMS` before loading. The skill's `provenance.json` and `THIRD_PARTY_NOTICES.md` identify original commits, adaptations, and licenses.
 
 | Location | Generated release | Delivery repository |
 | --- | --- | --- |
@@ -56,11 +56,13 @@ For persistent native installation, add the root marketplace and install the plu
 
 ```sh
 claude plugin marketplace add /path/to/release-or-delivery-repository
-claude plugin install devnorm@devnorm-local --scope user
+claude plugin install devnorm@devnorm --scope user
 claude plugin list --json
 ```
 
-Use the intended `CLAUDE_CONFIG_DIR` for a named profile. Keep installation changes within the selected scope. A new session must discover `/devnorm:devnorm`. Native plugin installation and standalone `.claude/skills/devnorm/` installation are alternatives. Reference: [Claude plugin installation](https://code.claude.com/docs/en/plugins/install).
+For the published Kit, add `samuelj1519/devnorm-kit#v2.0.0` as the marketplace source. Use the intended `CLAUDE_CONFIG_DIR` and choose the marketplace registration and plugin installation scopes separately. Check the ID, version and enablement with `claude plugin list`. A new session must discover `/devnorm:devnorm`. Choose either the native plugin or the standalone `.claude/skills/devnorm/` installation. [Claude plugin installation](https://code.claude.com/docs/en/plugins/install)
+
+To replace `devnorm@devnorm-local`, add the new marketplace and disable the old plugin in its existing scope. Install `devnorm@devnorm` in that scope and verify the new version and skills before uninstalling the old ID with `--keep-data`. Remove the old marketplace after checking that it has no remaining installations. If the new installation fails, check which ID is enabled and restore the old plugin when the new one is inactive.
 
 ## Runtime requirements
 
@@ -70,7 +72,7 @@ Ordinary methods read documents. Methods that need tools check actual availabili
 
 Choose a fixed new version, preserve target-project content, and replace the complete owned installation through its manager. Do not mix files from versions. mo updates accepted DevNorm releases, not unreviewed third-party upstream content.
 
-For npx installation, remove only the selected `devnorm` skill with the pinned CLI. For Claude native installation, use `claude plugin uninstall devnorm@devnorm-local --scope user`, then remove the local marketplace if no longer needed. A temporary plugin-dir session does not create a persistent installation. Verify absence in a fresh session. Preserve project records, real data, and other skills.
+For npx installation, remove only the selected `devnorm` skill with the pinned CLI. For Claude native installation, use `claude plugin uninstall devnorm@devnorm --scope user`, changing the scope to match the installation if needed. Keep plugin data with `--keep-data` and remove the marketplace only if it has no remaining installations. The temporary plugin directory lasts for the session. Verify removal in a fresh session. Preserve project records, real data, and other skills.
 
 ## Acceptance scope
 

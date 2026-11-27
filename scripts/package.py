@@ -117,8 +117,13 @@ def verify(root):
         require(manifest['name'] == 'devnorm' and manifest['version'] == release['version'],
                 f'plugin identity mismatch: {name}')
     marketplace = load(root, '.claude-plugin/marketplace.json')
-    require(marketplace['name'] == 'devnorm-local' and len(marketplace['plugins']) == 1
-            and marketplace['plugins'][0]['source'] == './', 'marketplace identity mismatch')
+    major_version = int(release['version'].split('.', 1)[0])
+    market_name = 'devnorm-local' if major_version < 2 else 'devnorm'
+    plugins = marketplace['plugins']
+    require(marketplace['name'] == market_name and len(plugins) == 1
+            and plugins[0]['name'] == release['name']
+            and plugins[0]['version'] == release['version']
+            and plugins[0]['source'] == './', 'marketplace identity mismatch')
     skills = sorted(p.parent.name for p in (root / 'skills').glob('*/SKILL.md'))
     require('devnorm' in skills and len(skills) == len(list((root / 'skills').iterdir())),
             'missing skill entry')

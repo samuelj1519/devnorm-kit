@@ -34,6 +34,37 @@ class PackageTests(unittest.TestCase):
         for row in release['files']:
             self.assertEqual(package.file_entry(restored, row['path']), row)
 
+    def test_resealed_legacy_marketplace_name_fails_for_current_release(self):
+        name = '.claude-plugin/marketplace.json'
+        marketplace = package.load(self.root, name)
+        self.assertEqual(marketplace['name'], 'devnorm')
+        marketplace['name'] = 'devnorm-local'
+        (self.root / name).write_bytes(package.canonical(marketplace))
+
+        release = package.load(self.root, 'release-artifact.json')
+        marketplace['plugins'][0]['source'] = './plugin'
+        original = next(row for row in release['files'] if row['path'] == name)
+        original['hash'] = package.sha(package.canonical(marketplace))
+        (self.root / 'release-artifact.json').write_bytes(package.canonical(release))
+
+        artifact = package.load(self.root, 'artifact.json')
+        artifact['artifactHash'] = package.identity(release)
+        payload = package.entries(artifact['files'])
+        for path in (name, 'release-artifact.json'):
+            payload[path] = package.file_entry(self.root, path)
+        artifact['files'] = [row for _, row in sorted(payload.items())]
+        (self.root / 'artifact.json').write_bytes(package.canonical(artifact))
+        registered = {**payload, 'artifact.json': package.file_entry(self.root, 'artifact.json')}
+        (self.root / 'SHA256SUMS').write_text(''.join(
+            f"{row['hash']}  {path}\n" for path, row in sorted(registered.items())))
+        registered['SHA256SUMS'] = package.file_entry(self.root, 'SHA256SUMS')
+        (self.root / '.devnorm-files.json').write_bytes(package.canonical({
+            'schemaVersion': 1, 'artifactHash': artifact['artifactHash'],
+            'files': [row for _, row in sorted(registered.items())]}))
+
+        with self.assertRaisesRegex(ValueError, 'marketplace identity mismatch'):
+            package.verify(self.root)
+
     def test_corrupt_resource_fails(self):
         (self.root / 'skills/devnorm/SKILL.md').write_text('changed')
         with self.assertRaisesRegex(ValueError, 'bytes or mode'):

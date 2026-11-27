@@ -23,15 +23,15 @@
         "source": "delivery/adapters/INSTALL.md",
         "translated": "delivery/locales/en/adapters/INSTALL.md",
         "output": "INSTALL.md",
-        "sourceHash": "917eff1a1e475b3864ce6cfc5146168f529a18be3185ac51200cc2be1673c47c",
-        "translatedHash": "c680326407c22656135e651626a78de6ec9c7772ea4cd4516e1b203883e1692f"
+        "sourceHash": "09a4d4db232d4d93a033d4430cb53ba9ae81445b8d17fed8761a19bc54e71536",
+        "translatedHash": "839ac4b9021b02f9f178c20606896e233fe9ff3d4ee24b34e2b57d9e3d24f771"
       },
       {
         "source": "delivery/adapters/marketplace.json",
         "translated": "delivery/locales/en/adapters/marketplace.json",
         "output": ".claude-plugin/marketplace.json",
-        "sourceHash": "ec0d7d0b522b02640faac322b8e193f632323f72e369c9cf77c3ea7df31b6e3d",
-        "translatedHash": "13f0e5d690b9488a77c5f33e3ecafa64ac21b1734fc3d8bc0392e90e27da1b2c"
+        "sourceHash": "2c1c149af6f661bef2d40b74c7af1e4b9d1ac810168adab57756eed3c0110a31",
+        "translatedHash": "0ae98fa276dc6995902ea98b9dce3aa413218319ebebd2562881dae2cb21923b"
       },
       {
         "source": "delivery/adapters/plugin.json",
@@ -658,7 +658,7 @@
       }
     ]
   },
-  "candidateHash": "78d61926a070b515c2465737688daced928245fbda283f74e3d1a15005288489",
+  "candidateHash": "9d1920b2e86f529236abaec8a8bfa797b247c2f76c1928c1e77cf901e5c4be8e",
   "purpose": "public",
   "sources": [
     {
@@ -3058,7 +3058,7 @@
     },
     {
       "path": "project/.devnorm-test-baseline.json",
-      "hash": "a7fe7e5e5096a519b9e014e46aa2ea2fb6a3f63891b2c87d6f62492dab834db3",
+      "hash": "e30e0ce674925d9e5dea669c4985ca9a2f6344ae0dc4107753dc0b73bf05c7d1",
       "mode": "0644"
     },
     {
@@ -3098,7 +3098,7 @@
     },
     {
       "path": "project/delivery/adapters/INSTALL.md",
-      "hash": "917eff1a1e475b3864ce6cfc5146168f529a18be3185ac51200cc2be1673c47c",
+      "hash": "09a4d4db232d4d93a033d4430cb53ba9ae81445b8d17fed8761a19bc54e71536",
       "mode": "0644"
     },
     {
@@ -3118,7 +3118,7 @@
     },
     {
       "path": "project/delivery/adapters/marketplace.json",
-      "hash": "ec0d7d0b522b02640faac322b8e193f632323f72e369c9cf77c3ea7df31b6e3d",
+      "hash": "2c1c149af6f661bef2d40b74c7af1e4b9d1ac810168adab57756eed3c0110a31",
       "mode": "0644"
     },
     {
@@ -3213,7 +3213,7 @@
     },
     {
       "path": "project/delivery/locales/en/adapters/INSTALL.md",
-      "hash": "c680326407c22656135e651626a78de6ec9c7772ea4cd4516e1b203883e1692f",
+      "hash": "839ac4b9021b02f9f178c20606896e233fe9ff3d4ee24b34e2b57d9e3d24f771",
       "mode": "0644"
     },
     {
@@ -3233,7 +3233,7 @@
     },
     {
       "path": "project/delivery/locales/en/adapters/marketplace.json",
-      "hash": "13f0e5d690b9488a77c5f33e3ecafa64ac21b1734fc3d8bc0392e90e27da1b2c",
+      "hash": "0ae98fa276dc6995902ea98b9dce3aa413218319ebebd2562881dae2cb21923b",
       "mode": "0644"
     },
     {
@@ -3253,7 +3253,7 @@
     },
     {
       "path": "project/delivery/locales/en/manifest.json",
-      "hash": "56ce7ae2bddd4f71561beb2f63a1c81486cdc04278a22fb8f805e7278ab8a82d",
+      "hash": "f1242978afcdbe68367cc1568fd8e6b45d6a002c39da9fc7719e084527c7f824",
       "mode": "0644"
     },
     {
@@ -3943,7 +3943,7 @@
     },
     {
       "path": "project/evidence/catalog.json",
-      "hash": "af3bee280ffa3af3bd684c2e69e8a2e3aa72d9adab75b931f1f53e895c1f048d",
+      "hash": "62876d97640572dca670c8a272efd752b261665582b223f19e6bcc3533255e74",
       "mode": "0644"
     },
     {
@@ -3989,6 +3989,11 @@
     {
       "path": "project/evidence/manifests/2bea3c414a99f7b8d9b803f323b8aa877e9431f9dbb035d8535fad5a249ff896.json",
       "hash": "2bea3c414a99f7b8d9b803f323b8aa877e9431f9dbb035d8535fad5a249ff896",
+      "mode": "0644"
+    },
+    {
+      "path": "project/evidence/manifests/348a7f7b22d46729ffb43850962f003f7375fd19faede9a719aa810e56eec569.json",
+      "hash": "348a7f7b22d46729ffb43850962f003f7375fd19faede9a719aa810e56eec569",
       "mode": "0644"
     },
     {
